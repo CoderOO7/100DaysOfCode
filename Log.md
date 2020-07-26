@@ -5,3 +5,9 @@
 **Today's Progress:** Worked on my calculator project.
 
 **Thoughts:** Trying to implement the logic part, but not able to properly make the calculator function.
+
+### Day 1: July 26, 2020 (Sunday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Althought implement the logic part, code is weired but it's partially working
