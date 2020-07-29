@@ -10,4 +10,14 @@
 
 **Today's Progress:** Worked on my calculator project.
 
-**Thoughts:** Althought implement the logic part, code is weired but it's partially working
+**Thoughts:** Although implement the logic part, code is weired but it's partially working
+
+## Starting again
+
+### Day1: July 29, 2020 (Wednesday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Fixed a small bug,but its logic part yet remain should get fixed by tomorrow.
+
+
