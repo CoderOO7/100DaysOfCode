@@ -20,4 +20,13 @@
 
 **Thoughts:** Fixed a small bug,but its logic part yet remain should get fixed by tomorrow.
 
+## Starting again
+
+### Day0: Aug 03, 2020 (Monday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Logic part is almost completed, need to add proper functionality for backspace button & keyboard input functionality remain to implement.
+
+
 
