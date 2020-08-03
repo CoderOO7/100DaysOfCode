@@ -14,7 +14,7 @@
 
 ## Starting again
 
-### Day1: July 29, 2020 (Wednesday)
+### Day 1: July 29, 2020 (Wednesday)
 
 **Today's Progress:** Worked on my calculator project.
 
@@ -22,7 +22,7 @@
 
 ## Starting again
 
-### Day0: Aug 03, 2020 (Monday)
+### Day 0: Aug 03, 2020 (Monday)
 
 **Today's Progress:** Worked on my calculator project.
 
