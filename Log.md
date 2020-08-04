@@ -28,5 +28,11 @@
 
 **Thoughts:** Logic part is almost completed, need to add proper functionality for backspace button & keyboard input functionality remain to implement.
 
+### Day 1: Aug 04, 2020 (Tuesday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Add keyboard functionality & fixed some bugs.
+
 
 
