@@ -32,7 +32,9 @@
 
 **Today's Progress:** Worked on my calculator project.
 
-**Thoughts:** Add keyboard functionality & fixed some bugs.
+**Thoughts:** Add keyboard functionality & fixed some bugs. Read about BEM methodology.
+
+**Resources:** https://css-tricks.com/bem-101/
 
 
 
