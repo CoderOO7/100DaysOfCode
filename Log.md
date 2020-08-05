@@ -36,5 +36,14 @@
 
 **Resources:** https://css-tricks.com/bem-101/
 
+### Day 2: Aug 05, 2020 (Wesnesday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Today not done much, implement a small logic to round decimal number to two places. Learned about toFixed() & toPrecision() methods.
+
+**Resources:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision <br>
+               https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+
 
 
