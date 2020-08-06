@@ -42,8 +42,14 @@
 
 **Thoughts:** Today not done much, implement a small logic to round decimal number to two places. Learned about toFixed() & toPrecision() methods.
 
-**Resources:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision <br>
-               https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+**Resources:** 
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision <br>
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
 
 
+### Day 3: Aug 06, 2020 (Thursday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** About today is that I had tried to implement the logic to replace the text on display when it get populated fully, but don't know how to do that. Apart from that surf the web, read code, but no luck.
 
