@@ -53,3 +53,9 @@
 
 **Thoughts:** About today is that I had tried to implement the logic to replace the text on display when it get populated fully, but don't know how to do that. Apart from that surf the web, read code, but no luck.
 
+### Day 4: Aug 07, 2020 (Friday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Today able to replace the text when display get populted fully. Learned that canvas provide method to measure the text width. That's all about today. One more thing leave my job today.
+
