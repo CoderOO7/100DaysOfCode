@@ -59,3 +59,9 @@
 
 **Thoughts:** Today able to replace the text when display get populted fully. Learned that canvas provide method to measure the text width. That's all about today. One more thing leave my job today.
 
+### Day 5: Aug 08, 2020 (Saturday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Add a click effect when keyboard button is pressed. Leaned about 'transitionend' event listener. But transitioend not work with 'click' event listener that is causing the issue.
+
