@@ -65,3 +65,9 @@
 
 **Thoughts:** Add a click effect when keyboard button is pressed. Leaned about 'transitionend' event listener. But transitioend not work with 'click' event listener that is causing the issue.
 
+### Day 5: Aug 09, 2020 (Sunday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Today done little bit work, perform small UI change in calculator.
+
