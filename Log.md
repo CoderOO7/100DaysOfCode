@@ -71,3 +71,9 @@
 
 **Thoughts:** Today done little bit work, perform small UI change in calculator.
 
+### Day 6: Aug 10, 2020 (Monday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Today tried to follow BEM code pattern, but for that I have to refector whole code. Tried to fix a UI bug but stuck on that.
+
