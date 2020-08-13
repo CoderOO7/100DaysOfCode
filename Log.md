@@ -77,3 +77,21 @@
 
 **Thoughts:** Today tried to follow BEM code pattern, but for that I have to refector whole code. Tried to fix a UI bug but stuck on that.
 
+### Day 7: Aug 11, 2020 (Tuesday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Refactor the code using BEM methodology.
+
+### Day 8: Aug 12, 2020 (Wednesday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Worked on fixing some left bugs like overflow of text content in calculator display.
+
+### Day 9: Aug 13. 2020 (Thursday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Fixed a display content overflow bug and add visual effect on calculator button when keyboard btns are pressed. This one for you don't miss me that much I can feel.
+
