@@ -94,4 +94,14 @@
 **Today's Progress:** Worked on my calculator project.
 
 **Thoughts:** Fixed a display content overflow bug and add visual effect on calculator button when keyboard btns are pressed. This one for you don't miss me that much I can feel.
+### Day 10: Aug 14. 2020 (Friday)
 
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Tried to add a back button functionality but unable to make proper logic.
+
+### Day 11: Aug 15. 2020 (Friday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Add back button functionality & fix left bugs. Now their shouldn't be any bug. If occur then will fix it. Now main part code documentation remain.
