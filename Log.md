@@ -100,8 +100,14 @@
 
 **Thoughts:** Tried to add a back button functionality but unable to make proper logic.
 
-### Day 11: Aug 15. 2020 (Friday)
+### Day 11: Aug 15. 2020 (Saturday)
 
 **Today's Progress:** Worked on my calculator project.
 
 **Thoughts:** Add back button functionality & fix left bugs. Now their shouldn't be any bug. If occur then will fix it. Now main part code documentation remain.
+
+### Day 12: Aug 16. 2020 (Sunday)
+
+**Today's Progress:** Worked on my calculator project.
+
+**Thoughts:** Done Code documentation & little bit changes, but still one bug left. Will do it tomorrow.
