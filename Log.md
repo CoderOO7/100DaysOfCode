@@ -110,4 +110,4 @@
 
 **Today's Progress:** Worked on my calculator project.
 
-**Thoughts:** Done Code documentation & little bit changes, but still one bug left. Will do it tomorrow.
+**Thoughts:** Done Code documentation & little bit changes, but still one bug left. Will fix it tomorrow.
