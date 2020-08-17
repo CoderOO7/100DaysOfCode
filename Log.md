@@ -111,3 +111,11 @@
 **Today's Progress:** Worked on my calculator project.
 
 **Thoughts:** Done Code documentation & little bit changes, but still one bug left. Will fix it tomorrow.
+
+### Day 13: Aug 17 2020 (Monday)
+
+**Today's Progress:** Completed my Calculator project.
+
+**Thoughts:** Well about today is that first time I have used css variables in my code & fix the back button bug. Now it is stable. One thing new I learned is Object.entries(userObject).length allow to check for empty object.
+
+**Project Link:** https://coderoo7.github.io/Calculator/
