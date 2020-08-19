@@ -119,3 +119,22 @@
 **Thoughts:** Well about today is that first time I have used css variables in my code & fix the back button bug. Now it is stable. One thing new I learned is Object.entries(userObject).length allow to check for empty object.
 
 **Project Link:** https://coderoo7.github.io/Calculator/
+
+### Day 14: Aug 18 2020 (Tuesday)
+
+**Today's Progress:** Read some web programming concept.
+
+**Thoughts:** After completing Calculator started to brush up some concept, get fimiliar with frameworks like meteor, gork, rubyonrails. This lead to me reading about teachnology stack related stuff. That's how today's time spend in reading & web surfing.
+
+**Resources:** https://rubygarage.org/blog/technology-stack-for-web-development
+
+### Day 15: Aug 18 2020 (Wednesday)
+
+**Today's Progress:** Started a library project.
+
+**Thoughts:** Read & implement protoype concept in javascript basically it allow to acheive inheritance, nothing else. Created a bare repo to manage dot files and started a js track from theodinproject curriculum. Well in today's something was special.
+
+**Resources:** 
+1. https://wiki.archlinux.org/index.php/Dotfiles#User_repositories <br>
+2. https://web.archive.org/web/20200215112157/http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+3. https://javascript.info/prototype-inheritance
