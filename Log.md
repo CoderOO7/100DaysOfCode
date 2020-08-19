@@ -135,6 +135,6 @@
 **Thoughts:** Read & implement protoype concept in javascript basically it allow to acheive inheritance, nothing else. Created a bare repo to manage dot files and started a js track from theodinproject curriculum. Well in today's something was special.
 
 **Resources:** 
-1. https://wiki.archlinux.org/index.php/Dotfiles#User_repositories <br>
-2. https://web.archive.org/web/20200215112157/http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
-3. https://javascript.info/prototype-inheritance
+* https://wiki.archlinux.org/index.php/Dotfiles#User_repositories <br>
+* https://web.archive.org/web/20200215112157/http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+* https://javascript.info/prototype-inheritance
