@@ -138,3 +138,16 @@
 * https://wiki.archlinux.org/index.php/Dotfiles#User_repositories <br>
 * https://web.archive.org/web/20200215112157/http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 * https://javascript.info/prototype-inheritance
+
+### Day 16: Aug 18 2020 (Wednesday)
+
+**Today's Progress:** Worked on library project.
+
+**Thoughts:** Today worked on this project. But main issue is implementing code with BEM methodology. In most cases it can't be implemented by 100% true pattern.
+
+### Day 16: Aug 18 2020 (Wednesday)
+
+**Today's Progress:** Worked on library project.
+
+**Thoughts:** Well about today is bit different.Most of the time spend in setting up arch linux on my laptop, because I had deleted the base package by mistake for which I had to pay price. After that started to work on project but having some issue in setting up layout,will fix all that by tomorrow.
+
