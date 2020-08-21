@@ -145,7 +145,7 @@
 
 **Thoughts:** Today worked on this project. But main issue is implementing code with BEM methodology. In most cases it can't be implemented by 100% true pattern.
 
-### Day 16: Aug 18 2020 (Wednesday)
+### Day 17: Aug 18 2020 (Wednesday)
 
 **Today's Progress:** Worked on library project.
 
