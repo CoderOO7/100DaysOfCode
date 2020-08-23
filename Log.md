@@ -128,7 +128,7 @@
 
 **Resources:** https://rubygarage.org/blog/technology-stack-for-web-development
 
-### Day 15: Aug 18 2020 (Wednesday)
+### Day 15: Aug 19 2020 (Wednesday)
 
 **Today's Progress:** Started a library project.
 
@@ -139,20 +139,27 @@
 * https://web.archive.org/web/20200215112157/http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 * https://javascript.info/prototype-inheritance
 
-### Day 16: Aug 18 2020 (Thursday)
+### Day 16: Aug 20 2020 (Thursday)
 
 **Today's Progress:** Worked on library project.
 
 **Thoughts:** Today worked on this project. But main issue is implementing code with BEM methodology. In most cases it can't be implemented by 100% true pattern.
 
-### Day 17: Aug 18 2020 (Friday)
+### Day 17: Aug 21 2020 (Friday)
 
 **Today's Progress:** Worked on library project.
 
 **Thoughts:** Well about today is bit different.Most of the time spend in setting up arch linux on my laptop, because I had deleted the base package by mistake for which I had to pay price. After that started to work on project but having some issue in setting up layout,will fix all that by tomorrow.
 
-### Day 18: Aug 19 2020 (Saturday)
+### Day 18: Aug 22 2020 (Saturday)
 
 **Today's Progress:** Worked on library project.
 
 **Thoughts:** Upto now only doing the UI part. But tomorrow will complete this project.
+
+
+### Day 19: Aug 23 2020 (Sunday)
+
+**Today's Progress:** Worked on library project.
+
+**Thoughts:** Although I think it should be completed by today and it should be done. But getting stuck on small things releated to UI,now mainly logic part remain that definitely will be completed by tomorrow.
