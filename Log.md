@@ -164,10 +164,16 @@
 
 **Thoughts:** Although I think it should be completed by today and it should be done. But getting stuck on small things releated to UI,now mainly logic part remain that definitely will be completed by tomorrow.
 
-### Day 20: Aug 24 2020 (Sunday)
+### Day 20: Aug 24 2020 (Monday)
 
 **Today's Progress:** Worked on library project.
 
 **Thoughts:** Completed all logic part except firebase connection. Will do it tomorrow. Have some other important thing to do.
 
 **Resouces:** https://coderoo7.github.io/Digital-library/
+
+### Day 20: Aug 24 2020 (Tuesday)
+
+**Today's Progress:** Worked on library project.
+
+**Thoughts:** Integration part of firebase is done, having some logical error working on that one.
