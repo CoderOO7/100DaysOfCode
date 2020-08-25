@@ -172,7 +172,7 @@
 
 **Resouces:** https://coderoo7.github.io/Digital-library/
 
-### Day 20: Aug 24 2020 (Tuesday)
+### Day 21: Aug 24 2020 (Tuesday)
 
 **Today's Progress:** Worked on library project.
 
