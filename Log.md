@@ -172,8 +172,19 @@
 
 **Resouces:** https://coderoo7.github.io/Digital-library/
 
-### Day 21: Aug 24 2020 (Tuesday)
+### Day 21: Aug 25 2020 (Tuesday)
 
 **Today's Progress:** Worked on library project.
 
 **Thoughts:** Integration part of firebase is done, having some logical error working on that one.
+
+### Day 22: Aug 26 2020 (Thursday)
+
+**Today's Progress:** Completed library project some TODO left will work on that later on.
+
+**Thoughts:** Solve the yesterday logic issue. Book Store and firebase authentication service yet remain to implement will work on that later on. The best thing I like a little heart beat animation in this project. Apart from that most of the time is spent on UI. Today learn about DocumentContentLoadedEvent basically it fire as soon as DOM parsing complete.
+
+**Resouces:**
+https://javascript.info/onload-ondomcontentloaded
+https://firebase.google.com/docs/database/admin/save-data#node.js_1
+https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/make-a-css-heartbeat-using-an-infinite-animation-count
