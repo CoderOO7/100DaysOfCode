@@ -178,13 +178,13 @@
 
 **Thoughts:** Integration part of firebase is done, having some logical error working on that one.
 
-### Day 22: Aug 26 2020 (Thursday)
+### Day 22: Aug 26 2020 (Wednesday)
 
 **Today's Progress:** Completed library project some TODO left will work on that later on.
 
 **Thoughts:** Solve the yesterday logic issue. Book Store and firebase authentication service yet remain to implement will work on that later on. The best thing I like a little heart beat animation in this project. Apart from that most of the time is spent on UI. Today learn about DocumentContentLoadedEvent basically it fire as soon as DOM parsing complete.
 
 **Resouces:**
-https://javascript.info/onload-ondomcontentloaded
-https://firebase.google.com/docs/database/admin/save-data#node.js_1
+https://javascript.info/onload-ondomcontentloaded <br>
+https://firebase.google.com/docs/database/admin/save-data#node.js_1 <br>
 https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/make-a-css-heartbeat-using-an-infinite-animation-count
