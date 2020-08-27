@@ -190,7 +190,7 @@ https://javascript.info/onload-ondomcontentloaded <br>
 https://firebase.google.com/docs/database/admin/save-data#node.js_1 <br>
 https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/make-a-css-heartbeat-using-an-infinite-animation-count
 
-### Day 22: Aug 27 2020 (Thursday)
+### Day 23: Aug 27 2020 (Thursday)
 
 **Today's Progress:** Fixed a small bug in library project & tried to understand CRM and it's purpose.
 
