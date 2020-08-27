@@ -185,6 +185,18 @@
 **Thoughts:** Solve the yesterday logic issue. Book Store and firebase authentication service yet remain to implement will work on that later on. The best thing I like a little heart beat animation in this project. Apart from that most of the time is spent on UI. Today learn about DocumentContentLoadedEvent basically it fire as soon as DOM parsing complete.
 
 **Resouces:**
+
 https://javascript.info/onload-ondomcontentloaded <br>
 https://firebase.google.com/docs/database/admin/save-data#node.js_1 <br>
 https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/make-a-css-heartbeat-using-an-infinite-animation-count
+
+### Day 22: Aug 27 2020 (Thursday)
+
+**Today's Progress:** Fixed a small bug in library project & tried to understand CRM and it's purpose.
+
+**Thoughts:** Today wrap my head to understand CRM and build CRM web app using django & react, but didn't find any useful resource. Will work on that tomorrow to implement it.
+
+**Resources:** 
+
+https://fractalideas.com/blog/making-react-and-django-play-well-together/ <br>
+https://www.youtube.com/watch?v=AHhQRHE8IR8 
