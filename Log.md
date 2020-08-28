@@ -200,3 +200,10 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
 
 https://fractalideas.com/blog/making-react-and-django-play-well-together/ <br>
 https://www.youtube.com/watch?v=AHhQRHE8IR8 
+
+### Day 24: Aug 28 2020 (Friday)
+
+**Today's Progress:** Fix a bug on library project.
+
+**Thoughts:** Although I had to work on yesterday task but not work on that,instead fix a bug which create a book document in db with invalid id on updating book status. Apart from that fix some layout issue, code documentation and finally create a pull request to add my library project in ODIN curriculum. Learn about encodeUri() to check special characters in a string like carriage return, new line etc.
+
