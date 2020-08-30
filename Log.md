@@ -217,4 +217,4 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
 
 **Today's Progress:** Worked on CRM project.
 
-**Thoughts:** Following same tutorial, basically in this I was creating a CRUD app that uses react for frontend and django for backend. Working on that one should get complete by tomorrow.
+**Thoughts:** Following same tutorial, basically in this I was creating a CRUD app that uses react for frontend and django for backend. Working on that one, should get completed by tomorrow.
