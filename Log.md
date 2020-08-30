@@ -203,7 +203,18 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
 
 ### Day 24: Aug 28 2020 (Friday)
 
-**Today's Progress:** Fix a bug on library project.
+**Today's Progress:** Fix a bug in library project.
 
 **Thoughts:** Although I had to work on yesterday task but not work on that,instead fix a bug which create a book document in db with invalid id on updating book status. Apart from that fix some layout issue, code documentation and finally create a pull request to add my library project in ODIN curriculum. Learn about encodeUri() to check special characters in a string like carriage return, new line etc.
 
+### Day 25: Aug 29 2020 (Saturday)
+
+**Today's Progress:** Worked on CRM project.
+
+**Thoughts:** For now I following a 3hours react-django integration video. To understand concept, but get stuck on error, somehow able to find solution the problem was I was sending the request to hit the api on different port of server, to fix that provide absolute path of api and it get works. Learned that django uses csrf-token to prevent csrf attack. 
+
+### Day 26: Aug 30 2020 (Sunday)
+
+**Today's Progress:** Worked on CRM project.
+
+**Thoughts:** Following same tutorial, basically in this I was creating a CRUD app that uses react for frontend and django for backend. Working on that one should get complete by tomorrow.
