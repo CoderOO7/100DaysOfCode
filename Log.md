@@ -218,3 +218,9 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
 **Today's Progress:** Worked on CRM project.
 
 **Thoughts:** Following same tutorial, basically in this I was creating a CRUD app that uses react for frontend and django for backend. Working on that one, should get completed by tomorrow.
+
+# Day 26: Aug 30 2020 (Monday)
+
+**Today's Progress:** Worked on CRM project.
+
+**Thoughts:** Following same tutorial, but in last getting stuck on some issue don't know why on clicking clear button it's saving the form data instead of resetting it.But will work on that tomorrow.
