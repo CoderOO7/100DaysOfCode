@@ -219,7 +219,7 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
 
 **Thoughts:** Following same tutorial, basically in this I was creating a CRUD app that uses react for frontend and django for backend. Working on that one, should get completed by tomorrow.
 
-# Day 26: Aug 30 2020 (Monday)
+### Day 27: Aug 31 2020 (Monday)
 
 **Today's Progress:** Worked on CRM project.
 
