@@ -224,3 +224,14 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
 **Today's Progress:** Worked on CRM project.
 
 **Thoughts:** Following same tutorial, but in last getting stuck on some issue don't know why on clicking clear button it's saving the form data instead of resetting it.But will work on that tomorrow.
+
+### Day 28: Sep 1 2020 (Tuesday)
+
+**Today's Progress:** Worked on CRM project.
+
+**Thoughts:** Today completed the remaining portion of tutorial. On working this small project I understood the benifiet of using Django is that it provide default admind panel and api query can be perform direactly like we do in postman using its django provided panel.
+
+**Resource:** 
+
+https://steelkiwi.com/blog/why-django-best-web-framework-your-project/
+https://www.youtube.com/watch?v=AHhQRHE8IR8
