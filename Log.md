@@ -235,3 +235,20 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
 
 https://steelkiwi.com/blog/why-django-best-web-framework-your-project/
 https://www.youtube.com/watch?v=AHhQRHE8IR8
+
+### Day 29: Sep 2 2020 (Wednesday)
+
+**Today's Progress:** Web Surfing and understand some conecpts.
+
+**Thoughts:** Read about storage object basically of two type session & local storage, allow to save data in user computer act as a local db.
+    1. Session storage: Data stored is available till browser closed. Tab deletion & reopen doesn't delete the stored data.
+    2. Local stoarge: Data is persist to user computer even if browser is closed. 
+    3. Cookies: Similar to local storage but allow to pass data with request to server. Local storage data can't be send with request.
+**Resource:** 
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+
+### Day 30: Sep 3 2020 (Thursday)
+
+**Today's Progress:** Done exercise from freeCodeCamp.
+
+**Thoughts:** Today complete beginner exercise of flex-box and grid from freecodecamp.
