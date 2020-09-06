@@ -255,3 +255,31 @@ https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_S
 **Today's Progress:** Done exercise from freeCodeCamp.
 
 **Thoughts:** Today complete beginner exercise of flex-box and grid from freecodecamp.
+
+### Day 31: Sep 4 2020 (Friday)
+
+**Today's Progress:** Worked on CRM project.
+
+**Thoughts:** Done basic setup of crm app like initializing database and running app.
+
+**Resource:** 
+
+https://www.digitalocean.com/community/tutorials/how-to-build-a-modern-web-application-to-manage-customer-information-with-django-and-react-on-ubuntu-18-04
+
+https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react
+
+
+### Day 32: Sep 5 2020 (Saturday)
+
+**Today's Progress:** Worked on CRM project.
+
+**Thoughts:** Worked on CRM project, understand some concepts like api view, cross-origin, models in django.
+
+### Day 33: Sep 6 2020 (Sunday)
+
+**Today's Progress:** Worked on CRM project.
+
+**Thoughts:** Worked on CRM project, implement basic CRUD operation but not the way that need to be done. Will work on it latter on, now I will continue my js track.
+****
+
+
