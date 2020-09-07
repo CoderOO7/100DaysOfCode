@@ -280,6 +280,20 @@ https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react
 **Today's Progress:** Worked on CRM project.
 
 **Thoughts:** Worked on CRM project, implement basic CRUD operation but not the way that need to be done. Will work on it latter on, now I will continue my js track.
-****
+
+
+### Day 34: Sep 7 2020 (Monday)
+
+**Today's Progress:** Understand concepts of this and closure in JS.
+
+**Thoughts:** Well today do not work on any project, but understand some concepts but factory function and module pattern remain. Will get it completed by tomorrow and start a new project.
+
+**Resource: **
+
+https://ultimatecourses.com/blog/everything-you-wanted-to-know-about-javascript-scope
+
+https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/
+
+http://ryanmorr.com/understanding-scope-and-context-in-javascript/#:~:text=Fundamentally%2C%20scope%20is%20function%2Dbased,owns%E2%80%9D%20the%20currently%20executing%20code.
 
 
