@@ -288,7 +288,7 @@ https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react
 
 **Thoughts:** Well today do not work on any project, but understand some concepts but factory function and module pattern remain. Will get it completed by tomorrow and start a new project.
 
-**Resource: **
+**Resource:**
 
 https://ultimatecourses.com/blog/everything-you-wanted-to-know-about-javascript-scope
 
