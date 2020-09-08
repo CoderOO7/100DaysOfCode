@@ -297,3 +297,18 @@ https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/
 http://ryanmorr.com/understanding-scope-and-context-in-javascript/#:~:text=Fundamentally%2C%20scope%20is%20function%2Dbased,owns%E2%80%9D%20the%20currently%20executing%20code.
 
 
+### Day 35: Sep 8 2020 (Tuesday)
+
+**Today's Progress:** Understand concepts of factory function and module pattern in JS.
+
+**Thoughts:** Well today cover all needed concepts like scoping, closure, why we need to use factory function when we have Prototyple inheritance in JS and module patterns. From tomorrow will begin to work on Tic_Tac_Toe project and implement what I have learn.
+
+**Resource:**
+
+https://ui.dev/this-keyword-call-apply-bind-javascript/
+
+https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9
+
+https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm
+
+https://coryrylan.com/blog/javascript-module-pattern-basics
