@@ -312,3 +312,10 @@ https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-
 https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm
 
 https://coryrylan.com/blog/javascript-module-pattern-basics
+
+
+### Day 36: Sep 9 2020 (Wednesday)
+
+**Today's Progress:** Only create a basic structure of TicTacToe.
+
+**Thoughts:** Today no efficient work is done,spend time by web surfing and in last create a basic structure of TicTacToe game but UI and logic part remain to implement.
