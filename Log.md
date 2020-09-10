@@ -319,3 +319,9 @@ https://coryrylan.com/blog/javascript-module-pattern-basics
 **Today's Progress:** Only create a basic structure of TicTacToe.
 
 **Thoughts:** Today no efficient work is done,spend time by web surfing and in last create a basic structure of TicTacToe game but UI and logic part remain to implement.
+
+### Day 37: Sep 10 2020 (Thursday)
+
+**Today's Progress:** Work on UI of TicTacToe game.
+
+**Thoughts:** Only work on UI today,animation effects and logic still left. Trying to give an hackish look to game. Tomorrow will implement logic part.
