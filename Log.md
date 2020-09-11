@@ -325,3 +325,13 @@ https://coryrylan.com/blog/javascript-module-pattern-basics
 **Today's Progress:** Work on UI of TicTacToe game.
 
 **Thoughts:** Only work on UI today,animation effects and logic still left. Trying to give an hackish look to game. Tomorrow will implement logic part.
+
+### Day 38: Sep 11 2020 (Friday)
+
+**Today's Progress:** Work on logic of TicTacToe game.
+
+**Thoughts:** Today learn to use modules in js. But having some issues in using document api in modules. Apart from that the logic of winning and draw condition remain. Will complete the remaining logic by tomorrow. Also read an article on shallowCopy vs DeepCopy in javascript.
+
+**Resources:**
+
+https://dev.to/samanthaming/how-to-deep-clone-an-array-in-javascript-3cig
