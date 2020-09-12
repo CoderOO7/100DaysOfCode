@@ -335,3 +335,16 @@ https://coryrylan.com/blog/javascript-module-pattern-basics
 **Resources:**
 
 https://dev.to/samanthaming/how-to-deep-clone-an-array-in-javascript-3cig
+
+### Day 39: Sep 12 2020 (Saturday)
+
+**Today's Progress:** Completed basic logic of TicTacToe game.
+
+**Thoughts:** Today completed the logic of TicTacToe game but for multiplayer only, play against computer functionality remain. Tomorrow will work on the animation effect and remaining logic part.
+
+**Resources:**
+
+https://dev.to/edwinwong90/tips-to-create-a-constants-file-in-javascript-cnm
+
+https://developers.google.com/web/updates/2016/10/addeventlistener-once
+
