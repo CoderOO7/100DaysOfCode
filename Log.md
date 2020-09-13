@@ -348,3 +348,8 @@ https://dev.to/edwinwong90/tips-to-create-a-constants-file-in-javascript-cnm
 
 https://developers.google.com/web/updates/2016/10/addeventlistener-once
 
+### Day 40: Sep 13 2020 (Sunday)
+
+**Today's Progress:** Implement reset logic of TicTacToe game.
+
+**Thoughts:** About today is that only able to do small portion i.e implement reset logic then tried to implememnt player VS computer play functionality but having some bugs in logic.
