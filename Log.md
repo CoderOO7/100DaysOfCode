@@ -354,8 +354,21 @@ https://developers.google.com/web/updates/2016/10/addeventlistener-once
 
 **Thoughts:** About today is that only able to do small portion i.e implement reset logic then tried to implememnt player VS computer play functionality but having some bugs in logic.
 
+
 ### Day 41: Sep 14 2020 (Monday)
 
 **Today's Progress:** Implement player vs computer logic of TicTacToe game.
 
 **Thoughts:** Today start to code in evening but able to complete the logic, now animation part remain, after animation will try to implement unbeateable AI. 
+
+### Day 42: Sep 15 2020 (Tuesday)
+
+**Today's Progress:** Implement matrix animation & display notification on screen.
+
+**Thoughts:** Today most of the time spend in playing with timeout function because I need to create auto-typing effect for multiline text. Then it's have some issue, because of calling it on each iteration in loop. But after reading it's logic understand that it's all about perfect timing in this case. Tomorrow will complete all left animation part and then will implement AI logic.
+
+**Resources:**
+
+https://codepen.io/coderoo7/pen/BaKPWyW?editors=0010
+
+https://stackoverflow.com/questions/3141064/how-to-stop-all-timeouts-and-intervals-using-javascript
