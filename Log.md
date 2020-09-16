@@ -372,3 +372,14 @@ https://developers.google.com/web/updates/2016/10/addeventlistener-once
 https://codepen.io/coderoo7/pen/BaKPWyW?editors=0010
 
 https://stackoverflow.com/questions/3141064/how-to-stop-all-timeouts-and-intervals-using-javascript
+
+### Day 43: Sep 16 2020 (Wednesday)
+
+**Today's Progress:** Implement gameBoard animation and fix some bugs.
+
+**Thoughts:** Today learn to make setTimout to act as synchronously using Promises in Javascript, that's a today saviour for me. May be without this can be done, but I like use of Promises for this approach appropriate.
+
+**Resources:**
+
+https://stackoverflow.com/questions/4122268/using-settimeout-synchronously-in-javascript
+
