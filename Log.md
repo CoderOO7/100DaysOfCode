@@ -392,6 +392,8 @@ https://stackoverflow.com/questions/4122268/using-settimeout-synchronously-in-ja
 **Resources:**
 
 https://www.youtube.com/watch?v=5oXyibEgJr0
+
 https://www.youtube.com/watch?v=5F9YzkpnaRw
+
 https://www.youtube.com/watch?v=Ntu8nNBL28o
 
