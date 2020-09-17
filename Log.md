@@ -383,3 +383,15 @@ https://stackoverflow.com/questions/3141064/how-to-stop-all-timeouts-and-interva
 
 https://stackoverflow.com/questions/4122268/using-settimeout-synchronously-in-javascript
 
+### Day 44: Sep 17 2020 (Thurssday)
+
+**Today's Progress:** Study minimax algo to introduce AI in my tic-tac-toe game.
+
+**Thoughts:** Today I had understand the concepts which I was not able to understood when studied in college. Now it's kind of feeling that I always want i.e apply practically what you have study in colleges and schools. Will try to complete this project by tomorrow if able to make the logic.
+
+**Resources:**
+
+https://www.youtube.com/watch?v=5oXyibEgJr0
+https://www.youtube.com/watch?v=5F9YzkpnaRw
+https://www.youtube.com/watch?v=Ntu8nNBL28o
+
