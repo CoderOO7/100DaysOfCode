@@ -383,7 +383,7 @@ https://stackoverflow.com/questions/3141064/how-to-stop-all-timeouts-and-interva
 
 https://stackoverflow.com/questions/4122268/using-settimeout-synchronously-in-javascript
 
-### Day 44: Sep 17 2020 (Thurssday)
+### Day 44: Sep 17 2020 (Thursday)
 
 **Today's Progress:** Study minimax algo to introduce AI in my tic-tac-toe game.
 
@@ -397,3 +397,18 @@ https://www.youtube.com/watch?v=5F9YzkpnaRw
 
 https://www.youtube.com/watch?v=Ntu8nNBL28o
 
+### Day 45: Sep 18 2020 (Friday)
+
+**Today's Progress:** Try to understand the logic.
+
+**Thoughts:** Today try to understand the minimax algo for tictactoe, but don't understand what maximum depth factor should be considered.
+
+**Resources:**
+
+https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-minimax-algorithm-59f069f46efa#:~:text=Minimax%20Algorithm%20in%20Tic%2DTac,move%20with%20the%20highest%20value.
+
+### Day 46: Sep 19 2020 (Saturday)
+
+**Today's Progress:** Try to understand the logic.
+
+**Thoughts:** Today not done much, but yet the same issue before that don't understand the concept of max depth value. 
