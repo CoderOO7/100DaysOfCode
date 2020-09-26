@@ -421,7 +421,7 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 
 **Today's Progress:** Try to understand the logic.
 
-**Thoughts:** Today thinking of shifting from Arch linux to Parrat OS to play with security tools, but unable to install it getting error on booting with usb, either download file is corrupted or may be some another issue. Spend around 3 hours on logic understanding and implementation but yet not able to make it.
+**Thoughts:** Today thinking of shifting from Arch linux to Parrat OS to play with security tools, but unable to install it getting error on booting with usb, either download file is corrupted or may be some another issue. Spend around 3 hours on logic understanding and implementation but yet not able to make it.  
 
 ### Day2: Sep 26 2020 (Saturday)
 
