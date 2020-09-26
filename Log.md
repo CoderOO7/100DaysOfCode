@@ -412,3 +412,19 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 **Today's Progress:** Try to understand the logic.
 
 **Thoughts:** Today not done much, but yet the same issue before that don't understand the concept of max depth value. 
+
+<hr>
+
+## Starting again after a break
+
+### Day1: Sep 25 2020 (Friday)
+
+**Today's Progress:** Try to understand the logic.
+
+**Thoughts:** Today thinking of shifting from Arch linux to Parrat OS to play with security tools, but unable to install it getting error on booting with usb, either download file is corrupted or may be some another issue. Spend around 3 hours on logic understanding and implementation but yet not able to make it.
+
+### Day2: Sep 26 2020 (Saturday)
+
+**Today's Progress:** Try to understand the logic.
+
+**Thoughts:** Today again download the new iso image of Parrot OS but getting same error. Today able to make partial logic, the issue is that on updating the particular cell on traversing the tree, unable to reset the cell to its default value. By tomorrow it will get completed.
