@@ -428,3 +428,9 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 **Today's Progress:** Try to understand the logic.
 
 **Thoughts:** Today again download the new iso image of Parrot OS but getting same error. Today able to make partial logic, the issue is that on updating the particular cell on traversing the tree, unable to reset the cell to its default value. By tomorrow it will get completed.
+
+### Day3: Sep 27 2020 (Sunday)
+
+**Today's Progress:** Implement the AI logic.
+
+**Thoughts:** After many attempts able to complete the AI logic. Even after implementing the minimax algo part, the issue was that computer first move on ticTacToe board take around a minute to do calculation, to fix that manually optimize the first move by either computer mark in center of board or at top most left corner. 
