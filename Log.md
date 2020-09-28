@@ -434,3 +434,9 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 **Today's Progress:** Implement the AI logic.
 
 **Thoughts:** After many attempts able to complete the AI logic. Even after implementing the minimax algo part, the issue was that computer first move on ticTacToe board take around a minute to do calculation, to fix that manually optimize the first move by either computer mark in center of board or at top most left corner. 
+
+### Day3: Sep 28 2020 (Monday)
+
+**Today's Progress:** Fix one bug & little bit styling.
+
+**Thoughts:** The project is almost completed, now the main part is left to make it responsive to play it on mobile. Today begin to work in the same company which I left, but now as a web developer. Tomorrow will implement left changes and if possible release it tomorrow. 
