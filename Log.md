@@ -440,3 +440,10 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 **Today's Progress:** Fix one bug & little bit styling.
 
 **Thoughts:** The project is almost completed, now the main part is left to make it responsive to play it on mobile. Today begin to work in the same company which I left, but now as a web developer. Tomorrow will implement left changes and if possible release it tomorrow. 
+
+
+### Day5: Sep 29 2020 (Tuesday)
+
+**Today's Progress:** Add media query to make responsive layout.
+
+**Thoughts:** Although it's now responsive and working fine, but still layout getting break on some devices b/c margin issue, the screens div don't get centered vertically on some mobile-screen and need to add hover effect on touch b/c mobile doesn't support hover pseudo selector.
