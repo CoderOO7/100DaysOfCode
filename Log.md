@@ -447,3 +447,13 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 **Today's Progress:** Add media query to make responsive layout.
 
 **Thoughts:** Although it's now responsive and working fine, but still layout getting break on some devices b/c margin issue, the screens div don't get centered vertically on some mobile-screen and need to add hover effect on touch b/c mobile doesn't support hover pseudo selector.
+
+### Day6: Sep 30 2020 (Wednesday)
+
+**Today's Progress:** Fix layout break issue on some mobile.
+
+**Thoughts:** Now the remaining part is code documentation. Tried to implement LEVEL 4 media query to enable hover effect in mobile devices but it's not working don't know why. Tomorrow after documentation will create a pull request and begin to move forward on my JS-track. Also read about CORS policy, its now annoying me.
+
+**Resources:**
+
+https://web.dev/cross-origin-resource-sharing/
