@@ -457,3 +457,11 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 **Resources:**
 
 https://web.dev/cross-origin-resource-sharing/
+
+
+### Day7: Oct 1 2020 (Thursday)
+
+**Today's Progress:** Document the code.
+
+**Thoughts:** So the project is completed but not created a pull request yet, will create it tomorrow.
+
