@@ -465,3 +465,15 @@ https://web.dev/cross-origin-resource-sharing/
 
 **Thoughts:** So the project is completed but not created a pull request yet, will create it tomorrow.
 
+### Day8: Oct 2 2020 (Friday)
+
+**Today's Progress:** Today done remaining code-documentation and read about classes in javascript.
+
+**Thoughts:** In js classes are only for presentation to user so it depict the feature of ObjectOriented language. Under the hood its prototypal inheritance. Apart from that add demo gif to project directory first time.
+
+**Resources:**
+
+https://www.theodinproject.com/courses/javascript/lessons/classes
+
+
+
