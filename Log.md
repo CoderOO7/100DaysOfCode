@@ -475,5 +475,15 @@ https://web.dev/cross-origin-resource-sharing/
 
 https://www.theodinproject.com/courses/javascript/lessons/classes
 
+### Day9: Oct 3 2020 (Saturday)
+
+**Today's Progress:** Today learn to setup webpack bundler.
+
+**Thoughts:** Read about ES6 modules & module patterns. Learn to setup webpack bundler with basic configuration. The advantage of using webpack is that it support multiple type of files i.e css,txt. Based on type different loaders are used to bundle them and begin a new project a *restaurant-page*.
+
+**Resources:**
+
+https://www.theodinproject.com/courses/javascript/lessons/es6-modules
+
 
 
