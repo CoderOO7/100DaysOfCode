@@ -485,5 +485,13 @@ https://www.theodinproject.com/courses/javascript/lessons/classes
 
 https://www.theodinproject.com/courses/javascript/lessons/es6-modules
 
+### Day 10: Oct 4 2020 (Sunday)
 
+**Today's Progress:** Today started react-intermediate course.
+
+**Thoughts:** So started this course to cover some left concept like react-redux ,ssr and also to revise previous concepts related to hooks.
+
+**Resources:**
+
+https://frontendmasters.com/courses/intermediate-react-v2/
 
