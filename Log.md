@@ -495,3 +495,15 @@ https://www.theodinproject.com/courses/javascript/lessons/es6-modules
 
 https://frontendmasters.com/courses/intermediate-react-v2/
 
+
+
+### Day 11: Oct 5 2020 (Monday)
+
+**Today's Progress:** useRef hook.
+
+**Thoughts:** Today understand the purpose of userRef hook, basically when you want to state change of variable without rendering the dom, in that case useRef.
+
+**Resources:**
+
+https://ui.dev/useref/
+
