@@ -512,9 +512,13 @@ https://ui.dev/useref/
 **Today's Progress:** useReducer, useMemo,useCallback, useImperativeHandle & useLayoutEffect.
 
 **Thoughts:** So basically these are as follows:
--useReducer: It allow to group similar action in one function that change a state. For example: having two button change one increment the count, other decrement the count, thus count is state where changing its value is similar action.
--useMemo, useCallback: For optimization purpose, should be used rarely.
--useImperativeHandle: Allow to pass props from child to parent.
--useLayoutEffect: Similar to useEffect instead it call after render but before the screen is updated.
+
+1. **useReducer:** It allow to group similar action in one function that change a state. For example: having two button change one increment the count, other decrement the count, thus count is state where changing its value is similar action.
+
+1. **useMemo, useCallback:** For optimization purpose, should be used rarely.
+
+1. **useImperativeHandle:** Allow to pass props from child to parent.
+
+1. **useLayoutEffect:** Similar to useEffect instead it call after render but before the screen is updated.
 
 
