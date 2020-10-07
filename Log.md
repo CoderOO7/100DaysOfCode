@@ -423,17 +423,20 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 
 **Thoughts:** Today thinking of shifting from Arch linux to Parrat OS to play with security tools, but unable to install it getting error on booting with usb, either download file is corrupted or may be some another issue. Spend around 3 hours on logic understanding and implementation but yet not able to make it.  
 
+
 ### Day2: Sep 26 2020 (Saturday)
 
 **Today's Progress:** Try to understand the logic.
 
 **Thoughts:** Today again download the new iso image of Parrot OS but getting same error. Today able to make partial logic, the issue is that on updating the particular cell on traversing the tree, unable to reset the cell to its default value. By tomorrow it will get completed.
 
+
 ### Day3: Sep 27 2020 (Sunday)
 
 **Today's Progress:** Implement the AI logic.
 
 **Thoughts:** After many attempts able to complete the AI logic. Even after implementing the minimax algo part, the issue was that computer first move on ticTacToe board take around a minute to do calculation, to fix that manually optimize the first move by either computer mark in center of board or at top most left corner. 
+
 
 ### Day4: Sep 28 2020 (Monday)
 
@@ -447,6 +450,7 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 **Today's Progress:** Add media query to make responsive layout.
 
 **Thoughts:** Although it's now responsive and working fine, but still layout getting break on some devices b/c margin issue, the screens div don't get centered vertically on some mobile-screen and need to add hover effect on touch b/c mobile doesn't support hover pseudo selector.
+
 
 ### Day6: Sep 30 2020 (Wednesday)
 
@@ -465,6 +469,7 @@ https://web.dev/cross-origin-resource-sharing/
 
 **Thoughts:** So the project is completed but not created a pull request yet, will create it tomorrow.
 
+
 ### Day8: Oct 2 2020 (Friday)
 
 **Today's Progress:** Today done remaining code-documentation and read about classes in javascript.
@@ -475,6 +480,7 @@ https://web.dev/cross-origin-resource-sharing/
 
 https://www.theodinproject.com/courses/javascript/lessons/classes
 
+
 ### Day9: Oct 3 2020 (Saturday)
 
 **Today's Progress:** Today learn to setup webpack bundler.
@@ -484,6 +490,7 @@ https://www.theodinproject.com/courses/javascript/lessons/classes
 **Resources:**
 
 https://www.theodinproject.com/courses/javascript/lessons/es6-modules
+
 
 ### Day 10: Oct 4 2020 (Sunday)
 
@@ -496,7 +503,6 @@ https://www.theodinproject.com/courses/javascript/lessons/es6-modules
 https://frontendmasters.com/courses/intermediate-react-v2/
 
 
-
 ### Day 11: Oct 5 2020 (Monday)
 
 **Today's Progress:** useRef hook.
@@ -506,6 +512,7 @@ https://frontendmasters.com/courses/intermediate-react-v2/
 **Resources:**
 
 https://ui.dev/useref/
+
 
 ### Day 12: Oct 6 2020 (Tuesday)
 
@@ -520,6 +527,7 @@ https://ui.dev/useref/
 1. **useImperativeHandle:** Allow to pass props from child to parent.
 
 1. **useLayoutEffect:** Similar to useEffect instead it call after render but before the screen is updated.
+
 
 ### Day 13: Oct 7 2020 (Wednesday)
 
