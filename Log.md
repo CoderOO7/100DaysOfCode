@@ -538,7 +538,10 @@ https://ui.dev/useref/
 **Resource:**
 
 https://www.denisbouquet.com/google-fonts-render-blocking/
+
 https://web.dev/uses-rel-preconnect/
+
 https://www.dataschool.io/how-to-contribute-on-github/
+
 https://github.com/jenkoian/hacktoberfest-checker
 
