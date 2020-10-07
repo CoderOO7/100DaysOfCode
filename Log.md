@@ -521,4 +521,16 @@ https://ui.dev/useref/
 
 1. **useLayoutEffect:** Similar to useEffect instead it call after render but before the screen is updated.
 
+### Day 13: Oct 7 2020 (Wednesday)
+
+**Today's Progress:** Contribute to opensource project issues.
+
+**Thoughts:** So today first time I actually contributed to issues of open source projects, but don't know the maintainer will accept the PR or not. Learned to load google-fonts asynchronously to prevent render blocking and preconnect allow to perform dns request and total round-trip time to make successful connection b/w client & host before any resource fetch. Thus decrease latency of network and fetch resources fast.
+
+**Resource:**
+
+https://www.denisbouquet.com/google-fonts-render-blocking/
+https://web.dev/uses-rel-preconnect/
+https://www.dataschool.io/how-to-contribute-on-github/
+https://github.com/jenkoian/hacktoberfest-checker
 
