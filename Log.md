@@ -545,3 +545,10 @@ https://www.dataschool.io/how-to-contribute-on-github/
 
 https://github.com/jenkoian/hacktoberfest-checker
 
+
+### Day 13: Oct 8 2020 (Thursday)
+
+**Today's Progress:** Learn about code-splitting concept in React.
+
+**Thoughts:** So if you have a component that is greater than 30KB then we should load that Component dynamically using lazy module provided by react library.
+It load the module dynamically. Apart from that create a PR in Android-dev-resources repository.
