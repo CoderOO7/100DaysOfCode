@@ -546,7 +546,7 @@ https://www.dataschool.io/how-to-contribute-on-github/
 https://github.com/jenkoian/hacktoberfest-checker
 
 
-### Day 13: Oct 8 2020 (Thursday)
+### Day 14: Oct 8 2020 (Thursday)
 
 **Today's Progress:** Learn about code-splitting concept in React.
 
