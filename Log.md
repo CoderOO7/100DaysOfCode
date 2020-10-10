@@ -553,13 +553,21 @@ https://github.com/jenkoian/hacktoberfest-checker
 **Thoughts:** So if you have a component that is greater than 30KB then we should load that Component dynamically using lazy module provided by react library.
 It load the module dynamically. Apart from that create a PR in Android-dev-resources repository.
 
+
 ### Day 15: Oct 9 2020 (Friday)
 
 **Today's Progress:** Learn to perfom Server Side Rendering in nodejs.
 
-**Thoughts:** react-dom/server library provide two API renderToString & renderToNodeStream that your react component as input and convert it to html and this html is send as response to browser. So basically all rendering part is done on server side. Keeping it all aside, today I learn to integrate i3-gaps wm with MATE desktop environment in Parrot OS. 
+**Thoughts:** react-dom/server library provide two API renderToString & renderToNodeStream that take your react component as input and convert it to html and this html is send as response to browser. So basically all rendering part is done on server side. Keeping it all aside, today I learn to integrate i3-gaps wm with MATE desktop environment in Parrot OS. 
 
 **Resources:** 
 - https://wiki.archlinux.org/index.php/MATE
+
+
+### Day 15: Oct 9 2020 (Friday)
+
+**Today's Progress:** Worked on Restaurant-Page project.
+
+**Thoughts:** Only setup basic structure, will implement scss in this project. Hopyfully that project should be completed by tomorrow. 
 
 
