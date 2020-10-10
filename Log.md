@@ -564,7 +564,7 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 - https://wiki.archlinux.org/index.php/MATE
 
 
-### Day 15: Oct 9 2020 (Friday)
+### Day 16: Oct 10 2020 (Saturday)
 
 **Today's Progress:** Worked on Restaurant-Page project.
 
