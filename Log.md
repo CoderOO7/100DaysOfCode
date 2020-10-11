@@ -570,4 +570,10 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Thoughts:** Only setup basic structure, will implement scss in this project. Hopyfully that project should be completed by tomorrow. 
 
+### Day 17: Oct 11 2020 (Sunday)
+
+**Today's Progress:** Worked on Restaurant-Page project.
+
+**Thoughts:** Today basically add content to Home and Contact tab logic. Proper UI and other tabs content implementation yet remain.
+
 
