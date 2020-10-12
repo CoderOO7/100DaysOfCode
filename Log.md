@@ -576,4 +576,10 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Thoughts:** Today basically add content to Home and Contact tab logic. Proper UI and other tabs content implementation yet remain.
 
+### Day 18: Oct 12 2020 (Monday)
+
+**Today's Progress:** Worked on Restaurant-Page project.
+
+**Thoughts:** Now only menu page need to be edited and some remaining functionality will complete it by tomorrow.
+
 
