@@ -582,4 +582,10 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Thoughts:** Now only menu page need to be edited and some remaining functionality will complete it by tomorrow.
 
+### Day 19: Oct 13 2020 (Tuesday)
+
+**Today's Progress:** Worked on Restaurant-Page project.
+
+**Thoughts:** I know I had completed it by today but some changes left like responsive navbar, Ui changes of contact page and few layout break issue.
+
 
