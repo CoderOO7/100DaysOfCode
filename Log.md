@@ -586,6 +586,11 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Today's Progress:** Worked on Restaurant-Page project.
 
-**Thoughts:** I know I had completed it by today but some changes left like responsive navbar, Ui changes of contact page and few layout break issue.
+**Thoughts:** I know I had to complete it by today but some changes left like responsive navbar, Ui changes of contact page and few layout break issue.
+
+### Day 20: Oct 14 2020 (Wednesday)
+**Today's Progress:** Worked on Restaurant-Page project.
+
+**Thoughts:** Today was busy in some other stuff but work on making my navbar responsive and few UI modifications. Now the issue that was remain is Menu tab layout get break on mobile devices need to fix that.
 
 
