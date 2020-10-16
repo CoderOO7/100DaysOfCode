@@ -602,7 +602,7 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 **Thoughts:** Fix the Menu tab layout break issue. The problem was that when using `gap:5%` property in then it overflow the content from parent div. It's because `grid-template-columns: repeat(autofill, 50vh)` have column width in `vh` and I was using `%` in gap property. When fixing that learn about `vmin` vs `vh`. So basically if you want your layout height/width responsive to desktop & mobile devices then use `vmin`,it allow to automatically scale layout dimensions according to device.
 
 
-### Day 23: Oct 16 2020 (Friday)
+### Day 22: Oct 16 2020 (Friday)
 
 **Today's Progress:** Worked on Restaurant-Page project.
 
