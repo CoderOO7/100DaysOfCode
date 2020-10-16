@@ -595,4 +595,23 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Thoughts:** Today was busy in some other stuff but work on making my navbar responsive and few UI modifications. Now the issue that was remain is Menu tab layout get break on mobile devices need to fix that.
 
+### Day 21: Oct 15 2020 (Thursday)
+
+**Today's Progress:** Worked on Restaurant-Page project.
+
+**Thoughts:** Fix the Menu tab layout break issue. The problem was that when using `gap:5%` property in then it overflow the content from parent div. It's because `grid-template-columns: repeat(autofill, 50vh)` have column width in `vh` and I was using `%` in gap property. When fixing that learn about `vmin` vs `vh`. So basically if you your layout height/width responsive to desktop & mobile devices then use `vmin`,it allow to automatically scale layout dimensions accoding to device.
+
+
+### Day 23: Oct 16 2020 (Friday)
+
+**Today's Progress:** Worked on Restaurant-Page project.
+
+**Thoughts:** Today completed the project, host it on github, done remaining code documentation and bla bla bla. About today I had learned concept of submodules/subtree in github. Basically to host github pages, the index.html file should be present in root of repo. If your index.html file is present in sub-folders then you can host that sub-folder on gh-pages branch.
+
+**Project link:**
+- https://coderoo7.github.io/restaurant-page/
+
+**Resources:** 
+- https://gist.github.com/cobyism/4730490
+- https://stackoverflow.com/questions/22906662/javascript-design-pattern-difference-between-module-pattern-and-revealing-modul
 
