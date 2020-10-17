@@ -615,3 +615,15 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 - https://gist.github.com/cobyism/4730490
 - https://stackoverflow.com/questions/22906662/javascript-design-pattern-difference-between-module-pattern-and-revealing-modul
 
+### Day 23: Oct 17 2020 (Saturday)
+
+**Today's Progress:** Today setup LAMP stack.
+
+**Thoughts:** So today I had setup LAMP stack for php dev environment. Installation part is easy but setting up apache server to host multiple virtual domain is not fizzy task to do. Better alternative is to use XAMPP stack basically it provide all the tool in one application, instead of downloading each tool of stack and then integrate them.
+
+**Resources:**
+- https://www.youtube.com/watch?v=I752ofYu7ag&list=PLillGF-RfqbaP_71rOyChhjeK1swokUIS&index=1
+- https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
+- https://www.howtoforge.com/tutorial/ubuntu-codeigniter/
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04-quickstart
+- https://www.e2enetworks.com/help/knowledge-base/how-to-check-running-status-of-lamp-stack/#:~:text=your%20LAMP%20stack.-,Apache%20HTTP%20web%20server,running%20properly%20should%20show%20up.&text=This%20command%20will%20show%20whether%20Apache%20is%20running%20or%20has%20stopped.
