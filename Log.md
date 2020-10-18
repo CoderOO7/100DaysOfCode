@@ -627,3 +627,14 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 - https://www.howtoforge.com/tutorial/ubuntu-codeigniter/
 - https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04-quickstart
 - https://www.e2enetworks.com/help/knowledge-base/how-to-check-running-status-of-lamp-stack/#:~:text=your%20LAMP%20stack.-,Apache%20HTTP%20web%20server,running%20properly%20should%20show%20up.&text=This%20command%20will%20show%20whether%20Apache%20is%20running%20or%20has%20stopped.
+
+
+### Day 24: Oct 18 2020 (Sunday)
+
+**Today's Progress:** Today begin to work on foodshala project.
+
+**Thoughts:** So today time spend in setting up codeigniter php framework. Then begin to work on project. Learn that `.htaccess` file is required for defining configuration on directory basis instead of defining globally for apache server. At every request apache server look for `.htaccess` file for setting up permission and url directives. Experience with php upto now is somewhat ohk.
+ 
+**Resources:**
+- https://www.youtube.com/watch?v=I752ofYu7ag&list=PLillGF-RfqbaP_71rOyChhjeK1swokUIS&index=1
+- https://www3.ntu.edu.sg/home/ehchua/programming/howto/Apache_HowToConfigure.html.
