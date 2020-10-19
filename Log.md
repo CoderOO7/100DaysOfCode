@@ -638,3 +638,17 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 **Resources:**
 - https://www.youtube.com/watch?v=I752ofYu7ag&list=PLillGF-RfqbaP_71rOyChhjeK1swokUIS&index=1
 - https://www3.ntu.edu.sg/home/ehchua/programming/howto/Apache_HowToConfigure.html.
+
+### Day 25: Oct 19 2020 (Monday)
+
+**Today's Progress:** Worked on foodshala project.
+
+**Thoughts:** So today learn to do some backend stuff, managing sessions, purpose of flashdata method in php and defining routes. Now the login session part remain and need to create seperate registration form for staff also, will work on that. 
+ 
+**Resources:**
+- https://www.youtube.com/watch?v=uYX9FLi1BYg
+- https://www.youtube.com/watch?v=SbiszsRnETo
+- https://codeigniter.com/userguide3/libraries/form_validation.html
+- http://mfikri.com/en/blog/codeigniter-login
+- http://michaelsoriano.com/building-a-user-registration-system-part-1-new-user-form/
+
