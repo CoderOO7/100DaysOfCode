@@ -652,3 +652,13 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 - http://mfikri.com/en/blog/codeigniter-login
 - http://michaelsoriano.com/building-a-user-registration-system-part-1-new-user-form/
 
+
+### Day 26: Oct 20 2020 (Tuesday)
+
+**Today's Progress:** Worked on foodshala project.
+
+**Thoughts:** Well today I had completed the registration logic for both customer and restaurant members, also implement login and logout functionality. Now the remaining part is to allow staff memeber to add menu item and allow users to order the food from menu.
+ 
+**Resources:**
+- https://stackoverflow.com/questions/45278226/how-to-use-multi-level-user-login-in-codeigniter
+- http://mfikri.com/en/blog/codeigniter-login
