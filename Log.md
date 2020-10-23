@@ -662,3 +662,19 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 **Resources:**
 - https://stackoverflow.com/questions/45278226/how-to-use-multi-level-user-login-in-codeigniter
 - http://mfikri.com/en/blog/codeigniter-login
+
+### Day 27 - Day 28 
+
+**Today's Progress:** Worked on foodshala project.
+
+**Thoughts:** Well on Day 28 I had submited my project to internshala for review, although its not completed but able to learn something. Will complete this project side by side by following my js track.
+
+### Day 29 
+
+**Today's Progress:** Worked on some random stuff.
+
+**Thoughts:** Created my github readme profile, fix some legacy code of previous projects. Read about SRP(Solid Responsibility Principle) that is about any object or any function should be responsible for one task only.
+
+**Resources: *
+
+http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/
