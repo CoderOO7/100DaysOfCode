@@ -675,6 +675,18 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Thoughts:** Created my github readme profile, fix some legacy code of previous projects. Read about SRP(Solid Responsibility Principle) that is about any object or any function should be responsible for one task only.
 
-**Resources: *
+**Resources:**
 
 http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/
+
+
+### Day 30 
+
+**Today's Progress:** Read SOLID principle.
+
+**Thoughts:** Well today I had not done much, but able try to understand SOLID principles that is going over my head. Will try to implement it in next project.
+
+**Resources:**
+- https://thefullstack.xyz/solid-javascript/
+
+
