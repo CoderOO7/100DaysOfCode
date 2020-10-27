@@ -689,4 +689,23 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Resources:**
 - https://thefullstack.xyz/solid-javascript/
 
+### Day 31 & Day 32
+
+**Today's Progress:** Worked on setting up php project locally.
+
+**Thoughts:** Well most of the time spend in figuring out what was going wrong, then I found that issue was with php version, the project require lower php version. But later on lower php version had unmet dependencies in my linux distribution working on to fix that. 
+
+### Day 33
+
+**Today's Progress:** Setup the php project & create self signed ssl certifacte for localhost.
+
+**Thoughts:** So after fixing unmet dependencies setup the project, then later on need to use `https` protocol for resource fetching. For that pupose learn to create self-signed SSL certificate for localhost domain and serve it from apache web server.
+
+**Resources:**
+- https://www.digitalocean.com/community/tutorials/apache-configuration-error-ah00558-could-not-reliably-determine-the-server-s-fully-qualified-domain-name
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-debian-8
+- https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb
+- https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-debian-10
+- https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/
+- https://stackoverflow.com/questions/7580508/getting-chrome-to-accept-self-signed-localhost-certificate
 
