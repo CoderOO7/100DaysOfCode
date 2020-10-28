@@ -695,11 +695,11 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Thoughts:** Well most of the time spend in figuring out what was going wrong, then I found that issue was with php version, the project require lower php version. But later on lower php version had unmet dependencies in my linux distribution working on to fix that. 
 
-### Day 33
+### Day 33 (Tuesday)
 
 **Today's Progress:** Setup the php project & create self signed ssl certifacte for localhost.
 
-**Thoughts:** So after fixing unmet dependencies setup the project, then later on need to use `https` protocol for resource fetching. For that pupose learn to create self-signed SSL certificate for localhost domain and serve it from apache web server.
+**Thoughts:** So after fixing unmet dependencies, setup the project then later on need to use `https` protocol for resource fetching. For that pupose learn to create self-signed SSL certificate for localhost domain and serve it from apache web server.
 
 **Resources:**
 - https://www.digitalocean.com/community/tutorials/apache-configuration-error-ah00558-could-not-reliably-determine-the-server-s-fully-qualified-domain-name
@@ -709,3 +709,13 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 - https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/
 - https://stackoverflow.com/questions/7580508/getting-chrome-to-accept-self-signed-localhost-certificate
 
+
+### Day 34 (Wednesday)
+
+**Today's Progress:** Today begin to work on foodshala project.
+
+**Thoughts:** I had left this project. Now again started to work on that to complete remaining task,it should be completed within 3 days by 31st October.
+
+**Resources:**
+- https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+- https://askubuntu.com/questions/998920/1698-access-denied-for-user-rootlocalhost-mysql-5-7-and-ubuntu-16-04#:~:text=This%20is%20because%20MySQL%20by,that%20password%20has%20been%20changed
