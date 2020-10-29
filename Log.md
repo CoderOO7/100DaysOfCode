@@ -689,6 +689,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Resources:**
 - https://thefullstack.xyz/solid-javascript/
 
+
 ### Day 31 & Day 32
 
 **Today's Progress:** Worked on setting up php project locally.
@@ -719,3 +720,10 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Resources:**
 - https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
 - https://askubuntu.com/questions/998920/1698-access-denied-for-user-rootlocalhost-mysql-5-7-and-ubuntu-16-04#:~:text=This%20is%20because%20MySQL%20by,that%20password%20has%20been%20changed
+
+
+### Day 35 (Thursday)
+
+**Today's Progress:** Today worked on shopping cart view of Foodshala project.
+
+**Thoughts:** After doing some config changes begin to work on implementing seperate view for shopping cart. Don't commit that code yet, b/c some funcitoning still remain.
