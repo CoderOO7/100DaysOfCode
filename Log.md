@@ -727,3 +727,10 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today's Progress:** Today worked on shopping cart view of Foodshala project.
 
 **Thoughts:** After doing some config changes begin to work on implementing seperate view for shopping cart. Don't commit that code yet, b/c some funcitoning still remain.
+
+
+### Day 36 (Friday)
+
+**Today's Progress:** Created seperate view for shopping cart.
+
+**Thoughts:** Although logic of shopping cart is done, but still need to implement counter logic for cart in navbar which get updated when each items added into cart. 
