@@ -734,3 +734,13 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today's Progress:** Created seperate view for shopping cart.
 
 **Thoughts:** Although logic of shopping cart is done, but still need to implement counter logic for cart in navbar which get updated when each items added into cart. 
+
+<hr>
+
+## Begining again 
+
+### Day 1: Nov 5, 2020 (Thursday)
+
+**Today Progress:** Create the db for cart.
+
+**Thoughts:** Today get stuck on sql query to `insert the data if not exist else update it`. Today is not able to learn something useful or understand, will try to complete this project by tomorrow. If able to do so.
