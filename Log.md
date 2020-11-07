@@ -744,3 +744,15 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today Progress:** Create the db for cart.
 
 **Thoughts:** Today get stuck on sql query to `insert the data if not exist else update it`. Today is not able to learn something useful or understand, will try to complete this project by tomorrow. If able to do so.
+
+### Day 2: Nov 6, 2020 (Friday)
+
+**Today Progress:** BugFixes in backend of cart.
+
+**Thoughts:** Having some issue in deleting the items entry in cart, may be have to re-design the db b/c I'm using inbuilt cart library provided in codeigniter and it is deprecated also.
+
+### Day 3: Nov 7, 2020 (Saturday)
+
+**Today Progress:** Worked on backend of cart.
+
+**Thoughts:** Like yesterday still stuck on the same issue but today learn to implement image upload on website using upload library provided by codeigniter framework.
