@@ -756,3 +756,14 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today Progress:** Worked on backend of cart.
 
 **Thoughts:** Like yesterday still stuck on the same issue but today learn to implement image upload on website using upload library provided by codeigniter framework.
+
+### Day 4: Nov 8, 2020 (Sunday)
+
+**Today Progress:** Worked on backend of cart.
+
+**Thoughts:** Design the new backend and implement its logic. Now two functionality remain to implement i.e <br>
+- Checkout page
+- Allow staff to upload food items and view all the orders of customer.
+              
+**Resources:** 
+- https://www.google.com/
