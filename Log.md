@@ -767,3 +767,12 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
               
 **Resources:** 
 - https://www.google.com/
+
+### Day 5: Nov 9, 2020 (Monday)
+
+**Today Progress:** Worked on add item to menu logic.
+
+**Thoughts:** So basically remove some bugs and add logic to add a new item to menu page by restaurant staff. Now I only need to create a order when user checkout by saving user details of items added in cart to db. Now the functionality remain is this.
+- Checkout page
+- View all the orders of customer.
+              
