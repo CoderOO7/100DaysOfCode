@@ -775,4 +775,16 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Thoughts:** So basically remove some bugs and add logic to add a new item to menu page by restaurant staff. Now I only need to create a order when user checkout by saving user details of items added in cart to db. Now the functionality remain is this.
 - Checkout page
 - View all the orders of customer.
-              
+
+### Day 6: Nov 10, 2020 (Tuesday)
+
+**Today Progress:** Worked on backend of checkout.
+
+**Thoughts:** Basically today having issue in designing orders db on checkout. But most of the part is done. Only proper implementation need to be done.
+
+
+### Day 7: Nov 10, 2020 (Wednesday)
+
+**Today Progress:** Completed checkout process.
+
+**Thoughts:** Able to complete checkout process means order get created and saved to db, now only one functionality remain that is to fetch order details and index them according to user type.
