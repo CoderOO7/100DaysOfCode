@@ -745,17 +745,20 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Thoughts:** Today get stuck on sql query to `insert the data if not exist else update it`. Today is not able to learn something useful or understand, will try to complete this project by tomorrow. If able to do so.
 
+
 ### Day 2: Nov 6, 2020 (Friday)
 
 **Today Progress:** BugFixes in backend of cart.
 
 **Thoughts:** Having some issue in deleting the items entry in cart, may be have to re-design the db b/c I'm using inbuilt cart library provided in codeigniter and it is deprecated also.
 
+
 ### Day 3: Nov 7, 2020 (Saturday)
 
 **Today Progress:** Worked on backend of cart.
 
 **Thoughts:** Like yesterday still stuck on the same issue but today learn to implement image upload on website using upload library provided by codeigniter framework.
+
 
 ### Day 4: Nov 8, 2020 (Sunday)
 
@@ -768,6 +771,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Resources:** 
 - https://www.google.com/
 
+
 ### Day 5: Nov 9, 2020 (Monday)
 
 **Today Progress:** Worked on add item to menu logic.
@@ -776,6 +780,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 - Checkout page
 - View all the orders of customer.
 
+
 ### Day 6: Nov 10, 2020 (Tuesday)
 
 **Today Progress:** Worked on backend of checkout.
@@ -783,8 +788,39 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Thoughts:** Basically today having issue in designing orders db on checkout. But most of the part is done. Only proper implementation need to be done.
 
 
-### Day 7: Nov 10, 2020 (Wednesday)
+### Day 7: Nov 11, 2020 (Wednesday)
 
 **Today Progress:** Completed checkout process.
 
 **Thoughts:** Able to complete checkout process means order get created and saved to db, now only one functionality remain that is to fetch order details and index them according to user type.
+
+
+### Day 8: Nov 12, 2020 (Thursday)
+
+**Today Progress:** Implement order history for customer and restaurant staff.
+
+**Thoughts:** So today complete the remainig task i.e allow restaurant staff to see customers orders apart from that allow user to see its order history.
+
+
+### Day 9: Nov 13, 2020 (Friday)
+
+**Today Progress:** Working on to deploy website.
+
+**Thoughts:** Today I had deploy the website on heroku but one issue is that heroku charged for backend b/c of that spend time in finding free service to host mysql backend then find a website but even after that my webiste frontend server on heroku not able to connect with backend server on `https://freedb.tech`. 
+
+
+### Day 10: Nov 14, 2020 (Saturday)
+
+**Today Progress:** Deploy the website.
+
+**Thoughts:** Today the remaining task left was to deploy it, after fixing issues and errors able to deploy the website successfully. The issue was with database backend server it's not connecting properly to website but now its fix. But their is one issue still remain that heroku server doesn't allow to upload static contents for that I have to integrate s3 bucket or other suitable option.
+
+**Project Link**
+- https://foodshaalaa.herokuapp.com/
+
+
+### Day 11: Nov 15, 2020 (Sunday)
+
+**Today Progress:** Trying to integrate google cloud storage bucket.
+
+**Thoughts:** As I had mentioned that I had able to deploy the website but user was unable to upload the image because heroku server doesn't allow that. For that purpose, reading the google cloud storage api docs to integrate the bucket to serve static  images from google bucket.
