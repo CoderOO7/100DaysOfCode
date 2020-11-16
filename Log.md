@@ -824,3 +824,10 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today Progress:** Trying to integrate google cloud storage bucket.
 
 **Thoughts:** As I had mentioned that I had able to deploy the website but user was unable to upload the image because heroku server doesn't allow that. For that purpose, reading the google cloud storage api docs to integrate the bucket to serve static  images from google bucket.
+
+
+### Day 12: Nov 16, 2020 (Monday)
+
+**Today Progress:** Trying to integrate google cloud storage bucket.
+
+**Thoughts:** Today create a demo script, now files are uploading to bucket, now need to integrate this in project.
