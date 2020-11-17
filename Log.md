@@ -831,3 +831,14 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today Progress:** Trying to integrate google cloud storage bucket.
 
 **Thoughts:** Today create a demo script, now files are uploading to bucket, now need to integrate this in project.
+
+### Day 13: Nov 17, 2020 (Tuesday)
+
+**Today Progress:** Integrate the google cloud storage bucket. 
+
+**Thoughts:** Now images are uploading to bucket but need to download them on menu page and that should be perform asynchronously, for that reading the api docs. If that can be done the way I want to do.
+
+**Resources:** 
+
+-- https://zatackcoder.com/upload-file-to-google-cloud-storage-using-php/
+-- https://gist.github.com/stetic/c97c94a10f9c6b591883
