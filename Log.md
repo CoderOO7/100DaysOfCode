@@ -842,3 +842,18 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 -- https://zatackcoder.com/upload-file-to-google-cloud-storage-using-php/
 -- https://gist.github.com/stetic/c97c94a10f9c6b591883
+
+
+<hr>
+
+### Day 0: Nov 24, 2020 (Tuesday)
+
+**Today Progress:** Implementing logic to fetch images from google cloud bucket. 
+
+**Thoughts:** So done some small changes to fetch images from google cloud bucket. But getting an authorization error, trying to fix that. Once image upload and download functionality implemented properly then begin to work on my `theodinproject` javascript track. 
+
+**Resources:** 
+- https://stackoverflow.com/questions/58221459/how-to-display-image-stored-in-google-cloud-bucket
+- https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/
+- https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript
+- https://stackoverflow.com/questions/15999760/load-image-asynchronous
