@@ -857,3 +857,15 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 - https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/
 - https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript
 - https://stackoverflow.com/questions/15999760/load-image-asynchronous
+
+
+### Day 1: Nov 25, 2020 (Wednesday)
+
+**Today Progress:** Implement logic to fetch images from google cloud bucket and bug fixes. 
+
+**Thoughts:** So today all features that I want to implement in this project are completed. It still needs improvement in UI which is a tedious task. Now going to give this project a pause and will begin to work on my javascript odin track. Also today learn to use dynamic base url and while making a resume came to know about `https://cvcompiler.com/` that uses machine learning to analyze your resume and show weakpoints in your resume.
+
+**Resources:** 
+- https://cvcompiler.com/
+- https://medium.com/@amirsanni/dynamically-setting-base-url-in-codeigniter-3-8179d72ddd84
+- https://flowcv.io/
