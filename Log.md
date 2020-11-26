@@ -869,3 +869,10 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 - https://cvcompiler.com/
 - https://medium.com/@amirsanni/dynamically-setting-base-url-in-codeigniter-3-8179d72ddd84
 - https://flowcv.io/
+
+
+### Day 2: Nov 26, 2020 (Thursday)
+
+**Today Progress:** Begin to work on todo-list project 
+
+**Thoughts:** Today started late but cover up some concepts related to `SOLID principles` in OOPs. I only able to grab `S- Single Responsibility Principle` which means learn to break the code in small modules as much as you can, each module should independently perform its task. While setting up webpack around 2 hours gone to fix bug. Also doing side project `ciBlog` which I need to complete. 
