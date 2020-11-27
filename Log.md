@@ -876,3 +876,15 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today Progress:** Begin to work on todo-list project 
 
 **Thoughts:** Today started late but cover up some concepts related to `SOLID principles` in OOPs. I only able to grab `S- Single Responsibility Principle` which means learn to break the code in small modules as much as you can, each module should independently perform its task. While setting up webpack around 2 hours gone to fix bug. Also doing side project `ciBlog` which I need to complete. 
+
+### Day 3: Nov 27, 2020 (Thursday)
+
+**Today Progress:** Some basic layout design
+
+**Thoughts:** To design the layout using flexbox and grid. The main part is to create sliding side navbar with inbuilt sub-links. Navbar is sliding but layout get breaks when navbar closes. Working on that one to fix this. And tomorrow will complete it. 
+
+**Resources:**
+- https://codepen.io/yeon5210/pen/rwYgXm
+- https://medium.com/better-programming/build-a-responsive-modern-dashboard-layout-with-css-grid-and-flexbox-bd343776a97e
+- https://medium.com/quick-code/building-a-chat-application-using-flexbox-e506ca2bd9ff
+- https://www.educative.io/page/5191711974227968/5754903989321728?authorName=Ohans%20Emmanuel
