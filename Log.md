@@ -737,7 +737,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 <hr>
 
-## Begining again 
+## Beginning again 
 
 ### Day 1: Nov 5, 2020 (Thursday)
 
@@ -877,7 +877,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Thoughts:** Today started late but cover up some concepts related to `SOLID principles` in OOPs. I only able to grab `S- Single Responsibility Principle` which means learn to break the code in small modules as much as you can, each module should independently perform its task. While setting up webpack around 2 hours gone to fix bug. Also doing side project `ciBlog` which I need to complete. 
 
-### Day 3: Nov 27, 2020 (Thursday)
+### Day 3: Nov 27, 2020 (Friday)
 
 **Today Progress:** Some basic layout design
 
@@ -888,3 +888,9 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 - https://medium.com/better-programming/build-a-responsive-modern-dashboard-layout-with-css-grid-and-flexbox-bd343776a97e
 - https://medium.com/quick-code/building-a-chat-application-using-flexbox-e506ca2bd9ff
 - https://www.educative.io/page/5191711974227968/5754903989321728?authorName=Ohans%20Emmanuel
+
+### Day4: Nov 28, 2020 (Saturday)
+
+**Today's Progress:** Still stuck on sidebarnav layout.
+
+**Thoughts:** Sometime's I think frontend is not of my type when play with css but have to do. So today also stuck on the yesterday issue but it should get completed by tomorrow.
