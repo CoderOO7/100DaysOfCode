@@ -894,3 +894,16 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today's Progress:** Still stuck on sidebarnav layout.
 
 **Thoughts:** Sometime's I think frontend is not of my type when play with css but have to do. So today also stuck on the yesterday issue but it should get completed by tomorrow.
+
+### Day5: Nov 29, 2020 (Sunday)
+
+**Today's Progress:** Add dropdown menu in sidenav.
+
+**Thoughts:** I know I have to fix the sidenav layout break issue but it's giving me headache, not able to understand the reason so today I move forward to implement the new functionality i.e. dropdown menu and it's get done after debugging the css.
+
+### Day6: Nov 30, 2020 (Monday)
+
+**Today's Progress:** Fix sidebarnav layout bug.
+
+**Thoughts:** So today I'm working on another Django project assigned to me which I have to complete within given timeperiod,well it should be get completed. B/c that today only spend 2-3 hours on this. But it get fixed that's the big advantage of the day.
+
