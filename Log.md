@@ -905,5 +905,4 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Today's Progress:** Fix sidebarnav layout bug.
 
-**Thoughts:** So today I'm working on another Django project assigned to me which I have to complete within given timeperiod,well it should be get completed. B/c that today only spend 2-3 hours on this. But it get fixed that's the big advantage of the day.
-
+**Thoughts:** So today I was working on another Django project assigned to me which I have to complete within given time period, it should be get completed. B/c that today only spend 2-3 hours on this. But it get fixed that's the big advantage of the day.
