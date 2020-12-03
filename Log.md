@@ -914,7 +914,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Thoughts:** So today I was working on the Django project and as I have time management issues I not able to give one hour on `todo-list` project on which I had to consistently working. So somehow got some projects. In Django project today learn to render images from db to home page.
 
-### Day 8: Dec 2, 2020 (Wednessday)
+### Day 8: Dec 2, 2020 (Wednesday)
 
 **Today's Progress:** Today create the preview view for clicked image that render the image in original size on other route. And create the upload image form view before that I was using admin panel to upload the image. That's all about today. As not able tom maintain the continuity so begin this challenge again from tomorrow.
 
@@ -928,3 +928,15 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 ## Let's try again
 
 **Reason:** Because not able to maintain the continuity on the full stack developer track I'm following.
+
+### Day 0: Dec3, 2020 (Thursday)
+
+**Today's Progress:** Perform UI changes in todo-list project.
+
+**Thought's:** While working on the ui get to know about new term i.e `aria web standards for accessibility` don't know much about it. But it's quite handy to use allow to use css property on element in more user friendly way in terms of logic and main purpose of this is to add meaning to non-semantics so that screen reader can understand them bla bla..... Now form tomorrow will try to implement the code logic using SOLID design pattern.
+
+**Resources:**
+
+- https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+- https://www.accessibility-developer-guide.com/
