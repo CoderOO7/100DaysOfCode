@@ -906,3 +906,20 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today's Progress:** Fix sidebarnav layout bug.
 
 **Thoughts:** So today I was working on another Django project assigned to me which I have to complete within given time period, it should be get completed. B/c that today only spend 2-3 hours on this. But it get fixed that's the big advantage of the day.
+
+
+### Day7: Dec 1, 2020 (Tuesday)
+
+**Today's Progress:** Today worked on djnago project.
+
+**Thoughts:** So today I was working on the Django project and as I have time management issues I not able to give one hour on `todo-list` project on which I had to consistently working. So somehow got some projects. In Django project today learn to render images from db to home page.
+
+### Day 8: Dec 2, 2020 (Wednessday)
+
+**Today's Progress:** Today create the preview view for clicked image that render the image in original size on other route. That's all about today. As not able tom maintain the continuity so begin this challenge again from tomorrow.
+
+<hr>
+
+## Let's try again
+
+**Reason:** Because not able to maintain the continuity on the full stack developer track I'm following.
