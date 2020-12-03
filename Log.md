@@ -916,7 +916,12 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 ### Day 8: Dec 2, 2020 (Wednessday)
 
-**Today's Progress:** Today create the preview view for clicked image that render the image in original size on other route. That's all about today. As not able tom maintain the continuity so begin this challenge again from tomorrow.
+**Today's Progress:** Today create the preview view for clicked image that render the image in original size on other route. And create the upload image form view before that I was using admin panel to upload the image. That's all about today. As not able tom maintain the continuity so begin this challenge again from tomorrow.
+
+**Resources:**
+
+- https://dev.to/coderasha/how-to-add-tags-to-your-models-in-django-django-packages-series-1-3704
+- https://docs.djangoproject.com/en/3.1/topics/http/file-uploads/ 
 
 <hr>
 
