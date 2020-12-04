@@ -940,3 +940,13 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 - https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
 - https://www.accessibility-developer-guide.com/
+
+### Day 1: Dec4, 2020 (Friday)
+
+**Today's Progress:** Perform UI changes in todo-list project.
+
+**Thought's:** Today created sidenav expandable list item dynamically, now working on main page where created task list to be shown. Today learn some new things about form like using `<input type="file" multiple>` here multiple allow to select multiple files and some other concepts.
+
+**Resources:**
+- https://eloquentjavascript.net/2nd_edition/18_forms.html#c_PXLNjO6XsV
+- 
