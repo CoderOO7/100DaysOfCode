@@ -929,7 +929,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Reason:** Because not able to maintain the continuity on the full stack developer track I'm following.
 
-### Day 0: Dec3, 2020 (Thursday)
+### Day 0: Dec 3, 2020 (Thursday)
 
 **Today's Progress:** Perform UI changes in todo-list project.
 
@@ -941,7 +941,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
 - https://www.accessibility-developer-guide.com/
 
-### Day 1: Dec4, 2020 (Friday)
+### Day 1: Dec 4, 2020 (Friday)
 
 **Today's Progress:** Perform UI changes in todo-list project.
 
@@ -949,4 +949,9 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Resources:**
 - https://eloquentjavascript.net/2nd_edition/18_forms.html#c_PXLNjO6XsV
-- 
+
+### Day 5: Dec 5, 2020 (Saturday)
+
+**Today's Progress:** Working on render taskitems dynamically.
+
+**Thought's:** Today tried to dynamically render task items and it's working too but need to do some changes in code only after that I will commit the code. And from tomorrow will work on SOLID design pattern of code. Thank's
