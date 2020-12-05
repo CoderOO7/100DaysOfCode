@@ -950,7 +950,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Resources:**
 - https://eloquentjavascript.net/2nd_edition/18_forms.html#c_PXLNjO6XsV
 
-### Day 5: Dec 5, 2020 (Saturday)
+### Day 2: Dec 5, 2020 (Saturday)
 
 **Today's Progress:** Working on render taskitems dynamically.
 
