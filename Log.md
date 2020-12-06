@@ -955,3 +955,9 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Today's Progress:** Working on render taskitems dynamically.
 
 **Thought's:** Today tried to dynamically render task items and it's working too but need to do some changes in code only after that I will commit the code. And from tomorrow will work on SOLID design pattern of code. Thank's
+
+### Day 3: Dec 6, 2020 (Sunday)
+
+**Today's Progress:** Done code refactoring and .
+
+**Thought's:** Today didn't done much spend time in doing code refactoring and then implement the left portion to render the to-do task to page dynamically.
