@@ -958,6 +958,45 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 ### Day 3: Dec 6, 2020 (Sunday)
 
-**Today's Progress:** Done code refactoring and .
+**Today's Progress:** Done code refactoring
 
-**Thought's:** Today didn't done much spend time in doing code refactoring and then implement the left portion to render the to-do task to page dynamically.
+**Thought's:** Today didn't done much, spent time in doing code refactoring and then implement the left portion to render the to-do task to page dynamically.
+
+### Day 4: Dec7, 2020 (Monday)
+
+**Today's Progress:** A holiday.
+
+**Thought's:** So today I hadn't done anything, watched some movies and as you know I didn't code at all so will begin this challenge again. But movies are awesome.
+
+<hr>
+
+# Let's begin this journey again with aim to not stop until this challenge get completed.
+
+
+### Day 0: Dec8, 2020 (Tuesday)
+
+**Today's Progress:** Try to understand SOLID principles more accurately.
+
+**Thought's:** So SOLID principles summary is like this:
+- `S- Single Responsibility Principle`: A class or function should perform only one task, now that doesn't mean that an object of class will have only behaviour it can have multiple behaviour but all should be related to only one task.
+
+- `O- Open Closed Principle`: In short, open to extension and closed to modification means in code new feature can be added without modifying existing code. 
+
+- `L- Liskov Substitution Principle`: It follows the `Open Closed Principle` in hierarchy of classes/modules where inheritance occur. One thumb rule is adding new functionality should bot modify base class code. 
+
+- `I- Interface Segregation`: Simple concept *eat according to your body requirement*. Means Classes that implements interface should not force to implement methods they don't use.
+
+- `D- Dependency Inversion Principle`: Means your high level code should not depend on low level code. Reason is that if changes occur in low level code then changes need to be done in high level code also. 
+Solution is to to inject the dependency in high level class/code.  
+
+**Resources:**
+
+- https://dev.to/francescoxx/s-o-l-i-d-principles-around-you-in-javascript-5gao
+
+- https://www.brainstobytes.com/the-open-closed-principle/
+
+- https://www.brainstobytes.com/dependency-injection/
+
+- https://www.brainstobytes.com/dependency-injection/
+
+- https://www.brainstobytes.com/the-liskov-substitution-principle/
