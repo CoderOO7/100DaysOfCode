@@ -1000,3 +1000,17 @@ Solution is to to inject the dependency in high level class/code.
 - https://www.brainstobytes.com/dependency-injection/
 
 - https://www.brainstobytes.com/the-liskov-substitution-principle/
+
+
+### Day1: Dec 9,2020 (Wednesday)
+
+**Today's Progress:** Working on designing the code pattern for todo-app.
+
+**Thought:** So today I had spent my most of the time in thinking about coding and non-coding related stuff. Then began to work on the project in which I have some issue in design the good code pattern for my todo-app. Well working on that will design the code in different way.
+
+
+### Day 2: Dec 10,2020 (Thursday)
+
+**Today's Progress:** Practice previos JS concept.
+
+**Thought:** Unlike yesterday today I was little bit busy in doing some other work because of which not properly able to give time on project but today practice previous JavaScript concept like factor function, closure etc. And working on app code design also. 
