@@ -1014,3 +1014,10 @@ Solution is to to inject the dependency in high level class/code.
 **Today's Progress:** Practice previos JS concept.
 
 **Thought:** Unlike yesterday today I was little bit busy in doing some other work because of which not properly able to give time on project but today practice previous JavaScript concept like factor function, closure etc. And working on app code design also. 
+
+
+### Day 3: Dec 11,2020 (Friday)
+
+**Today's Progress:** Worked on creating modules for todo-app.
+
+**Thought:** Like past three days today also not able to make the app to work according to the code pattern I'm trying to follow. But working that may be by tomorrow it should get complete.
