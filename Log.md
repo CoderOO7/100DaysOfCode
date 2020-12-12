@@ -1021,3 +1021,13 @@ Solution is to to inject the dependency in high level class/code.
 **Today's Progress:** Worked on creating modules for todo-app.
 
 **Thought:** Like past three days today also not able to make the app to work according to the code pattern I'm trying to follow. But working that may be by tomorrow it should get complete.
+
+
+### Day 4: Dec 12,2020 (Saturday)
+
+**Today's Progress:** Worked on creating modules for todo-app.
+
+**Thought:** So unlike past three days today I able to create the design pattern I need to follow. Now woring on that by creating the seperate modules for all static event listener and manipulating DOM using seperate DOMStuff modules. Apart from that today came to know about `pub/sub pattern` that allow to create custom events to make code more modular by providing loose coupling between modules.
+
+**Resouces:**
+- https://css-tricks.com/build-a-state-management-system-with-vanilla-javascript/
