@@ -1031,3 +1031,24 @@ Solution is to to inject the dependency in high level class/code.
 
 **Resouces:**
 - https://css-tricks.com/build-a-state-management-system-with-vanilla-javascript/
+
+### Day 5: Dec 13,2020 (Sunday)
+
+**Today's Progress:** Created the module pattern and basic functionality.
+
+**Thought:** Don't know how, but now this project is taking some shape. Because the main task is to design the code pattern and that one is done, now need to some remaining functionality and hope so this project get complete in next two days. Today learn that we can access the form input value using `name` attribute through js. Ex
+ ```html
+    <form id="form">
+        <input type="text" name="title">
+    </form>
+
+    <script>
+        const formEl = document.getElementById('form');
+        const title = formEl.elements.title.value;
+
+        console.log(title);
+    </script>
+ ```
+
+**Resouces:**
+- https://www.programmersought.com/article/68055274059/
