@@ -1027,7 +1027,7 @@ Solution is to to inject the dependency in high level class/code.
 
 **Today's Progress:** Worked on creating modules for todo-app.
 
-**Thought:** So unlike past three days today I able to create the design pattern I need to follow. Now woring on that by creating the seperate modules for all static event listener and manipulating DOM using seperate DOMStuff modules. Apart from that today came to know about `pub/sub pattern` that allow to create custom events to make code more modular by providing loose coupling between modules.
+**Thought:** So unlike past three days today I able to create the design pattern. Now working on that module design by creating the seperate modules for all static event listener and manipulating DOM using seperate DOMStuff modules. Apart from that today came to know about `pub/sub pattern` that allow to create custom events to make code more modular by providing loose coupling between modules.
 
 **Resouces:**
 - https://css-tricks.com/build-a-state-management-system-with-vanilla-javascript/
@@ -1036,7 +1036,7 @@ Solution is to to inject the dependency in high level class/code.
 
 **Today's Progress:** Created the module pattern and basic functionality.
 
-**Thought:** Don't know how, but now this project is taking some shape. Because the main task is to design the code pattern and that one is done, now need to some remaining functionality and hope so this project get complete in next two days. Today learn that we can access the form input value using `name` attribute through js. Ex
+**Thought:** Don't know how, but now this project is taking some shape. Because the main task is to design the code pattern and that one is done, now need to add some remaining functionality and hope so this project get complete in next two days. Today learn that we can access the form input value using `name` attribute through js. Ex
  ```html
     <form id="form">
         <input type="text" name="title">
