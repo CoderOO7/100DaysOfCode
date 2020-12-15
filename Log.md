@@ -1052,3 +1052,20 @@ Solution is to to inject the dependency in high level class/code.
 
 **Resouces:**
 - https://www.programmersought.com/article/68055274059/
+
+
+### Day 6: Dec 14,2020 (Monday)
+
+**Today's Progress:** Worked on rendering todos based on specific projects.
+
+**Thought:** While working on the above task get stuck on it to implement the right logic for that. Today I also start late to work on that project so only able to give around 2 and half hour.
+
+
+### Day 7: Dec 15,2020 (Tuesday)
+
+**Today's Progress:** Worked on rendering todos based on specific projects.
+
+**Thought:** Now rendering part is done for todos. Other remaining functionality is edit,delete todos and apply filters to render them like weekdays,today or all todos at once. Will complete it by tomorrow. Also today learn the difference between `event.target and event.currentTarget.`
+- event.target also return the reference to children of parentNode at which  event listener is initialize.
+- event.currentTarget will only return the reference to the element at which event listener is initialize.
+
