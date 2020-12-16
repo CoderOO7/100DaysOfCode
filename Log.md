@@ -1037,6 +1037,7 @@ Solution is to to inject the dependency in high level class/code.
 **Today's Progress:** Created the module pattern and basic functionality.
 
 **Thought:** Don't know how, but now this project is taking some shape. Because the main task is to design the code pattern and that one is done, now need to add some remaining functionality and hope so this project get complete in next two days. Today learn that we can access the form input value using `name` attribute through js. Ex
+
  ```html
     <form id="form">
         <input type="text" name="title">
@@ -1051,6 +1052,7 @@ Solution is to to inject the dependency in high level class/code.
  ```
 
 **Resouces:**
+
 - https://www.programmersought.com/article/68055274059/
 
 
@@ -1066,6 +1068,24 @@ Solution is to to inject the dependency in high level class/code.
 **Today's Progress:** Worked on rendering todos based on specific projects.
 
 **Thought:** Now rendering part is done for todos. Other remaining functionality is edit,delete todos and apply filters to render them like weekdays,today or all todos at once. Will complete it by tomorrow. Also today learn the difference between `event.target and event.currentTarget.`
+
 - event.target also return the reference to children of parentNode at which  event listener is initialize.
 - event.currentTarget will only return the reference to the element at which event listener is initialize.
 
+
+### Day 9: Dec 16,2020(Wednesday)
+
+**Today's Progress:** Worked on edit and delete todo's.
+
+**Thought:** So basically now you can create,edit and delete todo's. Now small changes remain are sorting them according to duedate, filters and big task remain is to implement google firebase auth and database service. As working on this project more the code is becoming more complex, even though I had tried to keep it simple. Will refactor the code one's all functionality get implemented.
+
+- Learned about a new css property that is `filter`, that may be quite handy to use if all browser support it:
+
+```css
+
+    main{
+        filter : brightness(110%);
+    } 
+    <!-- slide -->
+
+```
