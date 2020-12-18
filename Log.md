@@ -1073,19 +1073,30 @@ Solution is to to inject the dependency in high level class/code.
 - event.currentTarget will only return the reference to the element at which event listener is initialize.
 
 
-### Day 9: Dec 16,2020(Wednesday)
+### Day 8: Dec 16,2020(Wednesday)
 
 **Today's Progress:** Worked on edit and delete todo's.
 
-**Thought:** So basically now you can create,edit and delete todo's. Now small changes remain are sorting them according to duedate, filters and big task remain is to implement google firebase auth and database service. As working on this project more the code is becoming more complex, even though I had tried to keep it simple. Will refactor the code one's all functionality get implemented.
+**Thought:** So basically now you can create,edit and delete todo's. Now small changes remain are sorting them according to duedate, filters and big task remain is to implement google firebase auth and database service. While working on this project day by day the code is becoming more complex, even though I had tried to keep it simple. Will refactor the code one's all functionality get implemented.
 
 - Learned about a new css property that is `filter`, that may be quite handy to use if all browser support it:
 
 ```css
-
     main{
         filter : brightness(110%);
     } 
-    <!-- slide -->
-
 ```
+
+
+### Day 9: Dec 17,2020(Thursday)
+
+**Today's Progress:** Worked on filter todo's.
+
+**Thought:** Trying to implement filtering todo's functionaliy. In simple way it can be done by adding event listener and then rendering the DOM. But thinking about how actually sites like stackoverflow, internshala etc...filters the result when a specific tag is selected.
+
+
+### Day 10: Dec 18,2020(Friday)
+
+**Today's Progress:** Worked on filter todo's.
+
+**Thought:** Like yesterday stuck on this issue.But will find the way to implement it. If not then will use simple approach but it may break design pattern somehow. 
