@@ -1100,3 +1100,24 @@ Solution is to to inject the dependency in high level class/code.
 **Today's Progress:** Worked on filter todo's.
 
 **Thought:** Like yesterday stuck on this issue.But will find the way to implement it. If not then will use simple approach but it may break design pattern somehow. 
+
+
+### Day 10: Dec 19,2020(Saturday)
+
+**Today's Progress:** Refactor the code.
+
+**Thought:** Today begin to work on project late because of which not able to complete the task but now got solution the filter the todo's and will complete it by tomorrow with local storage support functionality.<br>
+
+Learn a small difference between `append vs appendChild()`.
+- append() can accept DOM NODE as well as DOM String.
+- appendChild() only accept DOM NODE.
+```javascript
+const parent = document.createElement('div');
+const child = document.createElement('p');
+// Appending Node Objects
+parent.append(child) // Works fine
+parent.appendChild(child) // Works fine
+// Appending DOMStrings
+parent.append('Hello world') // Works fine
+parent.appendChild('Hello world') //
+```
