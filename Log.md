@@ -1102,7 +1102,7 @@ Solution is to to inject the dependency in high level class/code.
 **Thought:** Like yesterday stuck on this issue.But will find the way to implement it. If not then will use simple approach but it may break design pattern somehow. 
 
 
-### Day 10: Dec 19,2020(Saturday)
+### Day 11: Dec 19,2020(Saturday)
 
 **Today's Progress:** Refactor the code.
 
@@ -1123,7 +1123,7 @@ parent.append('Hello world') // Works fine
 parent.appendChild('Hello world') // throw error
 ```
 
-### Day 11: Dec 20,2020(Sunday)
+### Day 12: Dec 20,2020(Sunday)
 
 **Today's Progress:** Implement todo filter logic.
 
