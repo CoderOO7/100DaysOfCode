@@ -1111,6 +1111,7 @@ Solution is to to inject the dependency in high level class/code.
 Learn a small difference between `append vs appendChild()`.
 - append() can accept DOM NODE as well as DOM String.
 - appendChild() only accept DOM NODE.
+
 ```javascript
 const parent = document.createElement('div');
 const child = document.createElement('p');
@@ -1119,5 +1120,24 @@ parent.append(child) // Works fine
 parent.appendChild(child) // Works fine
 // Appending DOMStrings
 parent.append('Hello world') // Works fine
-parent.appendChild('Hello world') //
+parent.appendChild('Hello world') // throw error
 ```
+
+### Day 11: Dec 20,2020(Sunday)
+
+**Today's Progress:** Implement todo filter logic.
+
+**Thought:** So basically today all functionality almost completed, now need to implement local storage functionality to store web app state in client machine.
+
+Learn about a new method of `date api` to get month name from date.
+
+```js 
+    const todayTime = new Date();
+    const todayMonthName = todayTime.toLocaleString('default', { month: 'long' });
+
+    console.log(todayMonthName);
+```
+
+**Resources:**
+- https://flaviocopes.com/how-to-get-month-from-javascript-date/
+- https://date-fns.org/v2.16.1/docs/parseISO
