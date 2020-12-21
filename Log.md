@@ -1141,3 +1141,26 @@ Learn about a new method of `date api` to get month name from date.
 **Resources:**
 - https://flaviocopes.com/how-to-get-month-from-javascript-date/
 - https://date-fns.org/v2.16.1/docs/parseISO
+
+
+### Day 13: Dec 21,2020(Monday)
+
+**Today's Progress:** Worked on todo-task completion logic and rendering todo-task info.
+
+**Thought:** So basically today worked on some remaining task like functionality to complete the todo-task and allow user to view todo information in the form of modal. And perform little bit styling stuff. *Ya I know I need to create local storage, working on that one & will complete it by tomorrow.*
+
+Also learned about a new css property to remove all default properties of element completely. Ex:
+
+```css
+    /* Old way */
+    button{
+        padding: 0;
+        margin :0 ;
+        outline: none;
+        background: transparent;
+    }
+    /* New way */
+    button{
+        all: unset; 
+    }
+```  
