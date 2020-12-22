@@ -1164,3 +1164,17 @@ Also learned about a new css property to remove all default properties of elemen
         all: unset; 
     }
 ```  
+
+### Day 14: Dec 22,2020(Tuesday)
+
+**Today's Progress:** Implement local Storage API
+
+**Thought:** For now todo app can work offline. Now need to add some validations and bug fixes. After that will move forward to implement firebase support for user authentication and storing user data.
+
+Today get to know about some basic difference b/w localStorage and IndexedDB i.e. 
+- localStorage allow to store upto 5MB of data.
+- IndexedDB allow to store maximum data according to available disk space on client device.
+
+**Resources:**
+- https://web.dev/storage-for-the-web/
+- https://stackoverflow.com/questions/43519890/what-is-the-difference-between-local-storage-and-cache-in-the-browser
