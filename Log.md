@@ -1178,3 +1178,14 @@ Today get to know about some basic difference b/w localStorage and IndexedDB i.e
 **Resources:**
 - https://web.dev/storage-for-the-web/
 - https://stackoverflow.com/questions/43519890/what-is-the-difference-between-local-storage-and-cache-in-the-browser
+
+
+### Day 15: Dec 23,2020(Wednesday)
+
+**Today's Progress:** New changes and bug fixes.
+
+**Thought:** In yesterday commit their was a bug the items didn't get saved locally, fix that one and done some styling to make mobile responsive layout and now working on a logic to toggle the sidenav tab states to know which tab is active.
+ 
+**Resources:**
+- https://css-tricks.com/flexbox-truncated-text/
+- https://css-tricks.com/almanac/properties/t/text-overflow/
