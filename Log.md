@@ -1189,3 +1189,14 @@ Today get to know about some basic difference b/w localStorage and IndexedDB i.e
 **Resources:**
 - https://css-tricks.com/flexbox-truncated-text/
 - https://css-tricks.com/almanac/properties/t/text-overflow/
+
+
+### Day 16: Dec 24,2020(Thursday)
+
+**Today's Progress:** Add client side validation.
+
+**Thought:** Today learn to add custom client-side validation to forms using `Constraint validation API`.
+
+**Resources:**
+- https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+- https://www.html5rocks.com/en/tutorials/forms/constraintvalidation/
