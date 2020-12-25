@@ -1200,3 +1200,10 @@ Today get to know about some basic difference b/w localStorage and IndexedDB i.e
 **Resources:**
 - https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
 - https://www.html5rocks.com/en/tutorials/forms/constraintvalidation/
+
+
+### Day 17: Dec 25,2020(Friday)
+
+**Today's Progress:** Worked on logic to maintain tab states of sidenav.
+
+**Thought:** Well I have the logic but that is wiered, so finding another nice approach to maintain tab states b/c on tab state determine the which todo's to render on the screen. So about today is that no progress at all.
