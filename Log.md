@@ -1175,6 +1175,7 @@ Today get to know about some basic difference b/w localStorage and IndexedDB i.e
 - localStorage allow to store upto 5MB of data.
 - IndexedDB allow to store maximum data according to available disk space on client device.
 
+
 **Resources:**
 - https://web.dev/storage-for-the-web/
 - https://stackoverflow.com/questions/43519890/what-is-the-difference-between-local-storage-and-cache-in-the-browser
@@ -1206,4 +1207,20 @@ Today get to know about some basic difference b/w localStorage and IndexedDB i.e
 
 **Today's Progress:** Worked on logic to maintain tab states of sidenav.
 
-**Thought:** Well I have the logic but that is wiered, so finding another nice approach to maintain tab states b/c on tab state determine the which todo's to render on the screen. So about today is that no progress at all.
+**Thought:** Well I have the logic but that is wiered, so finding another nice approach to maintain tab states b/c tab state determine the which todo's to render on the screen. So about today is that no progress at all.
+
+
+### Day 18 & Day 19: Dec 27,2020(Sunday)
+
+**Today's Progress:** Implement the logic to maintain tab states of sidenav.
+
+**Thought:** So now the todo's are rendering as expected after maintaining states.
+
+
+### Day 20: Dec 28,2020(Monday)
+
+**Today's Progress:** Implement the logic to delete created projects.
+
+**Thought:** Now my todo-app cover all functionality. Now my remaining task is to implement firebase database and authentication. Once that completed I will make a release build. Today learn about creating custom events.It's very handy if you manually need to trigger any event like click. 
+
+- https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events
