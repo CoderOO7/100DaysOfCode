@@ -1224,3 +1224,25 @@ Today get to know about some basic difference b/w localStorage and IndexedDB i.e
 **Thought:** Now my todo-app cover all functionality. Now my remaining task is to implement firebase database and authentication. Once that completed I will make a release build. Today learn about creating custom events.It's very handy if you manually need to trigger any event like click. 
 
 - https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events
+
+
+### Day 21: Dec 29,2020(Tuesday)
+
+**Today's Progress:** Integrate firebase sdk.
+
+**Thought:** So today begin to integrate firesbase sdk and firestore product to enable cloud database. Most of the functionality completed working on the remaining part.
+
+
+### Day 22: Dec 30,2020(Wednesday)
+
+**Today's Progress:** Integrate firebase authentication.
+
+**Thought:** About today is that, worked on implimenting third party provider authorization in my todo-list web app. So now user can sign-in and signout but need to sync the database to sign-in user, working on that functionaliy. After implementing that tomorrow will make a release build.
+
+Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that element on which this property used.
+
+**Resources:**
+- https://github.com/firebase/FirebaseUI-Web
+
+- https://dev.to/jamalmoir/firestore-rules-examples-must-know-patterns-to-secure-your-data-bm1
+
