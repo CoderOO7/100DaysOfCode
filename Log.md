@@ -1246,3 +1246,11 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 
 - https://dev.to/jamalmoir/firestore-rules-examples-must-know-patterns-to-secure-your-data-bm1
 
+
+### Day 23: Dec 31,2020(Thursday)
+
+**Today's Progress:** Release the todo-list project.
+
+**Thought:** Today completed all the remaining functionality i.e user authentication and sync firestore with app. Their are still some functionality to implement but for now a normal user can use this app. Will continue to work on this project and improve it.
+
+**Project Demo:** https://coderoo7.github.io/todo-list/
