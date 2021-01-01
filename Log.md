@@ -1254,3 +1254,23 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 **Thought:** Today completed all the remaining functionality i.e user authentication and sync firestore with app. Their are still some functionality to implement but for now a normal user can use this app. Will continue to work on this project and improve it.
 
 **Project Demo:** https://coderoo7.github.io/todo-list/
+
+####################
+    WELCOME 2021
+####################
+
+### Day 24: ,2021(Friday)
+
+**Today's Progress:** Add anonymous user login functionality in todo-list.
+
+**Thought:** Done some minor changes in todo-list web app. Then read docs about linting your code. The main purpose of linting your code is to prevent errors in `production build`. 
+
+1. *Linting:* means following certain standard style rules for proper code formatting and syntax error prevention.
+2. *Linter:* Tools that perform linting such as `eslint, babel-eslint`. These tools analyze your code and check for syntax error in code.
+
+**Resources:**
+- https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/
+- https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe
+
+
+**Project Demo:** https://coderoo7.github.io/todo-list/
