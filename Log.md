@@ -1259,7 +1259,7 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
     WELCOME 2021
 ####################
 
-### Day 24: ,2021(Friday)
+### Day 24: Jan 1,2021(Friday)
 
 **Today's Progress:** Add anonymous user login functionality in todo-list.
 
@@ -1274,3 +1274,17 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 
 
 **Project Demo:** https://coderoo7.github.io/todo-list/
+
+<hr>
+
+## Begining again
+
+### Day 1: ,Jan 6, 2021 (Wednesday)
+
+**Today's Progress:** Worked on creating portfolio.
+
+**Thought:** Today first time learn to setup tailwind css and begin to create my own portfolio and played with vscode to get familiarise with it's advanced features. 
+
+**Resources:**
+- https://github.com/CoderOO7/vscode-fundamentals
+- https://www.youtube.com/watch?v=cqkuM6Ddw8E&feature=youtu.be
