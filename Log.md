@@ -1288,3 +1288,13 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 **Resources:**
 - https://github.com/CoderOO7/vscode-fundamentals
 - https://www.youtube.com/watch?v=cqkuM6Ddw8E&feature=youtu.be
+
+
+### Day 2: ,Jan 7, 2021 (Thursday)
+
+**Today's Progress:** Worked on portfolio.
+
+**Thought:** Completed the project section of portfolio. Tomorrow will host the portfolio after implementing remaining functionality and some ui changes.
+
+**Resources:**
+- https://www.youtube.com/watch?v=cqkuM6Ddw8E&feature=youtu.be
