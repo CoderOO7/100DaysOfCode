@@ -1279,7 +1279,7 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 
 ## Begining again
 
-### Day 1: ,Jan 6, 2021 (Wednesday)
+### Day 1: Jan 6, 2021 (Wednesday)
 
 **Today's Progress:** Worked on creating portfolio.
 
@@ -1290,7 +1290,7 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 - https://www.youtube.com/watch?v=cqkuM6Ddw8E&feature=youtu.be
 
 
-### Day 2: ,Jan 7, 2021 (Thursday)
+### Day 2: Jan 7, 2021 (Thursday)
 
 **Today's Progress:** Worked on portfolio.
 
@@ -1298,3 +1298,30 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 
 **Resources:**
 - https://www.youtube.com/watch?v=cqkuM6Ddw8E&feature=youtu.be
+
+
+### Day 3: Jan 8, 2021 (Friday)
+
+**Today's Progress:** Learn to setup eslint.
+
+**Thought:** Today learn amazing things that to setup eslint and the most important one is to maintaining same node version across team members of a project locally. This allow to prevent production bugs for instance you as a team member install any library using higher node version and the node version running at production environment is less than your node version, than at time of making production build we have some unmet dependencies which cause bugs. 
+
+**Resources:**
+- https://eslint.org/docs/user-guide/getting-started
+- http://shripalsoni.com/blog/configure-eslint-in-visual-studio-code/
+- https://stackoverflow.com/questions/29349684/how-can-i-specify-the-required-node-js-version-in-package-json
+
+*To enforce same node and npm version locally across all team members of projcts*
+
+> In your package.json add below line
+```json
+"engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  }
+```
+
+> In your .npmrc file at your project root directory add below line
+```
+engine-strict=true
+```
