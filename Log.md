@@ -1325,3 +1325,11 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 ```
 engine-strict=true
 ```
+
+### Day 4: Jan 8, 2021 (Saturday)
+
+**Today's Progress:** Host my portfolio.
+
+**Thought:** Today completed all the remaining functionality, use module pattern to dynamically load project list on page and some ui changes. So minimal portfolio design is completed. Now will improve it time to time.
+
+**Demo:** https://coderoo7.github.io/portfolio
