@@ -1339,4 +1339,26 @@ engine-strict=true
 
 **Today's Progress:** Small UI changes in my portfolio.
 
-**Thought:** Today make a new build with small changes. Learn about `object-fit` css property, nothing else. Basically this property allow you to scale your images for different screen viewports. 
+**Thought:** Today make a new build with small changes. Learn about `object-fit` css property, nothing else. Basically this property allow you to scale your images for different screen viewports.
+
+
+## Day 6: Jan 11, 2021 (Monday)
+
+**Today's Progress:** Learn to setup prettier with git pre-commit hook.
+
+**Thought:** Today learn small things first of all get familiar with git pre-commit hook basically they allow to run some scripts or commands before committing the code. And about npm `--save-exact` flag to lock the version of library in pacakge.json. It prevents bugs in production environment.
+
+> npm install --save-exact `packagename`
+
+```json
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
+```
