@@ -1362,3 +1362,23 @@ engine-strict=true
   }
 }
 ```
+
+
+- 
+
+
+<hr>
+
+## Day 1: Jan 13, 2021 [Wednesday]
+
+>The reson of beginning again this challenge is that, yesterday I had not worked/code for at least 1hour.
+
+**Today's Progress:** Today learn to do inline form validation using javascript and constraint validation api.
+
+**Resouces:** 
+
+- https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+
+
+**Source Code:**  
+- https://gist.github.com/CoderOO7/d91a96bd63f734a7dcc8dacbf3c94e00
