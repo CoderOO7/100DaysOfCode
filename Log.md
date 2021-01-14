@@ -1371,9 +1371,9 @@ engine-strict=true
 
 ## Day 1: Jan 13, 2021 [Wednesday]
 
->The reson of beginning again this challenge is that, yesterday I had not worked/code for at least 1hour.
+>The reson of beginning this challenge again is that, yesterday I had not worked/code for at least 1hour.
 
-**Today's Progress:** Today learn to do inline form validation using javascript and constraint validation api.
+**Today's Progress:** Today learn to do inline form validation using javascript and constraint validation api. Get to  know about two useful extension i.e `fakefiller - to fill mock data in form` and `iMacros - you should check out yourself.` 
 
 **Resouces:** 
 
@@ -1382,3 +1382,14 @@ engine-strict=true
 
 **Source Code:**  
 - https://gist.github.com/CoderOO7/d91a96bd63f734a7dcc8dacbf3c94e00
+
+
+## Day 2: Jan 14, 2021 [Thursday]
+
+**Today's Progress:** Today played with webpack learn about setting up it's config, dev environment and debugging techniques. That's all about today. So most of the time spent in setting up environment, removing bugs...
+
+**Resouces:** 
+- https://webpack.academy/p/the-core-concepts
+- https://webpack.js.org/guides/development/
+- https://webpack.js.org/guides/asset-management/
+- https://webpack.js.org/guides/output-management/
