@@ -1393,3 +1393,12 @@ engine-strict=true
 - https://webpack.js.org/guides/development/
 - https://webpack.js.org/guides/asset-management/
 - https://webpack.js.org/guides/output-management/
+
+
+## Day 3: Jan 15, 2021 [Friday]
+
+**Today's Progress:** About today is that, learn to fetch the data from server using `XMLHttpRequest` API.
+One thing in which I'm confused is data always send and recieve between client and server is in the form JSON or it can be in any other form too. 
+
+**Resouces:** 
+- https://www.theodinproject.com/courses/javascript/lessons/json
