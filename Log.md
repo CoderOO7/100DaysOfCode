@@ -1402,3 +1402,27 @@ One thing in which I'm confused is data always send and recieve between client a
 
 **Resouces:** 
 - https://www.theodinproject.com/courses/javascript/lessons/json
+
+
+## Day 4: Jan 16, 2021 [Saturday]
+
+**Today's Progress:** Today get glimpse of promise API and learn about callback functions. Callback functions are the synchronouse/asynchronous functions that we pass as parameters in another functions. Difference between normal function and cb functions are that callback functions may or may not return immediate result while other functions always return immediately.
+
+```javascript
+// calls immediately
+[1,9,1,4,7].forEach(function(num){
+    console.log(num);
+})
+
+// returns result after some time in future
+new Promise(function(resolve, reject){
+    setTimeout(function(){
+        resolve('HI CODEROO7 here');
+    },3000)
+}).then(function(msg){
+    console.log(msg);
+})
+``
+
+**Resouces:** 
+- https://www.theodinproject.com/courses/javascript/lessons/json
