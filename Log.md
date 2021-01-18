@@ -1422,7 +1422,22 @@ new Promise(function(resolve, reject){
 }).then(function(msg){
     console.log(msg);
 })
-``
+```
 
 **Resouces:** 
 - https://www.theodinproject.com/courses/javascript/lessons/json
+
+
+<hr>
+
+## Day 0: Jan 18, 2021 [Monday]
+
+**Today's Progress:** Today understand more deeply about callback functions synchronous and asynchronous patterns. Their are following key points that should be kept in mind while using network request.
+
+- network request call always should be asynchronous .
+- Always used ad hoc code to prevent multiple invocation of callback functions for one request.
+- There may be a case when network api return response  after long time or never return, in that case there should be a functionality that automatically cancel the request after certain time.
+- Also need to handle the case when network API response came early before the execution of some required code.
+
+**Resources:** 
+- https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md
