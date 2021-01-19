@@ -1441,3 +1441,80 @@ new Promise(function(resolve, reject){
 
 **Resources:** 
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md
+
+
+## Day 1: Jan 19, 2021 [Tuesday]
+
+**Today's Progress:** Today gave a glimpse to Promises chapter of YDKJS.
+
+**Thought:** After reading able to understand few concepts that illustrate why Promises are prefer more over asynchronous callbacks for network requests.
+
+- It prevent callback hell, make code more organised and modular.
+- Promises always return an object which ensure that this object will receive future value that either be success or failure.
+- Promises prevent callback trust issues like multiple invocation of callback functions.
+- A Promise is immubtale once resolved or rejected means for a single request/async task, a promise will either be completed or rejected only once unlike regular callback function that can be invoke multiple times. Once promise completed no matter how many times you use `.then()` on same promise will produce same result.
+
+Ex: Perform addition of two numbers but these number can be received immediately or in future.
+
+**Using regular callback functions**
+```js
+function add(getX,getY,cb) {
+	let x, y;
+	getX( function(xVal){
+		x = xVal;
+		// both are ready?
+		if (y != undefined) {
+			cb( x + y );	// send along sum
+		}
+	} );
+	getY( function(yVal){
+		y = yVal;
+		// both are ready?
+		if (x != undefined) {
+			cb( x + y );	// send along sum
+		}
+	} );
+}
+
+// `fetchX()` and `fetchY()` are sync or async
+// functions
+add( fetchX, fetchY, function(sum){
+	console.log( sum ); // that was easy, huh?
+} );
+
+```
+**Using Promises**
+
+```js
+function add(xPromise,yPromise) {
+	// `Promise.all([ .. ])` takes an array of promises,
+	// and returns a new promise that waits on them
+	// all to finish
+	return Promise.all( [xPromise, yPromise] )
+
+	// when that promise is resolved, let's take the
+	// received `X` and `Y` values and add them together.
+	.then( function(values){
+		// `values` is an array of the messages from the
+		// previously resolved promises
+		return values[0] + values[1];
+	} );
+}
+
+// `fetchX()` and `fetchY()` return promises for
+// their respective values, which may be ready
+// *now* or *later*.
+add( fetchX(), fetchY() )
+
+// we get a promise back for the sum of those
+// two numbers.
+// now we chain-call `then(..)` to wait for the
+// resolution of that returned promise.
+.then( function(sum){
+	console.log( sum ); // that was easier!
+} );
+
+```
+**Resources:** 
+- https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
+- https://stackoverflow.com/questions/42602868/what-does-it-mean-for-promises-to-be-immutable-and-their-guaranteed-value
