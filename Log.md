@@ -1817,7 +1817,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
     ```js
     function request(url){
         return new Promise(function(resolve){
-            ajax(url,resolve) // ajax doesn't return promise, that's we wrap it in promise 
+            ajax(url,resolve) // ajax doesn't return promise, that's why we wrap it inside promise 
         })
     }
 
@@ -1825,7 +1825,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
         .then(function(response1){
             return request('https://another-api....'+ response1);
         })
-        .then(function(response1){
+        .then(function(response2){
             return request('https://another-api-abc....'+ response2);
         })
     ```
