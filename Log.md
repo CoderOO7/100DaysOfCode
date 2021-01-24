@@ -1430,7 +1430,7 @@ new Promise(function(resolve, reject){
 
 <hr>
 
-## Day 0: Jan 18, 2021 [Monday]
+### Day 0: Jan 18, 2021 [Monday]
 
 **Today's Progress:** Today understand more deeply about callback functions synchronous and asynchronous patterns. Their are following key points that should be kept in mind while using network request.
 
@@ -1443,7 +1443,7 @@ new Promise(function(resolve, reject){
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md
 
 
-## Day 1: Jan 19, 2021 [Tuesday]
+### Day 1: Jan 19, 2021 [Tuesday]
 
 **Today's Progress:** Today gave a glimpse to Promises chapter of YDKJS.
 
@@ -1518,3 +1518,317 @@ add( fetchX(), fetchY() )
 **Resources:** 
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
 - https://stackoverflow.com/questions/42602868/what-does-it-mean-for-promises-to-be-immutable-and-their-guaranteed-value
+
+
+### Day 2: Jan 24, 2021 [Wednesday]
+
+**Today's Progress:** Today read about Promise Events.
+
+**Thought:** So the question is how promise actually resolved ? Means when callback passed in `.then(cb)`, how `cb` get invok automatically ? It's simple Promise are event based objects(Not pure javascript objects like 'click' event). For instance, we register a click event on button to perform certain task.
+```js
+    const button = document.getElementById('#conole-btn');
+    //Register click event
+    button.addEventListener('click',()=>{
+        console.log("Hi there, I'm console-btn !!");
+        console.log("register to click event to console this msg");
+    }) = 
+```
+
+Like `click event` we register `.then() and .catch()` events on Promise object and passed callbacks to them to perform action when the promoise resolved. 
+
+```js
+
+    function bar() {
+        // `foo(..)` has definitely finished, so
+        // do `bar(..)`'s task
+    }
+
+    function oopsBar() {
+        // oops, something went wrong in `foo(..)`,
+        // so `bar(..)` didn't run
+    }
+
+    // ditto for `baz()` and `oopsBaz()`
+
+    // function that a return a promise
+    function foo(x){
+
+        //function passed in Promise api is called executor function
+        return new Promise(function(resolve,reject){
+            // do a thing, possibly async, then…
+
+            if (/* everything turned out fine */) {
+                resolve("Stuffs Work");
+            }
+            else {
+                reject(Error("It broke"));
+            }
+
+        });
+    }
+
+    // p is promise instance
+    let p = foo( 42 );
+
+    // Register .then() event to promise, fires when promise is resolved,
+    // if promise resolved using resolve() then invoke bar cb
+    // else resolved using reject() or implicit error occur by Promise executor than invoke oopsbar cb
+    p.then( bar, oopsBar );
+
+    // ditto for baz & oopsBaz cb
+    p.then( baz, oopsBaz );
+```
+
+In the end you should know that promise resolved in three cases: 
+
+- When promise executor invok resolve() cb.
+- When promise executor invok reject() cb.
+- When Implicit error occur insde promise executor for instance.
+
+```js
+    new Promise(function(resolve, reject){
+
+        mySpaceIsVoid() // Generate Error as this function is not defined
+
+        resolve("Everything works fine");
+    })
+```
+
+
+### Day 3: Jan 25, 2021 [Thursday]
+
+**Today's Progress:** Today get familiar with i.e *Thenable Duck Typing*.
+
+**Thought:** I don't know is it really necessary to remeber these terms but the context is that *if anything walks like a duck, quack like a duck then it must be duck*. Well it shouldn't be true always. 
+
+*Thenable Promises* are any function or objects having `.then()` method, to resemble like a Promise object. But in actual they are not Javascript Promise API instance.
+
+```js
+    let o = { then: function(){
+        console.log("I'm thenable object");
+    } };
+
+    // make `v` be `[[Prototype]]`-linked to `o`
+    let v = Object.create( o );
+
+    v.someStuff = "cool";
+    v.otherStuff = "not so cool";
+
+    v.hasOwnProperty( "then" ); //return false
+    
+    // here you can say it's v object is thenable
+    v.then();
+```
+
+Now we can create a utility functiuon for *duck typing check* for thenable as below but it's a ugly approach.
+
+```js
+   function isThenable (p) {
+
+        if (
+            p !== null &&
+            (
+                typeof p === "object" ||
+                typeof p === "function"
+            ) &&
+            typeof p.then === "function"
+        ) {
+            // assume it's a thenable!
+            return true;
+        }
+        else {
+            // not a thenable
+            return false;
+        }
+    }
+```
+
+*In short we should prevent use of `.then()` methods on objects or functions as it's not a reserved keyword in JavaScript and it may lead to bugs.*
+
+
+### Day 4: Jan 26,2021 [Friday]
+
+**Today's Progress:** Read about Promise Trust.
+
+**Thought:** Basically all the limitations of normal callback functions are handle by Promises. These are as follows:
+
+1. *Calling Too Early* : Means callback calls immediately/synchronously. Even if promises resolve immediately they can't be observed synchronously i.e the provided `cb` to `.then(cb)` on Promise object always invoke asynchronously.
+
+1. *Calling Too Late* : Means some synchronous task dependent on the time in which Promise resolved. But as we know Promise always behave asynchronously i.e we can't chain some synchonous operation with Promise, so that case is invalid.
+
+1. *Never Calling The Callback* : Promise doesn't gurantee that it will always resolved. It may be happen that promise will never resolved. To handle that case we can use utility `timeoutPromise` utility funtion with `Promise.race()` to reject the Promise ,if Promise doesn't resolve automatically within limited time.
+
+    ```js
+    // a utility for timing out a Promise
+    function timeoutPromise(delay) {
+        return new Promise( function(resolve,reject){
+            setTimeout( function(){
+                reject( "Timeout!" );
+            }, delay );
+        } );
+    }
+
+    // setup a timeout for `foo()`
+    Promise.race( [
+        foo(),					// attempt `foo()`
+        timeoutPromise( 3000 )	// give it 3 seconds
+    ])
+    .then(
+        function(){
+            // `foo(..)` fulfilled in time!
+        },
+        function(err){
+            // either `foo()` rejected, or it just
+            // didn't finish in time, so inspect
+            // `err` to know which
+        }
+    );
+    ```
+
+1. *Failing to Pass Along Any Parameters/Environment* : If we pass multiple paramaters to Promise resolution callbacks i.e `resolve()` or `reject()` then only the first paramater is passed and other paramters are ignored. To handle that case, pass an array of multiple paramaters in `resolve()` or `reject()` callbacks.
+
+    ```js
+    let p = new Promise(function(resolve,reject){
+                let msg1 = "CoderOO7 there ?";
+                let msg2 = "How are you ?";
+                
+                //msg1 is passed to observation callback on p.then()
+                //msg2 get ignored
+                resolve(msg1, msg2);
+            });
+
+    p.then(function(msg1, msg2){
+        console.log(msg1);
+        console.log(msg2);
+    })
+    ```
+
+1. *Swallowing Any Errors/Exceptions* : If any implicit error occur in the observation of resolution of Promise or explicitly reject using `reject()` cb, then Promise get rejected.
+
+    ```js
+    let p = new Promise( function(resolve,reject){
+        foo.bar();	// `foo` is not defined, so error!
+        resolve( 42 );	// never gets here :(
+    });
+
+    p.then(
+        function fulfilled(){
+            // never gets here :(
+        },
+        function rejected(err){
+            // `err` will be a `TypeError` exception object
+            // from the `foo.bar()` line.
+        }
+    );
+    ```
+
+
+### Day 5: Jan 27,2021 [Saturday]
+
+**Today's Progress:** Promise Trust and async pattern.
+
+**Thought:** As we known thenable has `.then()` method on it then how we know that promise we are using is genuine. If we call `Promise.resolve(p)` passing any promise in paramter then it will return the same promise which is `p` here in case. We can use it as a type check to know weather the promise is genuine or not.
+
+```js
+let p1 = new Promise(function(resolve){
+    resolve("Success");
+})
+
+let p2 = Promise.resolve(p1);
+
+p2 === p1 // true
+```
+Now consider the case of thenable.
+```js
+let p1 = {
+    then: function(cb,errcb) {
+                cb( 42 );
+                errcb( "evil laugh" );
+          }
+};
+
+p1
+.then(
+	function fulfilled(val){
+		console.log( val ); // 42
+	},
+	function rejected(err){
+		// oops, shouldn't have run
+		console.log( err ); // evil laugh
+	}
+);
+
+let p2 = Promise.resolve(p1);
+
+p2 === p1 // return false
+```
+Now if you need to make any function behave asynchonously simply pass it in `Promise.resolve()`
+
+### DAY 6: Jan 28,2021 [Sunday]
+
+**Today's Progress:** Cover the topic Chain Flow in Promise.
+
+**Thought:** We can link the multiple promises together.
+- Every time we call `.then()` on Promise it will return a new promise which can be chain.
+- The value return by `.then()` fullfillment callback will be passed to next chained `.then()` fullfilment callback.
+
+    ```js
+    let p1 = Promise.resolve( 21 );
+
+    let p2 = p1.then( function(v){
+        console.log( v );	// 21
+        // fulfill `p2` with value `42`
+        return v * 2;
+    });
+
+    // chain off `p2`
+    p2.then( function(v){
+        console.log( v );	// 42
+    });
+    ```
+
+    Now what if you wanna delay the successive Promise in chain? It's the case if any promise fullfillment callback perfoming async task and successive chained promise depend on that. 
+    ```js
+    function delay(time){
+        return Promise(function(resolve,reject){
+            setTimeout(resolve,time);
+        })
+    }
+
+    delay( 100 ) // step 1
+        .then( function STEP2(){
+            console.log( "step 2 (after 100ms)" );
+            return delay( 200 );
+        } )
+        .then( function STEP3(){
+            console.log( "step 3 (after another 200ms)" );
+        } )
+        .then( function STEP4(){
+            console.log( "step 4 (next Job)" );
+            return delay( 50 );
+        } )
+        .then( function STEP5(){
+            console.log( "step 5 (after another 50ms)" );
+        } )
+    ```
+
+    For instance we have multiple api's which are dependent on each other in terms of response. Then simply return a promise from fullfillment/resolution callback which resolve when api response recieved.
+
+    ```js
+    function request(url){
+        return new Promise(function(resolve){
+            ajax(url,resolve) // ajax doesn't return promise, that's we wrap it in promise 
+        })
+    }
+
+    request('https://abc-scd.....')
+        .then(function(response1){
+            return request('https://another-api....'+ response1);
+        })
+        .then(function(response1){
+            return request('https://another-api-abc....'+ response2);
+        })
+    ```
+
+**Resources:**
+- https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
