@@ -1520,7 +1520,7 @@ add( fetchX(), fetchY() )
 - https://stackoverflow.com/questions/42602868/what-does-it-mean-for-promises-to-be-immutable-and-their-guaranteed-value
 
 
-### Day 2: Jan 24, 2021 [Wednesday]
+### Day 2: Jan 20, 2021 [Wednesday]
 
 **Today's Progress:** Today read about Promise Events.
 
@@ -1595,7 +1595,7 @@ In the end you should know that promise resolved in three cases:
 ```
 
 
-### Day 3: Jan 25, 2021 [Thursday]
+### Day 3: Jan 21, 2021 [Thursday]
 
 **Today's Progress:** Today get familiar with i.e *Thenable Duck Typing*.
 
@@ -1646,7 +1646,7 @@ Now we can create a utility functiuon for *duck typing check* for thenable as be
 *In short we should prevent use of `.then()` methods on objects or functions as it's not a reserved keyword in JavaScript and it may lead to bugs.*
 
 
-### Day 4: Jan 26,2021 [Friday]
+### Day 4: Jan 22,2021 [Friday]
 
 **Today's Progress:** Read about Promise Trust.
 
@@ -1723,7 +1723,7 @@ Now we can create a utility functiuon for *duck typing check* for thenable as be
     ```
 
 
-### Day 5: Jan 27,2021 [Saturday]
+### Day 5: Jan 23,2021 [Saturday]
 
 **Today's Progress:** Promise Trust and async pattern.
 
@@ -1764,7 +1764,7 @@ p2 === p1 // return false
 ```
 Now if you need to make any function behave asynchonously simply pass it in `Promise.resolve()`
 
-### DAY 6: Jan 28,2021 [Sunday]
+### DAY 6: Jan 24,2021 [Sunday]
 
 **Today's Progress:** Cover the topic Chain Flow in Promise.
 
@@ -1787,7 +1787,8 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
     });
     ```
 
-    Now what if you wanna delay the successive Promise in chain? It's the case if any promise fullfillment callback perfoming async task and successive chained promise depend on that. 
+    Now what if you wanna delay the successive Promise in chain? It's the case if any promise fullfillment callback perfoming async task and successive chained promise depend on that.
+
     ```js
     function delay(time){
         return Promise(function(resolve,reject){
@@ -1817,7 +1818,8 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
     ```js
     function request(url){
         return new Promise(function(resolve){
-            ajax(url,resolve) // ajax doesn't return promise, that's why we wrap it inside promise 
+            // ajax doesn't return promise, that's why we wrap it inside promise
+            ajax(url,resolve); 
         })
     }
 
@@ -1829,6 +1831,126 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
             return request('https://another-api-abc....'+ response2);
         })
     ```
+
+**Resources:**
+- https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
+
+
+### DAY 7: Jan 25,2021 [Sunday]
+
+**Today's Progress:** Understand the Promise patterns.
+
+**Thought:** Promise patterns in Javascript are helper methods provided by Promise API to ease the task according to requirment and neeed. We can create our own custom Patterns too. Now I'll lay out some patterns that today I learn as well some gotchas.
+
+1. **Promise.all([..])**
+
+   * It uses the *gate pattern* means gate will only unlocked if all of the parallel/concurrent tasks get completed.
+
+   * It takes the list of promises and returns the single promise that only fulfill if all of the promises in array get fulfilled, if any of the promise get rejected then main Promise returned by `Promise.all` get rejected too.
+
+   * `Promise.all()` on fulfillment return the array of completion values of all array fulfilled promises.
+
+        ```js
+        //Main promise fulfillment case
+
+        let p1 = Promise.resolve(19);
+        let p2 = Promise.resolve(90);
+
+        Promise.all([p1,p2,p3])
+        .then(function(vals){
+            console.log(vals); // [19,20]
+        })
+        .catch(function((err){
+            console.error(err);
+        })
+        ```
+
+        ```js
+        //Main promise rejection case
+
+        let p1 = Promise.resolve(19);
+        let p2 = Promise.resolve(90);
+        let p3 = Promise.reject(47);
+
+        //Because of p3 the main promise get rejected too
+        Promise.all([p1,p2,p3])
+        .then(function(vals){
+            console.log(vals); // [19,20]
+        })
+        .catch(function((err){
+            console.error(err); 
+        })
+        ```
+
+    * If we pass empty array, then `Promise.all()` fulfilled immediately.
+
+      ```js
+        Promise.all([])
+            .then(function(resolve){
+                console.log("Success");
+            })
+      ```
+
+1. **Promise.race([..])**
+
+   * Unlike `Promise.all()` it resolve if any of the promise in the array get resolved first, either rejected or completed.
+
+   * Now their is a special case if all of the promises in the array      resolve the immediate value, then the main promise will resolve for first promises fulfillment value in array. *It's not a practical case but still worth to remeber*.For instance see below code snippet.
+
+        ```js
+        //Special case for immediate values
+
+        let p1 = Promise.resolve(19);
+        let p2 = Promise.resolve(90);
+        let p3 = Promise.reject(47);
+
+        // Main promise will resolved for 
+        // first immediate value i.e p1
+        Promise.all([p1,p2,p3])
+        .then(function(vals){
+            console.log(vals); // 19
+        })
+        .catch(function((err){
+            console.error(err); 
+        })
+
+        p1 = Promise.resolve(23);
+        p2 = Promise.resolve(32);
+        p3 = Promise.reject(43);
+
+        //Now main promise get rejected
+        Promise.all([p3,p2,p1])
+        .then(function(vals){
+            console.log(vals); 
+        })
+        .catch(function((err){
+            console.error(err); 
+        })
+        ```
+    * Other key point to remeber never pass an empty array to `Promise.race([])` because it will never resolve.
+
+        ```js
+        // This promise will never resolve...
+        Promise.all([])
+        .then(function(){
+            console.log('Success');
+        })
+        ```
+
+1. **Finally**
+
+   * Now here we are, if in any case you want to perform some action either promise fulfilled or rejected then you can register `.finally()` event on promise instance and even chain them too on `.then()`. 
+   
+        ```js
+        let p = Promise.resolve( 42 );
+
+        p
+        .then( something )
+        .finally( cleanup )
+        .then( another )
+        .finally( cleanup );
+        ```
+
 
 **Resources:**
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
