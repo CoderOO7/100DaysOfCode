@@ -1954,3 +1954,14 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
 
 **Resources:**
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
+
+
+### DAY 8: JAN 26,2021 [Monday]
+
+**Today's Progress:** Played with giphy api.
+
+**Thought:** Create a small demo app that fetches the gifs using giphy api and also allow user to search specific gifs. When reading about API get to know about fetch API that according to me should be used instead of XHR request. The reason is it provides promise and as we all know handling API stuff using Promise API is quite handy.
+
+**Resouces:**
+
+- https://theodinproject.com/courses/javascript/lessons/working-with-apis
