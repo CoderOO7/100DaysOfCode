@@ -1836,7 +1836,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
 
 
-### DAY 7: Jan 25,2021 [Sunday]
+### DAY 7: Jan 25,2021 [Monday]
 
 **Today's Progress:** Understand the Promise patterns.
 
@@ -1895,7 +1895,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
 
    * Unlike `Promise.all()` it resolve if any of the promise in the array get resolved first, either rejected or completed.
 
-   * Now their is a special case if all of the promises in the array      resolve the immediate value, then the main promise will resolve for first promises fulfillment value in array. *It's not a practical case but still worth to remeber*.For instance see below code snippet.
+   * Now their is a special case if all of the promises in the array resolve the immediate value, then the main promise will resolve for first promises fulfillment value in array. *It's not a practical case but still worth to remeber*.For instance see below code snippet.
 
         ```js
         //Special case for immediate values
@@ -1956,7 +1956,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
 
 
-### DAY 8: JAN 26,2021 [Monday]
+### DAY 8: JAN 26,2021 [Tuesday]
 
 **Today's Progress:** Played with giphy api.
 
@@ -1967,7 +1967,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
 - https://theodinproject.com/courses/javascript/lessons/working-with-apis
 
 
-### DAY 9: JAN 27,2021 [Tuesday]
+### DAY 9: JAN 27,2021 [Wednesday]
 
 **Today's Progress:** Create a small project using giphy api.
 
@@ -1976,3 +1976,57 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
 **Demo:**
 
 - https://coderoo7.github.io/gifs-gallery/
+
+
+### DAY 10: JAN 28,2021 [Thursday]
+
+**Today's Progress:** Read about await async pattern in JavaScript.
+
+**Thought:** Async await pattern in JavaScript is syntactical sugar to Promise. So why we should use async await pattern instead of promise. Let see
+
+- Maintain code flow.
+- Synchronous looking code.
+
+Below is **async** function syntax. async signify two things.
+
+- This function behave asynchronously.
+- Return promise.
+
+    ```js
+    async function foo(){
+        //do asynchronous task...
+    }
+
+    foo(); //return promise
+    ```
+
+    Whenver we explicitly return something from function then promise get resolved. For example
+        
+    ```js
+    async function foo(){
+        //do asynchronous task...
+        return 1; // resolved promise.
+    }
+
+    foo();
+    ```
+
+**await** keyword is written before Promise and act as replacemnt for `.then()` in promise. It can only be used inside *async function*.
+
+- *await* means `pause until done`. JavaScript Engine pause exection inside function until promise written after *await* settled.
+
+  ```js
+    async function foo(){
+        //Here JavaScript engine pause execution until promise is resolved
+        await new Promise((resolve, reject)=>{
+            setTimeout(resolve,3000);
+        });
+        //After 3seconds when promise resolved javsacript engine execute next line
+        console.log("Keep Going");
+    }
+  ```
+
+
+**Resources:**
+
+- https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65
