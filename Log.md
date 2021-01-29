@@ -1985,7 +1985,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
 **Thought:** Async await pattern in JavaScript is syntactical sugar to Promise. So why we should use async await pattern instead of promise. Let see
 
 - Maintain code flow.
-- Synchronous looking code.
+- Synchronous looking code means it generally makes you asynchronous code to look like synchronous code.
 
 Below is **async** function syntax. async signify two things.
 
@@ -2024,8 +2024,30 @@ Below is **async** function syntax. async signify two things.
         //After 3seconds when promise resolved javsacript engine execute next line
         console.log("Keep Going");
     }
+
+    foo()
   ```
 
+
+**Resources:**
+
+- https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65
+
+
+### DAY 11: JAN 29,2021 [Friday]
+
+**Today's Progress:** Begin to work on new project i.e a weather app.
+
+**Thought:** Learn some few concepts of async await pattern from which I get to know about micro task event queue and simple event queue. After that created a new github repo for weather app project on which I'm working. Now Yesterday forget to mention one thing i.e we can handle global Promise rejection using `unhandledrejection` event.
+
+```js
+Promise.reject(Error("Catch me!! I don't have my own catch block"));
+
+window.addEventListener('unhandledrejection',function(event){
+    console.log('Oh I will catch you promise ' + event.promise);
+    console.log('You got that error ' + event.reason);
+});
+```
 
 **Resources:**
 
