@@ -2049,6 +2049,12 @@ window.addEventListener('unhandledrejection',function(event){
 });
 ```
 
+### DAY 12: JAN 30,2021 [Saturday]
+
+**Today's Progress:** Integrate OpenWather API.
+
+**Thought:** Yesterday I had started a new project i.e. a weather app to hone my skills about API integration, how it's design, implementatin bla bla... Today get to understand some basic concepts like *resources*, *endpoints* and some other stuffs. Now integrate the openWeather API and prints its response to console. By tomorrow will complete this project. 
+ 
 **Resources:**
 
-- https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65
+- https://zapier.com/learn/apis/chapter-6-api-design/
