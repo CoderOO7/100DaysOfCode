@@ -2058,3 +2058,10 @@ window.addEventListener('unhandledrejection',function(event){
 **Resources:**
 
 - https://zapier.com/learn/apis/chapter-6-api-design/
+
+
+### DAY 13: JAN 31,2021 [Sunday]
+
+**Today's Progress:** Worked on UI of my weather app.
+
+**Thought:** Today I worked on UI part of my weather app. I think writing css is more difficult that writing js code. But working on that, by tomorrow surely it will complete and make a release.
