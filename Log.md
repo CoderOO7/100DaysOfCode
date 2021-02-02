@@ -2065,3 +2065,13 @@ window.addEventListener('unhandledrejection',function(event){
 **Today's Progress:** Worked on UI of my weather app.
 
 **Thought:** Today I worked on UI part of my weather app. I think writing css is more difficult that writing js code. But working on that, by tomorrow surely it will complete and make a release.
+
+
+### DAY 14: JAN 1,2021 [Monday]
+
+**Today's Progress:** Release the app.
+
+**Thought:** Really slaute to frontend developers who creat a whole short animation video using HTML5/CSS3 only. According to me fronend basic is versy easy but its specialization is not child's play. Let's come to the point today before pushing code to github I had hard reset my git HEAD to previous commit and all my changes gone. But I able to recover them using `git reflog` command. From this incident came to know git also maintain a backup directory because of which I'm able to recover my files. So in the last make a first release of the project. Below is the project live verison.
+
+**Demo:** 
+https://coderoo7.github.io/weather-app/
