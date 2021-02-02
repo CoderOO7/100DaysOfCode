@@ -2067,7 +2067,7 @@ window.addEventListener('unhandledrejection',function(event){
 **Thought:** Today I worked on UI part of my weather app. I think writing css is more difficult that writing js code. But working on that, by tomorrow surely it will complete and make a release.
 
 
-### DAY 14: JAN 1,2021 [Monday]
+### DAY 14: FEB 1,2021 [Monday]
 
 **Today's Progress:** Release the app.
 
@@ -2077,7 +2077,7 @@ window.addEventListener('unhandledrejection',function(event){
 https://coderoo7.github.io/weather-app/
 
 
-### DAY 15: JAN 1,2021 [Monday]
+### DAY 15: FEB 2,2021 [Tuesday]
 
 **Today's Progress:** Add some new functionality to weather app.
 
