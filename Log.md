@@ -2075,3 +2075,13 @@ window.addEventListener('unhandledrejection',function(event){
 
 **Demo:** 
 https://coderoo7.github.io/weather-app/
+
+
+### DAY 15: JAN 1,2021 [Monday]
+
+**Today's Progress:** Add some new functionality to weather app.
+
+**Thought:** Done some UI changes and add other functionality to change the weather app background according to current weather condition of searched city. Then update the portfolio to enlist my new projects. That's how the today spend.
+
+**Demo:** 
+https://coderoo7.github.io/weather-app/
