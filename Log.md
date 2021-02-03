@@ -42,7 +42,7 @@
 
 **Thoughts:** Today not done much, implement a small logic to round decimal number to two places. Learned about toFixed() & toPrecision() methods.
 
-**Resources:** 
+**Resources:**
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision <br>
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
 
@@ -134,7 +134,7 @@
 
 **Thoughts:** Read & implement protoype concept in javascript basically it allow to acheive inheritance, nothing else. Created a bare repo to manage dot files and started a js track from theodinproject curriculum. Well in today's something was special.
 
-**Resources:** 
+**Resources:**
 * https://wiki.archlinux.org/index.php/Dotfiles#User_repositories <br>
 * https://web.archive.org/web/20200215112157/http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 * https://javascript.info/prototype-inheritance
@@ -196,10 +196,10 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
 
 **Thoughts:** Today wrap my head to understand CRM and build CRM web app using django & react, but didn't find any useful resource. Will work on that tomorrow to implement it.
 
-**Resources:** 
+**Resources:**
 
 https://fractalideas.com/blog/making-react-and-django-play-well-together/ <br>
-https://www.youtube.com/watch?v=AHhQRHE8IR8 
+https://www.youtube.com/watch?v=AHhQRHE8IR8
 
 ### Day 24: Aug 28 2020 (Friday)
 
@@ -211,7 +211,7 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
 
 **Today's Progress:** Worked on CRM project.
 
-**Thoughts:** For now I following a 3hours react-django integration video. To understand concept, but get stuck on error, somehow able to find solution the problem was I was sending the request to hit the api on different port of server, to fix that provide absolute path of api and it get works. Learned that django uses csrf-token to prevent csrf attack. 
+**Thoughts:** For now I following a 3hours react-django integration video. To understand concept, but get stuck on error, somehow able to find solution the problem was I was sending the request to hit the api on different port of server, to fix that provide absolute path of api and it get works. Learned that django uses csrf-token to prevent csrf attack.
 
 ### Day 26: Aug 30 2020 (Sunday)
 
@@ -231,7 +231,7 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
 
 **Thoughts:** Today completed the remaining portion of tutorial. On working this small project I understood the benifiet of using Django is that it provide default admind panel and api query can be perform direactly like we do in postman using its django provided panel.
 
-**Resource:** 
+**Resource:**
 
 https://steelkiwi.com/blog/why-django-best-web-framework-your-project/
 https://www.youtube.com/watch?v=AHhQRHE8IR8
@@ -244,8 +244,8 @@ https://www.youtube.com/watch?v=AHhQRHE8IR8
     1. Session storage: Data stored is available till browser closed. Tab deletion & reopen doesn't delete the stored data.<br>
     2. Local stoarge: Data is persist to user computer even if browser is closed. <br>
     3. Cookies: Similar to local storage but allow to pass data with request to server. Local storage data can't be send with request.
-    
-**Resource:** 
+
+**Resource:**
 
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
 
@@ -262,7 +262,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_S
 
 **Thoughts:** Done basic setup of crm app like initializing database and running app.
 
-**Resource:** 
+**Resource:**
 
 https://www.digitalocean.com/community/tutorials/how-to-build-a-modern-web-application-to-manage-customer-information-with-django-and-react-on-ubuntu-18-04
 
@@ -359,7 +359,7 @@ https://developers.google.com/web/updates/2016/10/addeventlistener-once
 
 **Today's Progress:** Implement player vs computer logic of TicTacToe game.
 
-**Thoughts:** Today start to code in evening but able to complete the logic, now animation part remain, after animation will try to implement unbeateable AI. 
+**Thoughts:** Today start to code in evening but able to complete the logic, now animation part remain, after animation will try to implement unbeateable AI.
 
 ### Day 42: Sep 15 2020 (Tuesday)
 
@@ -411,7 +411,7 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 
 **Today's Progress:** Try to understand the logic.
 
-**Thoughts:** Today not done much, but yet the same issue before that don't understand the concept of max depth value. 
+**Thoughts:** Today not done much, but yet the same issue before that don't understand the concept of max depth value.
 
 <hr>
 
@@ -421,7 +421,7 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 
 **Today's Progress:** Try to understand the logic.
 
-**Thoughts:** Today thinking of shifting from Arch linux to Parrat OS to play with security tools, but unable to install it getting error on booting with usb, either download file is corrupted or may be some another issue. Spend around 3 hours on logic understanding and implementation but yet not able to make it.  
+**Thoughts:** Today thinking of shifting from Arch linux to Parrat OS to play with security tools, but unable to install it getting error on booting with usb, either download file is corrupted or may be some another issue. Spend around 3 hours on logic understanding and implementation but yet not able to make it.
 
 
 ### Day2: Sep 26 2020 (Saturday)
@@ -435,14 +435,14 @@ https://medium.com/@alialaa/tic-tac-toe-with-javascript-es2015-ai-player-with-mi
 
 **Today's Progress:** Implement the AI logic.
 
-**Thoughts:** After many attempts able to complete the AI logic. Even after implementing the minimax algo part, the issue was that computer first move on ticTacToe board take around a minute to do calculation, to fix that manually optimize the first move by either computer mark in center of board or at top most left corner. 
+**Thoughts:** After many attempts able to complete the AI logic. Even after implementing the minimax algo part, the issue was that computer first move on ticTacToe board take around a minute to do calculation, to fix that manually optimize the first move by either computer mark in center of board or at top most left corner.
 
 
 ### Day4: Sep 28 2020 (Monday)
 
 **Today's Progress:** Fix one bug & little bit styling.
 
-**Thoughts:** The project is almost completed, now the main part is left to make it responsive to play it on mobile. Today begin to work in the same company which I left, but now as a web developer. Tomorrow will implement left changes and if possible release it tomorrow. 
+**Thoughts:** The project is almost completed, now the main part is left to make it responsive to play it on mobile. Today begin to work in the same company which I left, but now as a web developer. Tomorrow will implement left changes and if possible release it tomorrow.
 
 
 ### Day5: Sep 29 2020 (Tuesday)
@@ -558,9 +558,9 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Today's Progress:** Learn to perfom Server Side Rendering in nodejs.
 
-**Thoughts:** react-dom/server library provide two API renderToString & renderToNodeStream that take your react component as input and convert it to html and this html is send as response to browser. So basically all rendering part is done on server side. Keeping it all aside, today I learn to integrate i3-gaps wm with MATE desktop environment in Parrot OS. 
+**Thoughts:** react-dom/server library provide two API renderToString & renderToNodeStream that take your react component as input and convert it to html and this html is send as response to browser. So basically all rendering part is done on server side. Keeping it all aside, today I learn to integrate i3-gaps wm with MATE desktop environment in Parrot OS.
 
-**Resources:** 
+**Resources:**
 - https://wiki.archlinux.org/index.php/MATE
 
 
@@ -568,7 +568,7 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Today's Progress:** Worked on Restaurant-Page project.
 
-**Thoughts:** Only setup basic structure, will implement scss in this project. Hopyfully that project should be completed by tomorrow. 
+**Thoughts:** Only setup basic structure, will implement scss in this project. Hopyfully that project should be completed by tomorrow.
 
 ### Day 17: Oct 11 2020 (Sunday)
 
@@ -611,7 +611,7 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 **Project link:**
 - https://coderoo7.github.io/restaurant-page/
 
-**Resources:** 
+**Resources:**
 - https://gist.github.com/cobyism/4730490
 - https://stackoverflow.com/questions/22906662/javascript-design-pattern-difference-between-module-pattern-and-revealing-modul
 
@@ -634,7 +634,7 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 **Today's Progress:** Today begin to work on foodshala project.
 
 **Thoughts:** So today time spend in setting up codeigniter php framework. Then begin to work on project. Learn that `.htaccess` file is required for defining configuration on directory basis instead of defining globally for apache server. At every request apache server look for `.htaccess` file for setting up permission and url directives. Experience with php upto now is somewhat ohk.
- 
+
 **Resources:**
 - https://www.youtube.com/watch?v=I752ofYu7ag&list=PLillGF-RfqbaP_71rOyChhjeK1swokUIS&index=1
 - https://www3.ntu.edu.sg/home/ehchua/programming/howto/Apache_HowToConfigure.html.
@@ -643,8 +643,8 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 
 **Today's Progress:** Worked on foodshala project.
 
-**Thoughts:** So today learn to do some backend stuff, managing sessions, purpose of flashdata method in php and defining routes. Now the login session part remain and need to create seperate registration form for staff also, will work on that. 
- 
+**Thoughts:** So today learn to do some backend stuff, managing sessions, purpose of flashdata method in php and defining routes. Now the login session part remain and need to create seperate registration form for staff also, will work on that.
+
 **Resources:**
 - https://www.youtube.com/watch?v=uYX9FLi1BYg
 - https://www.youtube.com/watch?v=SbiszsRnETo
@@ -658,18 +658,18 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 **Today's Progress:** Worked on foodshala project.
 
 **Thoughts:** Well today I had completed the registration logic for both customer and restaurant members, also implement login and logout functionality. Now the remaining part is to allow staff memeber to add menu item and allow users to order the food from menu.
- 
+
 **Resources:**
 - https://stackoverflow.com/questions/45278226/how-to-use-multi-level-user-login-in-codeigniter
 - http://mfikri.com/en/blog/codeigniter-login
 
-### Day 27 - Day 28 
+### Day 27 - Day 28
 
 **Today's Progress:** Worked on foodshala project.
 
 **Thoughts:** Well on Day 28 I had submited my project to internshala for review, although its not completed but able to learn something. Will complete this project side by side by following my js track.
 
-### Day 29 
+### Day 29
 
 **Today's Progress:** Worked on some random stuff.
 
@@ -680,7 +680,7 @@ It load the module dynamically. Apart from that create a PR in Android-dev-resou
 http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/
 
 
-### Day 30 
+### Day 30
 
 **Today's Progress:** Read SOLID principle.
 
@@ -694,7 +694,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Today's Progress:** Worked on setting up php project locally.
 
-**Thoughts:** Well most of the time spend in figuring out what was going wrong, then I found that issue was with php version, the project require lower php version. But later on lower php version had unmet dependencies in my linux distribution working on to fix that. 
+**Thoughts:** Well most of the time spend in figuring out what was going wrong, then I found that issue was with php version, the project require lower php version. But later on lower php version had unmet dependencies in my linux distribution working on to fix that.
 
 ### Day 33 (Tuesday)
 
@@ -733,11 +733,11 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Today's Progress:** Created seperate view for shopping cart.
 
-**Thoughts:** Although logic of shopping cart is done, but still need to implement counter logic for cart in navbar which get updated when each items added into cart. 
+**Thoughts:** Although logic of shopping cart is done, but still need to implement counter logic for cart in navbar which get updated when each items added into cart.
 
 <hr>
 
-## Beginning again 
+## Beginning again
 
 ### Day 1: Nov 5, 2020 (Thursday)
 
@@ -767,8 +767,8 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Thoughts:** Design the new backend and implement its logic. Now two functionality remain to implement i.e <br>
 - Checkout page
 - Allow staff to upload food items and view all the orders of customer.
-              
-**Resources:** 
+
+**Resources:**
 - https://www.google.com/
 
 
@@ -806,7 +806,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 **Today Progress:** Working on to deploy website.
 
-**Thoughts:** Today I had deploy the website on heroku but one issue is that heroku charged for backend b/c of that spend time in finding free service to host mysql backend then find a website but even after that my webiste frontend server on heroku not able to connect with backend server on `https://freedb.tech`. 
+**Thoughts:** Today I had deploy the website on heroku but one issue is that heroku charged for backend b/c of that spend time in finding free service to host mysql backend then find a website but even after that my webiste frontend server on heroku not able to connect with backend server on `https://freedb.tech`.
 
 
 ### Day 10: Nov 14, 2020 (Saturday)
@@ -834,11 +834,11 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 ### Day 13: Nov 17, 2020 (Tuesday)
 
-**Today Progress:** Integrate the google cloud storage bucket. 
+**Today Progress:** Integrate the google cloud storage bucket.
 
 **Thoughts:** Now images are uploading to bucket but need to download them on menu page and that should be perform asynchronously, for that reading the api docs. If that can be done the way I want to do.
 
-**Resources:** 
+**Resources:**
 
 -- https://zatackcoder.com/upload-file-to-google-cloud-storage-using-php/
 -- https://gist.github.com/stetic/c97c94a10f9c6b591883
@@ -848,11 +848,11 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 ### Day 0: Nov 24, 2020 (Tuesday)
 
-**Today Progress:** Implementing logic to fetch images from google cloud bucket. 
+**Today Progress:** Implementing logic to fetch images from google cloud bucket.
 
-**Thoughts:** So done some small changes to fetch images from google cloud bucket. But getting an authorization error, trying to fix that. Once image upload and download functionality implemented properly then begin to work on my `theodinproject` javascript track. 
+**Thoughts:** So done some small changes to fetch images from google cloud bucket. But getting an authorization error, trying to fix that. Once image upload and download functionality implemented properly then begin to work on my `theodinproject` javascript track.
 
-**Resources:** 
+**Resources:**
 - https://stackoverflow.com/questions/58221459/how-to-display-image-stored-in-google-cloud-bucket
 - https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/
 - https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript
@@ -861,11 +861,11 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 ### Day 1: Nov 25, 2020 (Wednesday)
 
-**Today Progress:** Implement logic to fetch images from google cloud bucket and bug fixes. 
+**Today Progress:** Implement logic to fetch images from google cloud bucket and bug fixes.
 
 **Thoughts:** So today all features that I want to implement in this project are completed. It still needs improvement in UI which is a tedious task. Now going to give this project a pause and will begin to work on my javascript odin track. Also today learn to use dynamic base url and while making a resume came to know about `https://cvcompiler.com/` that uses machine learning to analyze your resume and show weakpoints in your resume.
 
-**Resources:** 
+**Resources:**
 - https://cvcompiler.com/
 - https://medium.com/@amirsanni/dynamically-setting-base-url-in-codeigniter-3-8179d72ddd84
 - https://flowcv.io/
@@ -873,15 +873,15 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 
 ### Day 2: Nov 26, 2020 (Thursday)
 
-**Today Progress:** Begin to work on todo-list project 
+**Today Progress:** Begin to work on todo-list project
 
-**Thoughts:** Today started late but cover up some concepts related to `SOLID principles` in OOPs. I only able to grab `S- Single Responsibility Principle` which means learn to break the code in small modules as much as you can, each module should independently perform its task. While setting up webpack around 2 hours gone to fix bug. Also doing side project `ciBlog` which I need to complete. 
+**Thoughts:** Today started late but cover up some concepts related to `SOLID principles` in OOPs. I only able to grab `S- Single Responsibility Principle` which means learn to break the code in small modules as much as you can, each module should independently perform its task. While setting up webpack around 2 hours gone to fix bug. Also doing side project `ciBlog` which I need to complete.
 
 ### Day 3: Nov 27, 2020 (Friday)
 
 **Today Progress:** Some basic layout design
 
-**Thoughts:** To design the layout using flexbox and grid. The main part is to create sliding side navbar with inbuilt sub-links. Navbar is sliding but layout get breaks when navbar closes. Working on that one to fix this. And tomorrow will complete it. 
+**Thoughts:** To design the layout using flexbox and grid. The main part is to create sliding side navbar with inbuilt sub-links. Navbar is sliding but layout get breaks when navbar closes. Working on that one to fix this. And tomorrow will complete it.
 
 **Resources:**
 - https://codepen.io/yeon5210/pen/rwYgXm
@@ -921,7 +921,7 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Resources:**
 
 - https://dev.to/coderasha/how-to-add-tags-to-your-models-in-django-django-packages-series-1-3704
-- https://docs.djangoproject.com/en/3.1/topics/http/file-uploads/ 
+- https://docs.djangoproject.com/en/3.1/topics/http/file-uploads/
 
 <hr>
 
@@ -980,14 +980,14 @@ http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-p
 **Thought's:** So SOLID principles summary is like this:
 - `S- Single Responsibility Principle`: A class or function should perform only one task, now that doesn't mean that an object of class will have only behaviour it can have multiple behaviour but all should be related to only one task.
 
-- `O- Open Closed Principle`: In short, open to extension and closed to modification means in code new feature can be added without modifying existing code. 
+- `O- Open Closed Principle`: In short, open to extension and closed to modification means in code new feature can be added without modifying existing code.
 
-- `L- Liskov Substitution Principle`: It follows the `Open Closed Principle` in hierarchy of classes/modules where inheritance occur. One thumb rule is adding new functionality should bot modify base class code. 
+- `L- Liskov Substitution Principle`: It follows the `Open Closed Principle` in hierarchy of classes/modules where inheritance occur. One thumb rule is adding new functionality should bot modify base class code.
 
 - `I- Interface Segregation`: Simple concept *eat according to your body requirement*. Means Classes that implements interface should not force to implement methods they don't use.
 
-- `D- Dependency Inversion Principle`: Means your high level code should not depend on low level code. Reason is that if changes occur in low level code then changes need to be done in high level code also. 
-Solution is to to inject the dependency in high level class/code.  
+- `D- Dependency Inversion Principle`: Means your high level code should not depend on low level code. Reason is that if changes occur in low level code then changes need to be done in high level code also.
+Solution is to to inject the dependency in high level class/code.
 
 **Resources:**
 
@@ -1013,7 +1013,7 @@ Solution is to to inject the dependency in high level class/code.
 
 **Today's Progress:** Practice previos JS concept.
 
-**Thought:** Unlike yesterday today I was little bit busy in doing some other work because of which not properly able to give time on project but today practice previous JavaScript concept like factor function, closure etc. And working on app code design also. 
+**Thought:** Unlike yesterday today I was little bit busy in doing some other work because of which not properly able to give time on project but today practice previous JavaScript concept like factor function, closure etc. And working on app code design also.
 
 
 ### Day 3: Dec 11,2020 (Friday)
@@ -1084,7 +1084,7 @@ Solution is to to inject the dependency in high level class/code.
 ```css
     main{
         filter : brightness(110%);
-    } 
+    }
 ```
 
 
@@ -1099,7 +1099,7 @@ Solution is to to inject the dependency in high level class/code.
 
 **Today's Progress:** Worked on filter todo's.
 
-**Thought:** Like yesterday stuck on this issue.But will find the way to implement it. If not then will use simple approach but it may break design pattern somehow. 
+**Thought:** Like yesterday stuck on this issue.But will find the way to implement it. If not then will use simple approach but it may break design pattern somehow.
 
 
 ### Day 11: Dec 19,2020(Saturday)
@@ -1131,7 +1131,7 @@ parent.appendChild('Hello world') // throw error
 
 Learn about a new method of `date api` to get month name from date.
 
-```js 
+```js
     const todayTime = new Date();
     const todayMonthName = todayTime.toLocaleString('default', { month: 'long' });
 
@@ -1161,9 +1161,9 @@ Also learned about a new css property to remove all default properties of elemen
     }
     /* New way */
     button{
-        all: unset; 
+        all: unset;
     }
-```  
+```
 
 ### Day 14: Dec 22,2020(Tuesday)
 
@@ -1171,7 +1171,7 @@ Also learned about a new css property to remove all default properties of elemen
 
 **Thought:** For now todo app can work offline. Now need to add some validations and bug fixes. After that will move forward to implement firebase support for user authentication and storing user data.
 
-Today get to know about some basic difference b/w localStorage and IndexedDB i.e. 
+Today get to know about some basic difference b/w localStorage and IndexedDB i.e.
 - localStorage allow to store upto 5MB of data.
 - IndexedDB allow to store maximum data according to available disk space on client device.
 
@@ -1186,7 +1186,7 @@ Today get to know about some basic difference b/w localStorage and IndexedDB i.e
 **Today's Progress:** New changes and bug fixes.
 
 **Thought:** In yesterday commit their was a bug the items didn't get saved locally, fix that one and done some styling to make mobile responsive layout and now working on a logic to toggle the sidenav tab states to know which tab is active.
- 
+
 **Resources:**
 - https://css-tricks.com/flexbox-truncated-text/
 - https://css-tricks.com/almanac/properties/t/text-overflow/
@@ -1221,7 +1221,7 @@ Today get to know about some basic difference b/w localStorage and IndexedDB i.e
 
 **Today's Progress:** Implement the logic to delete created projects.
 
-**Thought:** Now my todo-app cover all functionality. Now my remaining task is to implement firebase database and authentication. Once that completed I will make a release build. Today learn about creating custom events.It's very handy if you manually need to trigger any event like click. 
+**Thought:** Now my todo-app cover all functionality. Now my remaining task is to implement firebase database and authentication. Once that completed I will make a release build. Today learn about creating custom events.It's very handy if you manually need to trigger any event like click.
 
 - https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events
 
@@ -1263,7 +1263,7 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 
 **Today's Progress:** Add anonymous user login functionality in todo-list.
 
-**Thought:** Done some minor changes in todo-list web app. Then read docs about linting your code. The main purpose of linting your code is to prevent errors in `production build`. 
+**Thought:** Done some minor changes in todo-list web app. Then read docs about linting your code. The main purpose of linting your code is to prevent errors in `production build`.
 
 1. *Linting:* means following certain standard style rules for proper code formatting and syntax error prevention.
 2. *Linter:* Tools that perform linting such as `eslint, babel-eslint`. These tools analyze your code and check for syntax error in code.
@@ -1283,7 +1283,7 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 
 **Today's Progress:** Worked on creating portfolio.
 
-**Thought:** Today first time learn to setup tailwind css and begin to create my own portfolio and played with vscode to get familiarise with it's advanced features. 
+**Thought:** Today first time learn to setup tailwind css and begin to create my own portfolio and played with vscode to get familiarise with it's advanced features.
 
 **Resources:**
 - https://github.com/CoderOO7/vscode-fundamentals
@@ -1304,7 +1304,7 @@ Today learn new cool css trick i.e `filter: blur(4px)` allow you to blur that el
 
 **Today's Progress:** Learn to setup eslint.
 
-**Thought:** Today learn amazing things that to setup eslint and the most important one is to maintaining same node version across team members of a project locally. This allow to prevent production bugs for instance you as a team member install any library using higher node version and the node version running at production environment is less than your node version, than at time of making production build we have some unmet dependencies which cause bugs. 
+**Thought:** Today learn amazing things that to setup eslint and the most important one is to maintaining same node version across team members of a project locally. This allow to prevent production bugs for instance you as a team member install any library using higher node version and the node version running at production environment is less than your node version, than at time of making production build we have some unmet dependencies which cause bugs.
 
 **Resources:**
 - https://eslint.org/docs/user-guide/getting-started
@@ -1364,7 +1364,7 @@ engine-strict=true
 ```
 
 
-- 
+-
 
 
 <hr>
@@ -1373,14 +1373,14 @@ engine-strict=true
 
 >The reson of beginning this challenge again is that, yesterday I had not worked/code for at least 1hour.
 
-**Today's Progress:** Today learn to do inline form validation using javascript and constraint validation api. Get to  know about two useful extension i.e `fakefiller - to fill mock data in form` and `iMacros - you should check out yourself.` 
+**Today's Progress:** Today learn to do inline form validation using javascript and constraint validation api. Get to  know about two useful extension i.e `fakefiller - to fill mock data in form` and `iMacros - you should check out yourself.`
 
-**Resouces:** 
+**Resouces:**
 
 - https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
 
 
-**Source Code:**  
+**Source Code:**
 - https://gist.github.com/CoderOO7/d91a96bd63f734a7dcc8dacbf3c94e00
 
 
@@ -1388,7 +1388,7 @@ engine-strict=true
 
 **Today's Progress:** Today played with webpack learn about setting up it's config, dev environment and debugging techniques. That's all about today. So most of the time spent in setting up environment, removing bugs...
 
-**Resouces:** 
+**Resouces:**
 - https://webpack.academy/p/the-core-concepts
 - https://webpack.js.org/guides/development/
 - https://webpack.js.org/guides/asset-management/
@@ -1398,9 +1398,9 @@ engine-strict=true
 ## Day 3: Jan 15, 2021 [Friday]
 
 **Today's Progress:** About today is that, learn to fetch the data from server using `XMLHttpRequest` API.
-One thing in which I'm confused is data always send and recieve between client and server is in the form JSON or it can be in any other form too. 
+One thing in which I'm confused is data always send and recieve between client and server is in the form JSON or it can be in any other form too.
 
-**Resouces:** 
+**Resouces:**
 - https://www.theodinproject.com/courses/javascript/lessons/json
 
 
@@ -1424,7 +1424,7 @@ new Promise(function(resolve, reject){
 })
 ```
 
-**Resouces:** 
+**Resouces:**
 - https://www.theodinproject.com/courses/javascript/lessons/json
 
 
@@ -1439,7 +1439,7 @@ new Promise(function(resolve, reject){
 - There may be a case when network api return response  after long time or never return, in that case there should be a functionality that automatically cancel the request after certain time.
 - Also need to handle the case when network API response came early before the execution of some required code.
 
-**Resources:** 
+**Resources:**
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md
 
 
@@ -1515,7 +1515,7 @@ add( fetchX(), fetchY() )
 } );
 
 ```
-**Resources:** 
+**Resources:**
 - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md
 - https://stackoverflow.com/questions/42602868/what-does-it-mean-for-promises-to-be-immutable-and-their-guaranteed-value
 
@@ -1531,10 +1531,10 @@ add( fetchX(), fetchY() )
     button.addEventListener('click',()=>{
         console.log("Hi there, I'm console-btn !!");
         console.log("register to click event to console this msg");
-    }) = 
+    }) =
 ```
 
-Like `click event` we register `.then() and .catch()` events on Promise object and passed callbacks to them to perform action when the promoise resolved. 
+Like `click event` we register `.then() and .catch()` events on Promise object and passed callbacks to them to perform action when the promoise resolved.
 
 ```js
 
@@ -1579,7 +1579,7 @@ Like `click event` we register `.then() and .catch()` events on Promise object a
     p.then( baz, oopsBaz );
 ```
 
-In the end you should know that promise resolved in three cases: 
+In the end you should know that promise resolved in three cases:
 
 - When promise executor invok resolve() cb.
 - When promise executor invok reject() cb.
@@ -1599,7 +1599,7 @@ In the end you should know that promise resolved in three cases:
 
 **Today's Progress:** Today get familiar with i.e *Thenable Duck Typing*.
 
-**Thought:** I don't know is it really necessary to remeber these terms but the context is that *if anything walks like a duck, quack like a duck then it must be duck*. Well it shouldn't be true always. 
+**Thought:** I don't know is it really necessary to remeber these terms but the context is that *if anything walks like a duck, quack like a duck then it must be duck*. Well it shouldn't be true always.
 
 *Thenable Promises* are any function or objects having `.then()` method, to resemble like a Promise object. But in actual they are not Javascript Promise API instance.
 
@@ -1615,7 +1615,7 @@ In the end you should know that promise resolved in three cases:
     v.otherStuff = "not so cool";
 
     v.hasOwnProperty( "then" ); //return false
-    
+
     // here you can say it's v object is thenable
     v.then();
 ```
@@ -1691,7 +1691,7 @@ Now we can create a utility functiuon for *duck typing check* for thenable as be
     let p = new Promise(function(resolve,reject){
                 let msg1 = "CoderOO7 there ?";
                 let msg2 = "How are you ?";
-                
+
                 //msg1 is passed to observation callback on p.then()
                 //msg2 get ignored
                 resolve(msg1, msg2);
@@ -1819,7 +1819,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
     function request(url){
         return new Promise(function(resolve){
             // ajax doesn't return promise, that's why we wrap it inside promise
-            ajax(url,resolve); 
+            ajax(url,resolve);
         })
     }
 
@@ -1878,7 +1878,7 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
             console.log(vals); // [19,20]
         })
         .catch(function((err){
-            console.error(err); 
+            console.error(err);
         })
         ```
 
@@ -1904,14 +1904,14 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
         let p2 = Promise.resolve(90);
         let p3 = Promise.reject(47);
 
-        // Main promise will resolved for 
+        // Main promise will resolved for
         // first immediate value i.e p1
         Promise.all([p1,p2,p3])
         .then(function(vals){
             console.log(vals); // 19
         })
         .catch(function((err){
-            console.error(err); 
+            console.error(err);
         })
 
         p1 = Promise.resolve(23);
@@ -1921,10 +1921,10 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
         //Now main promise get rejected
         Promise.all([p3,p2,p1])
         .then(function(vals){
-            console.log(vals); 
+            console.log(vals);
         })
         .catch(function((err){
-            console.error(err); 
+            console.error(err);
         })
         ```
     * Other key point to remeber never pass an empty array to `Promise.race([])` because it will never resolve.
@@ -1939,8 +1939,8 @@ Now if you need to make any function behave asynchonously simply pass it in `Pro
 
 1. **Finally**
 
-   * Now here we are, if in any case you want to perform some action either promise fulfilled or rejected then you can register `.finally()` event on promise instance and even chain them too on `.then()`. 
-   
+   * Now here we are, if in any case you want to perform some action either promise fulfilled or rejected then you can register `.finally()` event on promise instance and even chain them too on `.then()`.
+
         ```js
         let p = Promise.resolve( 42 );
 
@@ -2001,7 +2001,7 @@ Below is **async** function syntax. async signify two things.
     ```
 
     Whenver we explicitly return something from function then promise get resolved. For example
-        
+
     ```js
     async function foo(){
         //do asynchronous task...
@@ -2053,8 +2053,8 @@ window.addEventListener('unhandledrejection',function(event){
 
 **Today's Progress:** Integrate OpenWather API.
 
-**Thought:** Yesterday I had started a new project i.e. a weather app to hone my skills about API integration, how it's design, implementatin bla bla... Today get to understand some basic concepts like *resources*, *endpoints* and some other stuffs. Now integrate the openWeather API and prints its response to console. By tomorrow will complete this project. 
- 
+**Thought:** Yesterday I had started a new project i.e. a weather app to hone my skills about API integration, how it's design, implementatin bla bla... Today get to understand some basic concepts like *resources*, *endpoints* and some other stuffs. Now integrate the openWeather API and prints its response to console. By tomorrow will complete this project.
+
 **Resources:**
 
 - https://zapier.com/learn/apis/chapter-6-api-design/
@@ -2073,7 +2073,7 @@ window.addEventListener('unhandledrejection',function(event){
 
 **Thought:** Really slaute to frontend developers who creat a whole short animation video using HTML5/CSS3 only. According to me fronend basic is versy easy but its specialization is not child's play. Let's come to the point today before pushing code to github I had hard reset my git HEAD to previous commit and all my changes gone. But I able to recover them using `git reflog` command. From this incident came to know git also maintain a backup directory because of which I'm able to recover my files. So in the last make a first release of the project. Below is the project live verison.
 
-**Demo:** 
+**Demo:**
 https://coderoo7.github.io/weather-app/
 
 
@@ -2083,5 +2083,39 @@ https://coderoo7.github.io/weather-app/
 
 **Thought:** Done some UI changes and add other functionality to change the weather app background according to current weather condition of searched city. Then update the portfolio to enlist my new projects. That's how the today spend.
 
-**Demo:** 
+**Demo:**
+https://coderoo7.github.io/weather-app/
+
+### DAY 16: FEB 3,2021 [Wednesday]
+
+**Today's Progress:** Started react.
+
+**Thought:** Read about why react should be used, what react is and some other stuff. After reading some articles understand that
+
+- React is a client side UI library that can be used with any tech stack which has it's big advantage over it's competiters like Vue and Angular.
+- React has two building blocks i.e
+
+  1. Components: A component can be described as independent unit of your web page like navbar, footer etc. Component can be define using two ways either function or class. Basically component maintain their own state because of that our application become loosely coupled which allow us to write flexible and reusable code. `The good code is one which is easy to delete` and that rule react follows very well.
+
+  ```js
+  //Class Component
+  class Welcome extends React.Component {
+    render() {
+        return <h1>Hello, {this.props.name}</h1>;
+    }
+  }
+
+  // Functional Component
+  function Welcome(props) {
+    return <h1>Hello, {props.name}</h1>;
+  }
+  ```
+  2. Elements: These are your html like syntax elements but in actual they follow JSX syntax or we can say they are JSX elements not HTML nor string. These are elements that are rendered to DOM using `REACTDOM` library.
+
+  ```js
+    // element is JSX entity
+    const element = <h1>Hello, world!</h1>;
+  ```
+
+**Demo:**
 https://coderoo7.github.io/weather-app/
