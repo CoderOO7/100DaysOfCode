@@ -2086,36 +2086,73 @@ https://coderoo7.github.io/weather-app/
 **Demo:**
 https://coderoo7.github.io/weather-app/
 
+
 ### DAY 16: FEB 3,2021 [Wednesday]
 
 **Today's Progress:** Started react.
 
 **Thought:** Read about why react should be used, what react is and some other stuff. After reading some articles understand that
 
-- React is a client side UI library that can be used with any tech stack which has it's big advantage over it's competiters like Vue and Angular.
+- React is a client side UI library that can be used with any tech stack which has it's big advantage over it's competitors like Vue and Angular.
 - React has two building blocks i.e
 
   1. Components: A component can be described as independent unit of your web page like navbar, footer etc. Component can be define using two ways either function or class. Basically component maintain their own state because of that our application become loosely coupled which allow us to write flexible and reusable code. `The good code is one which is easy to delete` and that rule react follows very well.
 
-  ```js
-  //Class Component
-  class Welcome extends React.Component {
-    render() {
-        return <h1>Hello, {this.props.name}</h1>;
+    ```js
+    //Class Component
+    class Welcome extends React.Component {
+        render() {
+            return <h1>Hello, {this.props.name}</h1>;
+        }
     }
-  }
 
-  // Functional Component
-  function Welcome(props) {
-    return <h1>Hello, {props.name}</h1>;
-  }
-  ```
+    // Functional Component
+    function Welcome(props) {
+        return <h1>Hello, {props.name}</h1>;
+    }
+    ```
   2. Elements: These are your html like syntax elements but in actual they follow JSX syntax or we can say they are JSX elements not HTML nor string. These are elements that are rendered to DOM using `REACTDOM` library.
 
-  ```js
-    // element is JSX entity
-    const element = <h1>Hello, world!</h1>;
-  ```
+    ```js
+        // element is JSX entity
+        const element = <h1>Hello, world!</h1>;
+    ```
 
-**Demo:**
-https://coderoo7.github.io/weather-app/
+### DAY 17: FEB 4,2021 [Thursday]
+
+**Today's Progress:** Play with react.
+
+**Thought:** Learn to do basic react-setup and clear some concepts about JSX elements.
+
+- **So what is the purpose of JSX, why we use it ?**
+  JSX holy purpose is to enable to write HTML markup in Javascript.
+  Now internally after compilation JSX expressions become javscript function calls. Means at last theses HTML like looking elements actually transpile to javasript code. That's why JSX is coined as Javascript Extension.
+
+  ```js
+    //This el is JSX element
+    const el  = <h1>Hi their</h1>
+
+    //After compilation it will transpile to following function
+    React.createElement(<h1>Hi their</h1>,{},null);
+  ```
+  For more understanding checkout this [React without JSX](https://reactjs.org/docs/react-without-jsx.html).
+
+- **What is pure function ?**
+  Pure simply means for given input you always get same output and **input never modifies**. Now using this concept in react is that props(object with user defined properties) that we pass to  children component are **immutable** means read only.
+
+  In other terms props can't be modified because that they always produce same output means props are pure.
+
+  ```js
+  //pure function always have same output for same input
+  const add = (a,b) => a+b;
+
+  let arr = [0,8,8,-1,1]
+
+  //Now here, foo is impure function as it modify our input
+  function foo(arr){
+      for(let i = 0; i<arr.length; i++){
+          arr[i] += 1;
+      }
+  }
+  console.log(arr) //[1,9,9,0,2]
+  ```
