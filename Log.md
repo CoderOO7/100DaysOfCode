@@ -2133,9 +2133,11 @@ https://coderoo7.github.io/weather-app/
     const el  = <h1>Hi their</h1>
 
     //After compilation it will transpile to following function
-    React.createElement(<h1>Hi their</h1>,{},null);
+    React.createElement("<h1>Hi their</h1>",{},null);
   ```
+
   For more understanding checkout this [React without JSX](https://reactjs.org/docs/react-without-jsx.html).
+  <br>
 
 - **What is pure function ?**
   Pure simply means for given input you always get same output and **input never modifies**. Now using this concept in react is that props(object with user defined properties) that we pass to  children component are **immutable** means read only.
@@ -2154,5 +2156,207 @@ https://coderoo7.github.io/weather-app/
           arr[i] += 1;
       }
   }
+
+  foo();
   console.log(arr) //[1,9,9,0,2]
   ```
+
+
+### DAY 18: FEB 5,2021 [Friday]
+
+**Today's Progress:** Understand concept of state and props in React.
+
+**Thought:** Today again read more about react stuff & get in details about states and props in react. Some important points that I have grab are like this
+
+- **So why we pass props to constructor of child component?**
+  If you don't pass props to constructor than your `this.pops.somProperty` will be undefined if you use it inside constructor.
+  Note: `this.props` will be define inside of other methods like render() regardless of whether you pass props to super() or not.
+  <br>
+
+    ```js
+    import React, {Component} from "react";
+    import ReactDom from "react-dom";
+
+    class ParentComponent extends Component{
+
+        //Not using constructor here no need.
+
+        /* constructor(props){
+            super(props);
+        } */
+
+        clickBtn(){
+            console.log("How dare you to click me ?");
+        }
+
+        render(){
+            return(
+
+                <ChildComponent onButtonClicked={this.clickBtn}/>
+            )
+        }
+    }
+
+    ReactDom.render(<ParentComponent />, document.getElementById("root"));
+    ```
+
+    ```js
+    import React, {Component} from "react";
+
+    class ChildComponent extends Component{
+
+        constructor(props){
+            console.log("Before super(props)",props); //here props will be undefined.
+            super(props);
+            console.log("After super(props)",props); // here props will be define.
+        }
+
+        render(){
+            // Event if you don't pass props to super, props will be define.
+            return(
+                <h1>Child Component</h1>
+                <button onClick={this.props.onButtonClicked}>Click Me!!</button>
+            )
+        }
+    }
+    ```
+
+- **Why we bind `this` to function of Class Component ?**
+  If we don't bind this to function then it's context will be undefined when you pass that function as a props to chidComponent. Here *context* refer to the class in which function is define.
+
+  Now considering previous code snippet, I had only console statement to `clickBtn()`function.Now when you click on the button `this` will be undefined.
+
+   ```js
+    .....
+
+    class ParentComponent extends Component{
+
+        //Not using constructor here no need.
+
+        /* constructor(props){
+            super(props);
+        } */
+
+        clickBtn(){
+            //New statement
+            console.log(this);
+            console.log("How dare you to click me ?");
+        }
+
+        render(){
+            return(
+                <ChildComponent onButtonClicked={this.clickBtn}/>
+            )
+        }
+    }
+    ....
+
+    ```
+
+   Now let see after binding `this` what happened...
+
+    ```js
+    .....
+
+    class ParentComponent extends Component{
+
+
+        constructor(props){
+            super(props);
+            // here we are binding the context of function.
+            this.clickBtn = this.clickBtn.bind(this);
+        }
+
+        clickBtn(){
+            //New statement
+            console.log(this); // some Object
+            console.log("How dare you to click me ?");
+        }
+
+        render(){
+            return(
+                <ChildComponent onButtonClicked={this.clickBtn}/>
+            )
+        }
+    }
+    ....
+
+    ```
+
+    On seeing value on console you will understand the difference.
+
+- **Now the concept of State**
+  Each component in react maintain it's own state which private to component itself. In case you want to update some variable values whose output you want to render on UI in that you have to use `state` in react.
+
+  `state:{}` it's simply an object with user defined properties. Let see through example.
+
+  ```js
+    import React, { Component } from "react";
+
+    class App extends Component {
+        constructor() {
+            super();
+            //Setting inital values here
+            this.state = {
+            count: 0,
+            };
+
+            this.countUp = this.countUp.bind(this);
+        }
+
+        countUp() {
+            //UI will not update
+            this.state.count += 1;
+            console.log("count"+this.state.count);
+        }
+
+        render() {
+            return (
+            <div>
+                <button onClick={this.countUp}>Click Me!</button>
+                <p>{this.state.count}</p>
+            </div>
+            );
+        }
+    }
+  ```
+
+  If you click on button you will notice that in console you will able to see count updated value but UI is not updating.
+  For that case we always updated variable value using `setState()` method. Because on each call of `setState()` your dom is re-rendered or you can say updated.
+
+   ```js
+    import React, { Component } from "react";
+
+    class App extends Component {
+        constructor() {
+            super();
+            //Setting inital values here
+            this.state = {
+            count: 0,
+            };
+
+            this.countUp = this.countUp.bind(this);
+        }
+
+        countUp() {
+            //Now your UI will update too...
+            this.setState({
+                count: this.state.count + 1,
+            });
+            console.log("count"+this.state.count);
+        }
+
+        render() {
+            return (
+            <div>
+                <button onClick={this.countUp}>Click Me!</button>
+                <p>{this.state.count}</p>
+            </div>
+            );
+        }
+    }
+  ```
+
+**Resources:**
+
+- https://theodinproject.com/courses/javascript/lessons/state-and-props
