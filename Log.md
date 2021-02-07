@@ -2360,3 +2360,17 @@ https://coderoo7.github.io/weather-app/
 **Resources:**
 
 - https://theodinproject.com/courses/javascript/lessons/state-and-props
+
+
+### Day 19: FEB 6,2021 [Saturday]
+
+**Today's Progress:** Integrate babel with webpack.
+
+**Thoughts:** Today I got stuck on some error while integrating babel with webpack in my todo-list project and most of the time was spent in fixing that error.
+
+
+### Day 20: FEB 7,2021 [Sunday]
+
+**Today's Progress:** Begin to work on todo task sample app.
+
+**Thoughts:** Today I think to move forward to implement what I have learn upto now. So able to do some basic stuffs in my todo task app. After modifying it little bit will begin to work on my `uttamcv` project.
