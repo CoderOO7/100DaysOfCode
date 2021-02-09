@@ -2374,3 +2374,95 @@ https://coderoo7.github.io/weather-app/
 **Today's Progress:** Begin to work on todo task sample app.
 
 **Thoughts:** Today I think to move forward to implement what I have learn upto now. So able to do some basic stuffs in my todo task app. After modifying it little bit will begin to work on my `uttamcv` project.
+
+
+### Day 21: FEB 8,2021 [Monday]
+
+**Today's Progress:** Work on my todo Task react app.
+
+**Thoughts:** Today I get myself indulge in fixing bugs. Then implement basic todo create and edit functionality in app and some ui changes.
+
+
+### Day 22: FEB 9,2021 [Tuesday]
+
+**Today's Progress:** Like yesterday today also work on my react todo app.
+
+**Thoughts:** So I had spent most of time around 3 to 4 hours on a bug which is actually not a bug but silly mistake by me while writing the code. After that get another bug which surprisingly new to me and I'm still not able to understand what is the cause of this properly. But somehow I get work around it and it get fixed using another approach.
+
+Trying to explain the bug using example.
+
+```js
+ class App extends React.Component{
+     constructor(){
+         super();
+
+         this.state = {
+             task:{},
+             tasks: [
+                 {
+                    id: 1,
+                    title: "100DaysOfCode",
+                    isCompleted: false,
+                 },
+                 {
+                    id: 2,
+                    title: "Full Stack Developer",
+                    isCompleted: false,
+                 },
+                 {
+                    id: 3,
+                    title: "Successful Person",
+                    isCompleted: false,
+                 }
+             ],
+         }
+
+         this.toggleTaskCompletion1 = this.toggleTaskCompletion1.bind(this);
+         this.toggleTaskCompletion2 = this.toggleTaskCompletion2.bind(this);
+     }
+
+    // using this approach my tasks array get never updated don't understand why
+     toggleTaskCompletion1(id){
+
+        //setState is asynchronous but here I'm using updater function which gurantee to update
+        //the value but still my taskCompletion state didn't change....
+        this.setState((prevState)=>{
+            return{
+                tasks: prevState.tasks.map((task)=>{
+                    if(task.id === id){
+                        task.isCompleted = !task.isCompleted,
+                    }
+                    return task
+                });
+            }
+        })
+     }
+
+    // using this approach task completion state update.
+     toggleTaskCompletion2(id){
+        // here first I'm synchrounously get the array with updated value.
+        const tasks = prevState.tasks.map((task)=>{
+                        if(task.id === id){
+                            task.isCompleted = !task.isCompleted,
+                        }
+                        return task
+                      });
+        // then this array is used to change the state...
+        this.setState((prevState)=>{
+            return{
+                tasks,
+            }
+        });
+     }
+
+     render(){
+         toggleTaskCompletion1(1); //Doesn't update
+         toggleTaskCompletion2(1); //Does update
+
+         return(
+             <h1>Be happy :)</h1>
+         );
+     }
+ }
+
+```
