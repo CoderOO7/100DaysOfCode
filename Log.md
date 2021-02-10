@@ -2387,7 +2387,7 @@ https://coderoo7.github.io/weather-app/
 
 **Today's Progress:** Like yesterday today also work on my react todo app.
 
-**Thoughts:** So I had spent most of time around 3 to 4 hours on a bug which is actually not a bug but silly mistake by me while writing the code. After that get another bug which surprisingly new to me and I'm still not able to understand what is the cause of this properly. But somehow I get work around it and it get fixed using another approach.
+**Thoughts:** So I had spent most of my time around 3 to 4 hours on a bug which is actually not a bug but silly mistake by me while writing the code. After that get another bug which surprisingly new to me and I'm still not able to understand what is the cause of this properly. But somehow I get work around it and it get fixed using another approach.
 
 Trying to explain the bug using example.
 
@@ -2466,3 +2466,9 @@ Trying to explain the bug using example.
  }
 
 ```
+
+### Day 23: FEB 10,2021 [Wednesday]
+
+**Today's Progress:** App ready for beta release.
+
+**Thoughts:** Today done with all UI changes and functionality that want to implement. Main task was to handle user data for which I have implemented a local storage. Now tomorrow will try to convert this react web app into chrome extension and if everything works fine then tomorrow will make a beta release of todoroll chrome extension.
