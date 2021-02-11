@@ -2472,3 +2472,22 @@ Trying to explain the bug using example.
 **Today's Progress:** App ready for beta release.
 
 **Thoughts:** Today done with all UI changes and functionality that want to implement. Main task was to handle user data for which I have implemented a local storage. Now tomorrow will try to convert this react web app into chrome extension and if everything works fine then tomorrow will make a beta release of todoroll chrome extension.
+
+
+### Day 24: FEB 11,2021 [Thursday]
+
+**Today's Progress:** Test the extension in chrom and firefox browser.
+
+**Thoughts:** Yesterday I thought of uploading the extension to chrome web store. But it has a $5 fee. And I didn't knew then I visit firefox store and they don't have any fee to upload add-on to their store. But get stuck on a step. I think it should be fix by tomorrow and may be share my first browser extension public link.
+
+Today learn a handy command of git to make an archive of latest commit. i.e.
+
+```bash
+git archive -o filename.zip HEAD
+```
+Advantage is that files mentioned in `.gitignore` automatically excluded.
+
+**Resources:**
+- https://developer.chrome.com/docs/webstore/get_started_simple/
+
+- https://dev.to/scleriot/build-a-firefox-extension-step-by-step-5dbl
