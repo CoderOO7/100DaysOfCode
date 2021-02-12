@@ -2476,7 +2476,7 @@ Trying to explain the bug using example.
 
 ### Day 24: FEB 11,2021 [Thursday]
 
-**Today's Progress:** Test the extension in chrom and firefox browser.
+**Today's Progress:** Test the extension in chrome and firefox browser.
 
 **Thoughts:** Yesterday I thought of uploading the extension to chrome web store. But it has a $5 fee. And I didn't knew then I visit firefox store and they don't have any fee to upload add-on to their store. But get stuck on a step. I think it should be fix by tomorrow and may be share my first browser extension public link.
 
@@ -2491,3 +2491,10 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 - https://developer.chrome.com/docs/webstore/get_started_simple/
 
 - https://dev.to/scleriot/build-a-firefox-extension-step-by-step-5dbl
+
+
+### Day 25: FEB 12,2021 [Friday]
+
+**Today's Progress:** Fix the timezone bug in firefox.
+
+**Thoughts:** Today I get to know that firefox and chrome `new Date()` API return dateTime differently i.e firefox return in UTC while chrome return in LocalTimeZone. But I need to maintain localTimeZone for this fetching the localTimeZone based on client ip.
