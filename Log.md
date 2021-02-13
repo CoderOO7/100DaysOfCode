@@ -2498,3 +2498,9 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Today's Progress:** Fix the timezone bug in firefox.
 
 **Thoughts:** Today I get to know that firefox and chrome `new Date()` API return dateTime differently i.e firefox return in UTC while chrome return in LocalTimeZone. But I need to maintain localTimeZone for this fetching the localTimeZone based on client ip.
+
+### Day 26: FEB 13,2021 [Saturday]
+
+**Today's Progress:** Auto background image update functionality.
+
+**Thoughts:** After fixing the timeZone bug I began to work on implementing functionality to auto update the background image based on daytime. Being honest today didn't done much work that's why only able to implement that auto background image functionality. In short today also not able to launch firefox extension.
