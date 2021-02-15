@@ -2499,8 +2499,27 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 
 **Thoughts:** Today I get to know that firefox and chrome `new Date()` API return dateTime differently i.e firefox return in UTC while chrome return in LocalTimeZone. But I need to maintain localTimeZone for this fetching the localTimeZone based on client ip.
 
+
 ### Day 26: FEB 13,2021 [Saturday]
 
 **Today's Progress:** Auto background image update functionality.
 
 **Thoughts:** After fixing the timeZone bug I began to work on implementing functionality to auto update the background image based on daytime. Being honest today didn't done much work that's why only able to implement that auto background image functionality. In short today also not able to launch firefox extension.
+
+
+### Day 27: FEB 14,2021 [Sunday]
+
+**Today's Progress:** Build script changes.
+
+**Thoughts:** Fix some previous bugs and create a build to publish addon. But because of 504 Gateway error unable to publish it. But user can test it locally.
+
+
+### Day 28: FEB 15,2021 [Monday]
+
+**Today's Progress:** Update readme.md and refactor the code.
+
+**Thoughts:** I think instead of lazy loading images in react, it's better to use static asset urls for images in production build. Today also getting 504 gateway error on publish the addon, so I had created a launch script so that user can install & test extension in browser locally.
+
+**Resources:**
+
+- https://drag13.io/posts/react-inline-runtimer-chunk/index.html
