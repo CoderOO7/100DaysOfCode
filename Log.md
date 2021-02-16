@@ -2523,3 +2523,15 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Resources:**
 
 - https://drag13.io/posts/react-inline-runtimer-chunk/index.html
+
+
+### Day 29: FEB 16,2021 [Tuesday]
+
+**Today's Progress:** Began to work on my cv project.
+
+**Thoughts:** Most of the time spend in setting up tailwind from scratch in my react template. But effort was not in vain, by setting up things from scratch able to clear more concepts related to post-css and learn some new tweaks. Now from tomorrow will began to implement the logic and UI part of the app.
+
+**Resources:**
+
+- https://codewithnico.com/production-ready-react-apps/
+- https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
