@@ -2535,3 +2535,10 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 
 - https://codewithnico.com/production-ready-react-apps/
 - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
+
+
+### Day 30: FEB 17,2021 [Wednesday]
+
+**Today's Progress:** Design UI of components.
+
+**Thoughts:** Only worked on designing the components today. Few components still remain, then will implement logic part. I think by tomorrow all components UI rendering may be done. That's all about today.
