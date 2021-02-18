@@ -2542,3 +2542,10 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Today's Progress:** Design UI of components.
 
 **Thoughts:** Only worked on designing the components today. Few components still remain, then will implement logic part. I think by tomorrow all components UI rendering may be done. That's all about today.
+
+
+### Day 31: FEB 18,2021 [Thursday]
+
+**Today's Progress:** Integrate two component in app.
+
+**Thoughts:** After completing UI design of components today begin to integrate them. Now the problem is that I have to maintain and store the state of each component that I'm going to integrate. The previous project was small. But in this project I'm taking the input from user in different forms means different component. Now need to maintain a single state for all components & I don't know how to manage that part without using redux. But let see if redux is required than will use it.
