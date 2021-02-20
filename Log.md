@@ -2549,3 +2549,22 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Today's Progress:** Integrate two component in app.
 
 **Thoughts:** After completing UI design of components today begin to integrate them. Now the problem is that I have to maintain and store the state of each component that I'm going to integrate. The previous project was small. But in this project I'm taking the input from user in different forms means different component. Now need to maintain a single state for all components & I don't know how to manage that part without using redux. But let see if redux is required than will use it.
+
+
+### Day 32: FEB 19,2021 [Friday]
+
+**Today's Progress:** Optimize webpack build performance.while using it
+
+**Thoughts:** The issue was that whenever I do single change in css property than webpack dev server rebuild the entire app and because of tailwind it was taking around 1 minute to build. So I began to google about how I can optimize webpack build performance, then came to know if we maintain cache then it really improve the build performance. Then after doing some tweaks I'm able to imporve build performance. Initial build take time, but after that it works fine.
+
+
+### Day 33: FEB 20,2021 [Saturday]
+
+**Today's Progress:** Learn to setup docker.
+
+**Thoughts:** Today learn to setup docker for a project on which I'm going to work and may be for a while giving pause to my `uttamcv` project on which I was working. So in this project I have to made a Loan Management System for which I'm going to use `MERN` stack. Let see how much time it will take. After getting familiar with docker and gets my hand dirty while working on it. Then done some changes in my `react-webpack-starter` template to optimize webpack performance and some linting tweaks.
+
+**Resouces:**
+
+- https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10
+- https://serversforhackers.com/c/getting-started-with-docker
