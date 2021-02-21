@@ -2568,3 +2568,14 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 
 - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10
 - https://serversforhackers.com/c/getting-started-with-docker
+
+
+### Day 34: FEB 21, 2021 [Sunday]
+
+**Today's Progress:** Learn to setup docker-compose file.
+
+**Thoughts:** So today begin to work on new project, but will try to complete my `uttamcv` project side by side. By following a blog article I have setup my initial frontend, backend stucture for my project. Setting the timeline for this week to complete this project. I hope so it get completed.  
+
+**Resources:**
+
+- https://www.freecodecamp.org/news/create-a-fullstack-react-express-mongodb-app-using-docker-c3e3e21c4074/
