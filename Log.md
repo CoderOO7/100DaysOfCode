@@ -2579,3 +2579,14 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Resources:**
 
 - https://www.freecodecamp.org/news/create-a-fullstack-react-express-mongodb-app-using-docker-c3e3e21c4074/
+
+
+### Day 35: FEB 22, 2021 [Monday]
+
+**Today's Progress:** Refactor the code.
+
+**Thoughts:** The reason I refactor the code or you can say project structure because I want to seperate the backend and frontend code such that they can deploy on different servers. As usual you see monolithic repo in which client and server code are in same directory because of that they can't be deploy on different platforms. I use 3 tier stucture for project which is about decoupling of frontend and backend code. Now the app can be run locally as well as using docker container. From tomorrow will begin to implement auth API for login & resgisteration of user.
+
+**Resources:**
+
+- https://alligator.io/react/mern-stack-intro/
