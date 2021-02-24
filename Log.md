@@ -2590,3 +2590,28 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Resources:**
 
 - https://alligator.io/react/mern-stack-intro/
+
+
+### Day 36: FEB 23, 2021 [Tuesday]
+
+**Today's Progress:** Learn to implement schema in mongoose.
+
+**Thoughts:** After implement schema for user, I want to test the user model without using api. Then I groped many articles and found one in which author explain to use `mongo in memory db` using jest library to define & run test cases. Now `mongo in memory db` is just a mongod process that takes around 7mb of ram and create database in main memory instead of persistance storage. That's all what I learn tomorrow will complete the user auth api.
+
+**Resources:**
+
+- https://dev.to/paulasantamaria/testing-node-js-mongoose-with-an-in-memory-database-32np
+- https://dev.to/nedsoft/testing-nodejs-express-api-with-jest-and-supertest-1km6
+- https://dev.to/mhmdlotfy96/testing-nodejs-express-api-with-jest-and-supertest-1bk0
+
+
+### Day 37: FEB 24, 2021 [Wednesday]
+
+**Today's Progress:** Integrate login and signup API.
+
+**Thoughts:** Although I had integrated the api's the important thing that remain to generate authentication user token. After implementing authentication token logic will work on client side to setup login and signup form.
+
+**Resources:**
+
+- https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/
+- https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens
