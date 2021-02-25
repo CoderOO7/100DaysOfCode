@@ -2615,3 +2615,14 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 
 - https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/
 - https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens
+
+
+### Day 38: FEB 25, 2021 [Thursday]
+
+**Today's Progress:** generate auth token for user.
+
+**Thoughts:** Only implement the logic for generating auth access token for user. Also implement the logic for handling user roles and made new api to fetch all users that can only be access by admin. Now somehow handling the user role but may be that's not the modular approach that I'm using for right now.
+
+**Resources:**
+
+- https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens
