@@ -2626,3 +2626,36 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Resources:**
 
 - https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens
+
+
+### Day 39: FEB 26,2021 [Friday]
+
+**Today's Progress:** Changes in api response.
+
+**Thoughts:** Today was reading about good api design practices and came to know few key points that
+
+* Api endpoints should be noun instread of verbes
+* Either use plural or singular nouns for api, whatever you choose maintain the same structure throught the app.
+* There are other some key concepts but the best one is to implement cache functionality in api. If you have ever seen `e-tag` in api response that means api support caching functionality. 
+
+**Resources:**
+
+- ### Day 38: FEB 25, 2021 [Thursday]
+
+**Today's Progress:** generate auth token for user.
+
+**Thoughts:** Only implement the logic for generating auth access token for user. Also implement the logic for handling user roles and made new api to fetch all users that can only be access by admin. Now somehow handling the user role but may be that's not the modular approach that I'm using for right now.
+
+**Resources:**
+
+- https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens
+### Day 38: FEB 25, 2021 [Thursday]
+
+**Today's Progress:** generate auth token for user.
+
+**Thoughts:** Only implement the logic for generating auth access token for user. Also implement the logic for handling user roles and made new api to fetch all users that can only be access by admin. Now somehow handling the user role but may be that's not the modular approach that I'm using for right now.
+
+**Resources:**
+
+- https://archive.org/details/api-design-ebook-2012-03/
+- https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/
