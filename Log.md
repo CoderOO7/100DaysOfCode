@@ -2627,9 +2627,27 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 
 - https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens
 
-### Day 39 - Day 42
 
-**Thought's:** For past few day not able to maintain the log but I was working on the app and implement user auth funcationality in it. Now user can succussfully login and signup.
+### Day 39: FEB 26,2021 [Friday]
+
+**Today's Progress:** Changes in api response.
+
+**Thoughts:** Today was reading about good api design practices and came to know few key points that
+
+* Api endpoints should be noun instread of verbes
+* Either use plural or singular nouns for api, whatever you choose maintain the same structure throught the app.
+* There are other some key concepts but the best one is to implement cache functionality in api. If you have ever seen `e-tag` in api response that means api support caching functionality. 
+
+**Resources:**
+
+- https://jsonapi.org/examples/
+- https://archive.org/details/api-design-ebook-2012-03/mode/2up
+- https://florimond.dev/blog/articles/2018/08/restful-api-design-13-best-practices-to-make-your-users-happy/
+
+
+### Day 40 - Day 42
+
+**Thought's:** For past few day not able to maintain the log but I was working on the app and learn to setup redux in app but yet I didn't understand it's concept clearly.
 
 **Resources:**
 - https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669
@@ -2641,25 +2659,25 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 
 **Thoughts:** Today I have refactor the yesterday code, fix logout bug & done some changes in my build scripts. One new thing I learn is to implement run time validation for props. Also read about refs in form. But yet don't know is it good to use it or not. That's all about today.
   
-```js 
- import React, {Component} from 'react';
- import PropTypes from 'prop-types'
- 
- class Parent extends Component {
-    // you code
+```js
+    import React, {Component} from 'react';
+    import PropTypes from 'prop-types'
     
-	<Children name="Shubham" occupation="React Developer">
- }
+    class Parent extends Component {
+        // you code
+        
+        <Children name="Shubham" occupation="React Developer">
+    }
 
- class Children extends Component {
-	// your code
- }
- 
- // props validation
- Children.propTypes = {
-	name: PropTypes.string.isRequired
-	occupation: PropTypes.string.isRequired
- } 	
+    class Children extends Component {
+        // your code
+    }
+    
+    // props validation
+    Children.propTypes = {
+        name: PropTypes.string.isRequired
+        occupation: PropTypes.string.isRequired
+    }
 ```
 
 **Resources:**
@@ -2673,11 +2691,11 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 
 **Today's Progress:** Implement loading UI component.
 
-**Thoughts:** Not able to catch much, watched some react youtube videos to clear concepts and trust those videos are really great. And implement a small functionality to show loading UI to user until api request completed.
+**Thoughts:** Not able to catch much, watched some react youtube videos to clear concepts and trust me those videos are really great. And implement a small functionality to show loading UI to user until api request completed.
+
 **Resources:**
 
-- 
-
+- https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw
 
 ### Day 45: MAR 04,2021 [Thursday]
 
