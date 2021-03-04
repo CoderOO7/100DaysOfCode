@@ -2626,3 +2626,65 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Resources:**
 
 - https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens
+
+### Day 39 - Day 42
+
+**Thought's:** For past few day not able to maintain the log but I was working on the app and implement user auth funcationality in it. Now user can succussfully login and signup.
+
+**Resources:**
+- https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669
+
+
+### Day 43: MAR 02,2021 [Tuesday]
+
+**Today's Progress:** Refactor the code.
+
+**Thoughts:** Today I have refactor the yesterday code, fix logout bug & done some changes in my build scripts. One new thing I learn is to implement run time validation for props. Also read about refs in form. But yet don't know is it good to use it or not. That's all about today.
+  
+```js 
+ import React, {Component} from 'react';
+ import PropTypes from 'prop-types'
+ 
+ class Parent extends Component {
+    // you code
+    
+	<Children name="Shubham" occupation="React Developer">
+ }
+
+ class Children extends Component {
+	// your code
+ }
+ 
+ // props validation
+ Children.propTypes = {
+	name: PropTypes.string.isRequired
+	occupation: PropTypes.string.isRequired
+ } 	
+```
+
+**Resources:**
+
+- https://hackernoon.com/replacing-componentwillreceiveprops-with-getderivedstatefromprops-c3956f7ce607
+- https://css-tricks.com/react-forms-using-refs/
+- https://reactjs.org/docs/refs-and-the-dom.html
+
+
+### Day 44: MAR 03,2021 [Wednesday]
+
+**Today's Progress:** Implement loading UI component.
+
+**Thoughts:** Not able to catch much, watched some react youtube videos to clear concepts and trust those videos are really great. And implement a small functionality to show loading UI to user until api request completed.
+**Resources:**
+
+- 
+
+
+### Day 45: MAR 04,2021 [Thursday]
+
+**Today's Progress:** Learn about Error Boundary in react.
+
+**Thoughts:** Today I was busy in doing some other stuff, because of that not able to cover much but yet I have learn to implement Error Boundary in react to prevent app crash. It's a useful feature implemented in react v16 to prevent app crash and provide a fallback ui to user in case error occur in any component.   
+
+**Resources:**
+
+- https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
