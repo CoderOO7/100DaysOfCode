@@ -2706,3 +2706,80 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 **Resources:**
 
 - https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
+
+
+### Day 46: MAR 05,2021 [Friday]
+
+**Today's Progress:** Learn about High Order Component in react.
+
+**Thoughts:** HOC in react are simple functions that take component as argument and return new component. The returned component is the extension to original component with some new functionality.
+
+*Need*: To reuse the same logic between different component. Just fullfill the DRY(Don't Repeat Yourself) principle.  
+
+*Naming Convention*: To distinguis HOC the function name prefix with `with` i.e `withRouter` in redux you have seen.
+
+```js
+// High Order Component
+const withCounter = (WrappedComp) => {
+  return class extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        count: 0
+      };
+    }
+
+    incrementCount = () => {
+      this.setState((prevState) => ({
+        count: prevState.count + 1
+      }));
+    }
+
+    render() {
+      return <WrappedComp name="CoderOO7 " count={this.state.count} incrementCount={this.incrementCount} />
+    }
+  }
+}
+
+class ClickCounter extends React.Component {
+  render() {
+    return <button onClick = {
+      this.props.incrementCount
+    } > {this.props.name} clicks {this.props.count} times < /button>
+  }
+};
+//New modified component
+const ClickCounterComp = withCounter(ClickCounter);
+
+class HoverCounter extends React.Component {
+  render() {
+    return <h1 onMouseOver = {
+      this.props.incrementCount
+    } > {this.props.name} clicks {this.props.count} times < /h1>
+  }
+}
+//New modified component
+const HoverCounterComp = withCounter(HoverCounter);
+
+class App extends React.Component {
+  render() {
+    return(
+        <React.Fragment>
+            <ClickCounterComp/>
+            <HoverCounterComp/>
+         </React.Fragment>
+    );
+  }
+}
+
+ReactDOM.render( < App / > , document.querySelector('#app'));
+
+```
+
+**Demo**
+- https://jsfiddle.net/qgvex1aj/45/
+
+**Resources:**
+
+- https://reactjs.org/docs/higher-order-components.html
+- https://www.youtube.com/watch?v=rsBQj6X7UK8
