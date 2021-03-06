@@ -2716,7 +2716,7 @@ Advantage is that files mentioned in `.gitignore` automatically excluded.
 
 *Need*: To reuse the same logic between different component. Just fullfill the DRY(Don't Repeat Yourself) principle.  
 
-*Naming Convention*: To distinguis HOC the function name prefix with `with` i.e `withRouter` in redux you have seen.
+*Naming Convention*: To distinguish HOC the function name prefix with `with` i.e `withRouter` in redux you have seen.
 
 ```js
 // High Order Component
@@ -2755,7 +2755,7 @@ class HoverCounter extends React.Component {
   render() {
     return <h1 onMouseOver = {
       this.props.incrementCount
-    } > {this.props.name} clicks {this.props.count} times < /h1>
+    } > {this.props.name} hover {this.props.count} times < /h1>
   }
 }
 //New modified component
@@ -2777,9 +2777,104 @@ ReactDOM.render( < App / > , document.querySelector('#app'));
 ```
 
 **Demo**
-- https://jsfiddle.net/qgvex1aj/45/
+- https://jsfiddle.net/upwd4not/
 
 **Resources:**
 
 - https://reactjs.org/docs/higher-order-components.html
 - https://www.youtube.com/watch?v=rsBQj6X7UK8
+
+
+### Day 47: MAR 05,2021 [Saturday]
+
+**Today's Progress:** Learn about renderProps in react.
+
+**Thoughts:** It's alternative of `HOC` that allow us to share a common logic between components. Or we can say *It's a technique to share code between components using prop whose value is a function*.
+
+Let's understand this statement with example.
+
+1. We create a component `Counter` that contain the logic that we want to share between the react components.
+2. Now we want to access the `Counter` logic in different component `ClickCounter or HoverCounter`, so we simply pass a function to `Counter` as prop 
+   - Now this function intake the values from `Counter` component in form of argument.
+   - And return the component we want to render.
+
+It's like 
+- Counter: Hi I will handle all the logic part and you will handle all the rendering stuff. But How can I share my logic with you ?
+- Programmer: Ohk I'm passing you a function. And you will provide me values I have specified in arguments. Once you done that I will return the component that I want to render.     
+- Counter: Ohk that's awesome.
+
+```js
+class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0,
+    };
+  }
+
+  incrementCount = () => {
+    this.setState((prevState) => ({
+      count: prevState.count + 1,
+    }));
+  };
+
+  render() {
+    return (
+      <div>{this.props.children(this.state.count, this.incrementCount)}</div>
+    );
+  }
+}
+
+class ClickCounter extends React.Component {
+  render() {
+    return (
+      <button onClick={this.props.incrementCount}>
+        {" "}
+        Clicks {this.props.count} times{" "}
+      </button>
+    );
+  }
+}
+
+class HoverCounter extends React.Component {
+  render() {
+    return (
+      <h1 onMouseOver={this.props.incrementCount}>
+        {" "}
+        Hover {this.props.count} times{" "}
+      </h1>
+    );
+  }
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Counter>
+          {(count, incrementCount) => {
+            return (
+              <ClickCounter count={count} incrementCount={incrementCount} />
+            );
+          }}
+        </Counter>
+        <Counter>
+          {(count, incrementCount) => {
+            return (
+              <HoverCounter count={count} incrementCount={incrementCount} />
+            );
+          }}
+        </Counter>
+      </React.Fragment>
+    );
+  }
+}
+
+ReactDOM.render(<App />, document.querySelector("#app"));
+```
+
+**Demo**
+- https://jsfiddle.net/ej81c4xk/19/
+
+**Resources:**
+- https://youtube.com/watch?v=EZil2OTyB4w
