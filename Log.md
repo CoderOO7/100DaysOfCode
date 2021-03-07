@@ -2878,3 +2878,16 @@ ReactDOM.render(<App />, document.querySelector("#app"));
 
 **Resources:**
 - https://youtube.com/watch?v=EZil2OTyB4w
+
+
+### Day 48: MAR 06,2021 [Sunday]
+
+**Today's Progress:** Learn about context in react.
+
+**Thoughts:** Context allow to matain global state in react app. Advantage is that we don't need to pass props to each descendent component. They can be access by any component in react tree.
+
+**Demo**
+- https://jsfiddle.net/0hozqdxw/13/
+
+**Resources**
+- https://www.youtube.com/watch?v=A9WlkhdLnn0
