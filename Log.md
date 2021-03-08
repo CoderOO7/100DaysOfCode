@@ -2785,7 +2785,7 @@ ReactDOM.render( < App / > , document.querySelector('#app'));
 - https://www.youtube.com/watch?v=rsBQj6X7UK8
 
 
-### Day 47: MAR 05,2021 [Saturday]
+### Day 47: MAR 06,2021 [Saturday]
 
 **Today's Progress:** Learn about renderProps in react.
 
@@ -2880,14 +2880,30 @@ ReactDOM.render(<App />, document.querySelector("#app"));
 - https://youtube.com/watch?v=EZil2OTyB4w
 
 
-### Day 48: MAR 06,2021 [Sunday]
+### Day 48: MAR 07,2021 [Sunday]
 
 **Today's Progress:** Learn about context in react.
 
-**Thoughts:** Context allow to matain global state in react app. Advantage is that we don't need to pass props to each descendent component. They can be access by any component in react tree.
+**Thoughts:** Context allow to maintain global state in react app. Advantage is that we don't need to pass props to each descendent component. They can be access by any component in react tree.
 
 **Demo**
 - https://jsfiddle.net/0hozqdxw/13/
 
 **Resources**
 - https://www.youtube.com/watch?v=A9WlkhdLnn0
+
+
+### Day 49: MAR 08,2021 [Monday]
+
+**Today's Progress:** Learn about http request in react.
+
+**Thoughts:** Learn about mock api that provide you fake data. And made a `poc` to show how to made http request in react.
+
+**Demo**
+- https://jsfiddle.net/qom1e059/133/
+
+**Resources**
+- https://www.youtube.com/watch?v=x9UEDRbLhJE
+
+
+
