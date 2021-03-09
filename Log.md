@@ -2906,4 +2906,14 @@ ReactDOM.render(<App />, document.querySelector("#app"));
 - https://www.youtube.com/watch?v=x9UEDRbLhJE
 
 
+### Day 50: MAR 09,2021 [Tuesday]
+
+**Today's Progress:** Begin to work on source code of tabliss extension.
+
+**Thoughts:** The reason I choose this project to contribute to because I also need to do some changes in my `todoroll` extension. For now working on a PR issue related to UI will fix it by tomorrow.
+
+**Resources**
+- https://github.com/joelshepherd/tabliss
+
+
 
