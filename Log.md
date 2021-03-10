@@ -2910,10 +2910,71 @@ ReactDOM.render(<App />, document.querySelector("#app"));
 
 **Today's Progress:** Begin to work on source code of tabliss extension.
 
-**Thoughts:** The reason I choose this project to contribute to because I also need to do some changes in my `todoroll` extension. For now working on a PR issue related to UI will fix it by tomorrow.
+**Thoughts:** The reason I choose this project because I also need to do some changes in my `todoroll` extension. For now working on a PR issue related to UI will fix it by tomorrow.
 
 **Resources**
 - https://github.com/joelshepherd/tabliss
+
+
+### Day 51: MAR 10,2021 [Wednesday]
+
+**Today's Progress:** Worked on a pr of tabliss extension.
+
+**Thoughts:** For first few hours I ony wander from one file to other in codebase of `tabliss`. Then try to fix the UI bug but not able fix it yet. After that done some changes in my `kreditpay` project to allow user type registeration.
+Apart from that learn some basics about redux i.e.
+
+- *Redux* is a javascript library to maintain state. It's only specific to react but can be used with vanilla JS, angular JS bla bla...
+- *React-Redux* is a binding library for react that provide some functions to connect react with redux.
+- *Redux three pillars are*
+	- Store: To maintain the global state of app.
+	- Action: Sepcify the type of change we want to perform in react application
+	- Reducer: Perform state transition based on the action.
+	
+```js
+	const redux = require('redux');
+	const createStore=  require('redux').createStore;
+
+	const BUY_CAKE = 'BUY_CAKE';
+
+	const buyCake = () => ({
+		type: BUY_CAKE,
+		info: 'First redux action'
+	})
+
+	const initialState = {
+		numberOfCakes: 23
+	}
+
+	const reducer = (state= initialState, action) => {
+		switch(action.type){
+			case BUY_CAKE: return {
+				...state,
+				numberOfCakes: state.numberOfCakes - 1
+			};
+			default: return state;
+		}
+	}
+
+	//reducer is require as it return the state based on which store perform state transition
+	const store = createStore(reducer);
+	console.log('Initial State', store.getState());
+	const unSubscribe = store.subscribe(()=>console.log('Update state',store.getState()));
+
+	store.dispatch(buyCake());
+	store.dispatch(buyCake());
+	store.dispatch(buyCake());
+
+	unSubscribe();
+
+	store.dispatch(buyCake());
+	store.dispatch(buyCake());
+	console.log(store.getState());
+
+```
+
+
+**Resources**
+- https://www.youtube.com/watch?v=9boMnm5X9ak&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK
 
 
 
