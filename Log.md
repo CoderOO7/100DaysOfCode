@@ -2977,4 +2977,21 @@ Apart from that learn some basics about redux i.e.
 - https://www.youtube.com/watch?v=9boMnm5X9ak&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK
 
 
+### Day 52: MAR 11,2021 [Thursday]
+
+**Today's Progress:** Worked on kreditpay project and create a pr for tabliss extension.
+
+**Thoughts:** So after creating pr begin to work on my kredit pay project to implement Dashboard for admin login. So admin can list the users and edit them. But get some bugs related to api call.
+
+
+### Day 53: MAR 12, 2021 [Friday]
+
+**Today's Progress:** Implement the Admin Dashboard component.
+
+**Thoughts:** Able to get rid of api bug and view the users to admin. For now all type of users can view the admin dashboard, need to make the route private. Then implement a session storage so that on page reload user logged in session remain persist. Also get to know about react-redux hooks i.e `useSelector() and useDispatch()` work similar to `mapStateToProps and mapDispatchToProps()`
+
+**Resources:**
+- https://egghead.io/lessons/javascript-redux-persisting-the-state-to-the-local-storage
+- https://www.youtube.com/watch?v=oKvF8jcSwIg
+ 
 
