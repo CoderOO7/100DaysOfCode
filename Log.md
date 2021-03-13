@@ -2994,4 +2994,15 @@ Apart from that learn some basics about redux i.e.
 - https://egghead.io/lessons/javascript-redux-persisting-the-state-to-the-local-storage
 - https://www.youtube.com/watch?v=oKvF8jcSwIg
  
+ 
+### Day 54: MAR 13, 2021 [Saturday]
+
+**Today's Progress:** Implement the user delete api.
+
+**Thoughts:** Nothing but made a new api to delete the users and integrate it on frontend. Try to implement a dark mode animated toggle button using `react-spring` animation library but don't understand why it's not updating the styles on dom rerender. That's all.
+
+**Resources:**
+- https://youtu.be/fY-Wq0k_9P4
+- https://jfelix.info/blog/using-react-spring-to-animate-svg-icons-dark-mode-toggle
+ 
 
