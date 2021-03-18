@@ -3006,3 +3006,12 @@ Apart from that learn some basics about redux i.e.
 - https://jfelix.info/blog/using-react-spring-to-animate-svg-icons-dark-mode-toggle
  
 
+### Day 55 - Day 58
+
+**Thoughts:** For past few days not able to maintain the log but I was working on the `kreditpay` and `tabliss` cross browser extension. In `kreditpay` mostly refactor the code make seperate routes modules and api utility. In `tabliss` implement dark mode functionality. Now from tomorrow will begin to work on creating loan object for user and some ui changes.
+
+**Resources:**
+- https://www.digitalocean.com/community/tutorials/how-to-call-web-apis-with-the-useeffect-hook-in-react
+- https://daveceddia.com/open-modal-in-react/
+- https://dev.to/mmcshinsky/a-simple-approach-to-managing-api-calls-1lo6
+- https://dev.to/deboragaleano/how-to-handle-multiple-inputs-in-react-55el
