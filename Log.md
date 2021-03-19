@@ -3015,3 +3015,11 @@ Apart from that learn some basics about redux i.e.
 - https://daveceddia.com/open-modal-in-react/
 - https://dev.to/mmcshinsky/a-simple-approach-to-managing-api-calls-1lo6
 - https://dev.to/deboragaleano/how-to-handle-multiple-inputs-in-react-55el
+
+
+
+### Day 59: MAR 14,2021 [FRIDAY]
+
+**Today's Progress**: Worked on todoroll extenstion.
+
+**Thoughts:** Today I begin to work on my extension, now I know the reason because of which I was unbale to publish the extension. It's because I'm using images locally in my build instead of referencing them through web url. Will handling it by integrating an image api to it. That's all I have done today... 
